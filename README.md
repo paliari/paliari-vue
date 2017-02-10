@@ -20,9 +20,8 @@ Usage
 
 ```js
 import Vue from 'vue'
-import PaliariVue from 'paliari-vue'
+import PaliariVue from 'paliari-vue/src/index'
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
-import 'paliari-vue/dist/paliari-vue.css'
 
 Vue.use(PaliariVue)
 ```
@@ -30,7 +29,10 @@ Vue.use(PaliariVue)
 ### Browser
 
 ```html
-<!-- Include after Vue -->
+<!--
+@TODO implement in feature
+Include after Vue
+-->
 <link rel="stylesheet" href="paliari-vue/dist/paliari-vue.css"></link>
 <script src="paliari-vue/dist/paliari-vue.js"></script>
 ```
@@ -62,4 +64,6 @@ License
 -------
 
 [MIT](http://opensource.org/licenses/MIT)
-# paliari-vue
+
+paliari-vue
+===========

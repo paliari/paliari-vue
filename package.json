@@ -1,0 +1,28 @@
+{
+  "name": "paliari-vue",
+  "version": "0.0.0",
+  "description": "A Vue.js Plugin",
+  "author": "Marcos Paliari <marcos@paliari.com.br>",
+  "main": "dist/paliari-vue.js",
+  "style": "dist/paliari-vue.css",
+  "scripts": {},
+  "dependencies": {
+    "fecha": "^2.3.0",
+    "string-mask": "^0.3.0",
+    "vue": "^2.1.10",
+    "vuex": "^2.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paliari/paliari-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paliari/paliari-vue/issues"
+  },
+  "homepage": "https://github.com/paliari/paliari-vue#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }
+}

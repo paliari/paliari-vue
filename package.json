@@ -5,7 +5,10 @@
   "author": "Marcos Paliari <marcos@paliari.com.br>",
   "main": "dist/paliari-vue.js",
   "style": "dist/paliari-vue.css",
-  "scripts": {},
+  "scripts": {
+    "build": "vwp build && rm -f dist/index.html dist/vendor.js dist/manifest.js",
+    "dist": "rm -rf dist && vwp build && vwp dist --env.css '[name].min.css' --env.js '[name].min.js' && rm -f dist/index.html dist/vendor*.js dist/manifest*.js"
+  },
   "dependencies": {
     "fecha": "^2.3.0",
     "string-mask": "^0.3.0",
@@ -13,6 +16,9 @@
     "vuex": "^2.1.2"
   },
   "devDependencies": {},
+  "peerDependencies": {
+    "vwp": ">=0.0.33"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paliari/paliari-vue.git"

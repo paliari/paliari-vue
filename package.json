@@ -6,8 +6,8 @@
   "main": "dist/paliari-vue.js",
   "style": "dist/paliari-vue.css",
   "scripts": {
-    "build": "vwp build --env.js '[name].b.js' && cat dist/*.b.js > dist/paliari-vue.js && rm -f dist/*.b.js dist/index.html",
-    "dist": "vwp dist --env.css '[name].min.css' --env.js '[name].m.js' && cat dist/*.m.js > dist/paliari-vue.min.js && rm -f dist/*.m.js dist/index.html",
+    "build": "vwp build --env.css '[name].css' --env.js '[name].b.js' && cat dist/manifest.b.js dist/vendor.b.js dist/paliari-vue.b.js > dist/paliari-vue.js && rm -f dist/*.b.js dist/index.html",
+    "dist": "vwp dist --env.css '[name].min.css' --env.js '[name].m.js' && cat dist/manifest.m.js dist/vendor.m.js dist/paliari-vue.m.js > dist/paliari-vue.min.js && rm -f dist/*.m.js dist/index.html",
     "release": "rm -rf dist && yarn run build && yarn run dist"
   },
   "dependencies": {

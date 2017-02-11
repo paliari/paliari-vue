@@ -8,8 +8,7 @@
   "scripts": {
     "build": "bin/build",
     "dist": "bin/dist",
-    "release": "rm -rf dist && yarn run build && yarn run dist",
-    "publish": "bin/publish"
+    "release": "rm -rf dist && yarn run build && yarn run dist"
   },
   "dependencies": {
     "fecha": "^2.3.0",

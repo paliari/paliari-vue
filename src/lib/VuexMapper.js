@@ -2,18 +2,18 @@ import { mapState, mapMutations, mapGetters, mapActions } from 'vuex'
 
 function VuexMapper (mapper) {
   let computed = this.$options.computed || {}
-  computed = Object.assign(computed,
-    mapState(mapper.namespace, mapper.states || []),
-    mapGetters(mapper.namespace, mapper.getters || [])
-  )
-  this.$options.computed = computed
+  this.$options.computed = {
+    ...mapState(mapper.namespace, mapper.states || []),
+    ...mapGetters(mapper.namespace, mapper.getters || []),
+    ...computed,
+  }
 
   let methods = this.$options.methods || {}
-  methods = Object.assign(methods,
-    mapMutations(mapper.namespace, mapper.mutations || []),
-    mapActions(mapper.namespace, mapper.actions || [])
-  )
-  this.$options.methods = methods
+  this.$options.methods = {
+    ...mapMutations(mapper.namespace, mapper.mutations || []),
+    ...mapActions(mapper.namespace, mapper.actions || []),
+    ...methods,
+  }
 }
 
 export default {

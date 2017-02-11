@@ -13,8 +13,8 @@ export default {
     Vue.use(components)
     Vue.use(filters)
     Vue.use(directives)
-    if (options.vuex) {
-      Vue.use(VuexMapper, options.vuex)
+    if (options.Vuex) {
+      Vue.use(VuexMapper, options.Vuex)
     }
   }
 }

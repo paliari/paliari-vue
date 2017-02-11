@@ -41,24 +41,42 @@ Vue.use(PaliariVue)
 Development
 -----------
 
-### Launch visual tests
-
-```bash
-npm run dev
-```
-
-### Launch Karma with coverage
-
-```bash
-npm run dev:coverage
-```
-
 ### Build
 
 Bundle the js and css of to the `dist` folder:
 
 ```bash
-npm run build
+yarn run build
+# or
+bin/build
+```
+
+### Dist
+
+Bundle the js and css min of to the `dist` folder:
+
+```bash
+yarn run dist
+# or
+bin/dist
+```
+
+### Release
+
+Bundle aliases for build and dist
+
+```bash
+yarn run release
+# or
+bin/release
+```
+
+### Publish
+
+Generate git tag and push to github and npm pusblish
+
+```bash
+bin/publish
 ```
 
 License

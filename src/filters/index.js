@@ -8,6 +8,7 @@ import tModel from './tModel'
 import mask, * as masks from '../lib/mask'
 
 const filters = {
+  ...masks,
   mask,
   truncate,
   currency,
@@ -20,7 +21,7 @@ const filters = {
 
 export default {
   install (Vue) {
-    for (let f in Object.assign(filters, masks)) {
+    for (let f in filters) {
       Vue.filter(f, filters[f])
     }
   }

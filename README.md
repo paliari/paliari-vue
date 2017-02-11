@@ -67,8 +67,6 @@ Bundle aliases for build and dist
 
 ```bash
 yarn run release
-# or
-bin/release
 ```
 
 ### Publish

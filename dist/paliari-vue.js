@@ -401,6 +401,7 @@ var directives = {
 /* unused harmony reexport translate */
 /* unused harmony reexport enums */
 /* unused harmony reexport tModel */
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
 
@@ -410,7 +411,8 @@ var directives = {
 
 
 
-var filters = {
+
+var filters = _extends({}, __WEBPACK_IMPORTED_MODULE_7__lib_mask__, {
   mask: __WEBPACK_IMPORTED_MODULE_7__lib_mask__["default"],
   truncate: __WEBPACK_IMPORTED_MODULE_0__truncate__["a" /* default */],
   currency: __WEBPACK_IMPORTED_MODULE_1__currency__["a" /* default */],
@@ -419,11 +421,11 @@ var filters = {
   translate: __WEBPACK_IMPORTED_MODULE_4__translate__["a" /* default */],
   enums: __WEBPACK_IMPORTED_MODULE_5__enums__["a" /* default */],
   tModel: __WEBPACK_IMPORTED_MODULE_6__tModel__["a" /* default */]
-};
+});
 
 /* harmony default export */ __webpack_exports__["a"] = {
   install: function install(Vue) {
-    for (var f in Object.assign(filters, __WEBPACK_IMPORTED_MODULE_7__lib_mask__)) {
+    for (var f in filters) {
       Vue.filter(f, filters[f]);
     }
   }
@@ -438,16 +440,16 @@ var filters = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuex__);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 
 
 function VuexMapper(mapper) {
   var computed = this.$options.computed || {};
-  computed = Object.assign(computed, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapState"])(mapper.namespace, mapper.states || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])(mapper.namespace, mapper.getters || []));
-  this.$options.computed = computed;
+  this.$options.computed = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapState"])(mapper.namespace, mapper.states || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])(mapper.namespace, mapper.getters || []), computed);
 
   var methods = this.$options.methods || {};
-  methods = Object.assign(methods, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapMutations"])(mapper.namespace, mapper.mutations || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])(mapper.namespace, mapper.actions || []));
-  this.$options.methods = methods;
+  this.$options.methods = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapMutations"])(mapper.namespace, mapper.mutations || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])(mapper.namespace, mapper.actions || []), methods);
 }
 
 /* harmony default export */ __webpack_exports__["a"] = {
@@ -1557,8 +1559,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     Vue.use(__WEBPACK_IMPORTED_MODULE_0__components_index__["a" /* default */]);
     Vue.use(__WEBPACK_IMPORTED_MODULE_1__filters_index__["a" /* default */]);
     Vue.use(__WEBPACK_IMPORTED_MODULE_2__directives_index__["a" /* default */]);
-    if (options.vuex) {
-      Vue.use(__WEBPACK_IMPORTED_MODULE_4__lib_VuexMapper__["a" /* default */], options.vuex);
+    if (options.Vuex) {
+      Vue.use(__WEBPACK_IMPORTED_MODULE_4__lib_VuexMapper__["a" /* default */], options.Vuex);
     }
   }
 };

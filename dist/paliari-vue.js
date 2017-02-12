@@ -830,6 +830,7 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
 
 exports.default = {
   props: {
@@ -1314,8 +1315,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return (_vm.show) ? _c('transition', {
-    staticClass: "modal",
+  return _c('div', {
+    staticClass: "modal"
+  }, [(_vm.show) ? _c('transition', {
     attrs: {
       "name": "modal"
     }
@@ -1399,7 +1401,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.resolve
     }
-  }, [_vm._v(_vm._s(_vm.ok))])])])], 2)])])])]) : _vm._e()
+  }, [_vm._v(_vm._s(_vm.ok))])])])], 2)])])])]) : _vm._e()], 1)
 },staticRenderFns: []}
 
 /***/ }),

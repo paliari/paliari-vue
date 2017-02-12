@@ -1,21 +1,22 @@
 <template lang="pug">
-transition.modal(name='modal' v-if="show")
-  .modal-bg
-    .modal-wrapper(@click="reject(true)")
-      .modal-container(@click.stop='')
-        .modal-header
-          slot(name='header') Atenção
-        .modal-body
-          slot
-          .pure-form(v-if='prompt')
-            .pure-g
-              input.pure-u-1(type='password' v-if="'password' == prompt" v-model='promptText')
-              input.pure-u-1(type='text' v-else-if='prompt' v-model='promptText')
-        .modal-footer
-          slot(name='footer')
-            .default-footer
-              button.pure-button.button-error(@click="reject(false)" v-if='confirm') {{ cancel }}
-              button.pure-button.pure-button-primary(@click="resolve") {{ ok }}
+.modal
+  transition(name='modal' v-if="show")
+    .modal-bg
+      .modal-wrapper(@click="reject(true)")
+        .modal-container(@click.stop='')
+          .modal-header
+            slot(name='header') Atenção
+          .modal-body
+            slot
+            .pure-form(v-if='prompt')
+              .pure-g
+                input.pure-u-1(type='password' v-if="'password' == prompt" v-model='promptText')
+                input.pure-u-1(type='text' v-else-if='prompt' v-model='promptText')
+          .modal-footer
+            slot(name='footer')
+              .default-footer
+                button.pure-button.button-error(@click="reject(false)" v-if='confirm') {{ cancel }}
+                button.pure-button.pure-button-primary(@click="resolve") {{ ok }}
 </template>
 
 <script>

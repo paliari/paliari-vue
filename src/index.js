@@ -1,8 +1,8 @@
-import components from './components/index'
-import filters from './filters/index'
-import directives from './directives/index'
+import _components, * as components from './components/index'
+import _filters, * as filters from './filters/index'
+import _directives, * as directives from './directives/index'
 import { setLocale } from './lib/i18n'
-import lib from './lib/index'
+import _lib, * as util from './lib/index'
 
 import VuexMapper from './lib/VuexMapper'
 
@@ -11,10 +11,10 @@ export default {
     if (options.locales) {
       setLocale(options.locales)
     }
-    Vue.use(components)
-    Vue.use(filters)
-    Vue.use(directives)
-    Vue.use(lib)
+    Vue.use(_components)
+    Vue.use(_filters)
+    Vue.use(_directives)
+    Vue.use(_lib)
     if (options.Vuex) {
       Vue.use(VuexMapper, options.Vuex)
     }
@@ -25,5 +25,5 @@ export {
   components,
   filters,
   directives,
-  lib
+  util
 }

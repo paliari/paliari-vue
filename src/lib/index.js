@@ -5,8 +5,8 @@ import * as masks from './mask'
 export default {
   install (Vue) {
     Vue.prototype.$util = {
-      masks,
       i18n,
+      masks,
       deepKey,
       ucfirst
     }

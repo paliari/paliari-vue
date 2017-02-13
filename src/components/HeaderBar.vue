@@ -4,13 +4,13 @@ div
     nav
       .header-bar-content
         .pure-g
-          .pure-u-6-24
+          .pure-u-5-24
             .left
-              back
               slot(name='left')
-          .pure-u-14-24
+                back
+          .pure-u-14-24.center
             .title.ellipsis {{title}}
-          .pure-u-4-24
+          .pure-u-5-24
             .right
               slot(name='right')
     .header-block
@@ -31,6 +31,8 @@ export default {
 
 <style lang="stylus">
 .header-bar
+  .center
+    text-align center
   .header-block
     height 40px
     width 100%

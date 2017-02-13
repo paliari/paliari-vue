@@ -3,6 +3,9 @@
   padding: 10px 0 10px;
 }
 
+.header-bar .center {
+  text-align: center;
+}
 .header-bar .header-block {
   height: 40px;
   width: 100%;

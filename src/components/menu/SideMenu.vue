@@ -24,9 +24,11 @@ export default {
   methods: {
     show () {
       this.opened = true
+      this.$emit('show')
     },
     hide () {
       this.opened = false
+      this.$emit('hide')
     }
   }
 }

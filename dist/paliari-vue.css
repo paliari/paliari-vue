@@ -35,58 +35,27 @@
   top: 20px;
 }
 
-.modal .modal-bg {
+.modal {
+  z-index: 9999;
   position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.6);
-  display: table;
-  transition: opacity 0.2s ease;
-}
-.modal .modal-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
-.modal .modal-container {
-  margin: 10px;
-  padding: 10px;
   background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.33);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.modal .modal-header {
-  font-size: 1.2em;
+.modal .button-left {
+  margin-left: 15px;
 }
-.modal .modal-header .success {
-  color: #42b983;
+.modal .button-right {
+  margin-right: 15px;
 }
-.modal .modal-header .error {
-  color: #b85c5c;
-}
-.modal .modal-body {
-  margin: 20px 0;
-}
-.modal .default-footer {
-  width: 100%;
-  text-align: right;
-}
-.modal .default-footer button {
-  margin-left: 10px;
-}
-.modal .modal-enter {
-  opacity: 0;
-}
-.modal .modal-leave-active {
-  opacity: 0;
-}
-.modal .modal-enter .modal-container,
-.modal .modal-leave-active .modal-container {
-  -webkit-transform: scale(0.1);
-  transform: scale(0.1);
+.modal.modal-enter,
+.modal.modal-leave-active {
+  -webkit-transform: translate(0, 100%);
+  transform: translate(0, 100%);
 }
 
 .checkbox [type="checkbox"]:not(:checked),

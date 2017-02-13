@@ -2,5 +2,8 @@
 set -e
 
 vwp build --env.css '[name].css' --env.js '[name].b.js'
-cat dist/manifest.b.js dist/vendor.b.js dist/paliari-vue.b.js > dist/paliari-vue.js
+STR=$(cat dist/manifest.b.js)
+STR="$STR;"$(cat dist/vendor.b.js)
+STR="$STR;"$(cat dist/paliari-vue.b.js)
+echo "$STR" > dist/paliari-vue.js
 rm -f dist/*.b.js dist/index.html

@@ -8,5 +8,13 @@ function deepKey (obj, key) {
   return obj
 }
 
+function ucfirst (str) {
+  if (!str) { return str }
+  return str.charAt(0).toUpperCase() + str.substr(1)
+}
+
 export default deepKey
-export { deepKey }
+export {
+  deepKey,
+  ucfirst
+}

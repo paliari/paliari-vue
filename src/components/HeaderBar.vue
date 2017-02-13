@@ -21,9 +21,12 @@ import Back from './Back.vue'
 
 export default {
   components: { Back },
+  props: {
+    customTitle: {type: String}
+  },
   computed: {
     title () {
-      return this.$route.meta.title
+      return this.customTitle || this.$route.meta.title
     }
   }
 }

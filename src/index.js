@@ -4,6 +4,8 @@ import _directives, * as directives from './directives/index'
 import { setLocale } from './lib/i18n'
 import _lib, * as util from './lib/index'
 
+import paginator, * as store from './store/index'
+
 import VuexMapper from './lib/VuexMapper'
 
 export default {
@@ -25,5 +27,7 @@ export {
   components,
   filters,
   directives,
-  util
+  util,
+  store,
+  paginator
 }

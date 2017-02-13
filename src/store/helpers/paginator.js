@@ -1,4 +1,4 @@
-import base, {SUCCESS, LOADING, FAILURE} from './status'
+import base, {SUCCESS, LOADING, FAILURE} from './base'
 
 function create(obj, api) {
   const state = {

@@ -779,6 +779,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         window.confirm(message) ? resolve() : reject();
       }
     });
+  },
+  prompt: function prompt(message) {
+    var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+    var cancelLabel = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'Cancelar';
+    var okLabel = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'OK';
+
+    return new Promise(function (resolve, reject) {
+      if (navigator.notification) {
+        navigator.notification.prompt(message, function (response) {
+          response.buttonIndex === 2 ? resolve(response.input1) : reject();
+        }, title, [cancelLabel, okLabel]);
+      } else {
+        ret = window.prompt(message);
+        ret ? resolve(ret) : reject();
+      }
+    });
   }
 };
 

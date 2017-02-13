@@ -8,10 +8,10 @@ Modal
 
 Properties
 
+-	**title**: Modal title
 -	**show**: Boolean to show/hide the modal
--	**confirm**: Boolean to show/hide buttons OK/CANCEL
--	**ok**: String to label buttom OK
--	**cancel**: String to label buttom CANCEL
+-	**ok-label**: String to label buttom OK
+-	**cancel-label**: String to label buttom CANCEL
 
 Events
 
@@ -19,16 +19,10 @@ Events
 -	**success**: Trigger when click in the *ok* button
 -	**cancel**: Trigger when click in the *cancel* button
 
-Slots
-
--	**header**
--	**footer**: Default as OK/CANCEL button
-
 Usage
 
 ```html
-<modal :show='showModal' @close="showModal = false" @success='a_success_callback' @cancel='a_cancel_callback'>
-  <b slot='header'> Custom header </b>
+<modal :show='showModal' title='Title' @close="showModal = false" @success='a_success_callback' @cancel='a_cancel_callback'>
   <div> Custom body </div>
 </modal>
 ```

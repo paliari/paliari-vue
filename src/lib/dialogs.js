@@ -1,5 +1,5 @@
 export default {
-  alert (message, title = '', buttonLabel = '') {
+  alert (message, title = '', buttonLabel = 'OK') {
     return new Promise((resolve) => {
       if (navigator.notification) {
         navigator.notification.alert(message, resolve, title, buttonLabel)

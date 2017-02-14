@@ -2,8 +2,5 @@
 set -e
 
 vwp dist --env.css '[name].min.css' --env.js '[name].m.js'
-STR=$(cat dist/manifest.m.js)
-STR="$STR;"$(cat dist/vendor.m.js)
-STR="$STR;"$(cat dist/paliari-vue.m.js)
-echo "$STR" > dist/paliari-vue.min.js
+cat dist/manifest.m.js dist/vendor.m.js dist/paliari-vue.m.js > dist/paliari-vue.min.js
 rm -f dist/*.m.js dist/index.html

@@ -1,3 +1,4 @@
+require('./polyfill/ObjectAssign.js')
 import _components, * as components from './components/index'
 import _filters, * as filters from './filters/index'
 import _directives, * as directives from './directives/index'

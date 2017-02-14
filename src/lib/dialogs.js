@@ -2,10 +2,10 @@ export default {
   alert (message, title = '', buttonLabel = '') {
     return new Promise((resolve) => {
       if (navigator.notification) {
-        navigator.notification.alert(message, () => { resolve(true) }, title, buttonLabel)
+        navigator.notification.alert(message, resolve, title, buttonLabel)
       } else {
         window.alert(message)
-        resolve(true)
+        resolve()
       }
     })
   },

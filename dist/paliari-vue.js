@@ -646,19 +646,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_base__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers_paginator__ = __webpack_require__(25);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SUCCESS", function() { return __WEBPACK_IMPORTED_MODULE_0__helpers_base__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "LOADING", function() { return __WEBPACK_IMPORTED_MODULE_0__helpers_base__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FAILURE", function() { return __WEBPACK_IMPORTED_MODULE_0__helpers_base__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "base", function() { return __WEBPACK_IMPORTED_MODULE_0__helpers_base__["d"]; });
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = __WEBPACK_IMPORTED_MODULE_1__helpers_paginator__["a" /* default */];
+var StoreHelpers = {
+  SUCCESS: __WEBPACK_IMPORTED_MODULE_0__helpers_base__["a" /* SUCCESS */],
+  LOADING: __WEBPACK_IMPORTED_MODULE_0__helpers_base__["b" /* LOADING */],
+  FAILURE: __WEBPACK_IMPORTED_MODULE_0__helpers_base__["c" /* FAILURE */],
+  base: __WEBPACK_IMPORTED_MODULE_0__helpers_base__["d" /* default */],
+  paginator: __WEBPACK_IMPORTED_MODULE_1__helpers_paginator__["a" /* default */]
+};
 
-
+/* harmony default export */ __webpack_exports__["a"] = StoreHelpers;
 
 /***/ }),
 /* 12 */
@@ -1774,8 +1775,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "filters", function() { return __WEBPACK_IMPORTED_MODULE_1__filters_index__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "directives", function() { return __WEBPACK_IMPORTED_MODULE_2__directives_index__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "util", function() { return __WEBPACK_IMPORTED_MODULE_4__lib_index__; });
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "store", function() { return __WEBPACK_IMPORTED_MODULE_5__store_index__; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "paginator", function() { return __WEBPACK_IMPORTED_MODULE_5__store_index__["default"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StoreHelpers", function() { return __WEBPACK_IMPORTED_MODULE_5__store_index__["a"]; });
 
 
 

@@ -55,6 +55,9 @@ export default {
   right 0
   -webkit-transition all .2s ease
   transition all .2s ease
+  .modal-body
+    height calc(100vh - 50px)
+    overflow-y scroll
 
   .button-left
     margin-left 15px

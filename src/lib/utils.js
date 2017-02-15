@@ -20,6 +20,11 @@ function isDate (arg)
   return Object.prototype.toString.call(arg) === '[object Date]'
 }
 
+function isRegExp (arg)
+{
+  return Object.prototype.toString.call(arg) === '[object RegExp]'
+}
+
 function deepClone (obj) {
   if (isDate(obj)) { return new Date(obj) }
   let ret = Array.isArray(obj) ? [] : {}
@@ -30,9 +35,11 @@ function deepClone (obj) {
 }
 
 export default deepKey
+
 export {
   deepKey,
   ucfirst,
   isDate,
+  isRegExp,
   deepClone
 }

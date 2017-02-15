@@ -8,7 +8,17 @@
 
 <script>
 export default {
-  props: ['value', 'label', 'name', 'disabled'],
+  props: {
+    value: {
+      default: true
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+    label: String,
+    name: String
+  },
   computed: {
     id () {
       return 'cb-' + this.name + this._uid

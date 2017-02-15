@@ -2,12 +2,14 @@ import translate from './translate'
 import tModel from './tModel'
 import deepKey from './deepKey'
 import blank from './blank'
+import TextBind from './TextBind'
 
 const directives = {
   translate,
   tModel,
   deepKey,
-  blank
+  blank,
+  TextBind
 }
 export default {
   install (Vue) {
@@ -21,5 +23,6 @@ export {
   translate,
   tModel,
   deepKey,
-  blank
+  blank,
+  TextBind
 }

@@ -23,6 +23,8 @@ $radio-fill-color = #039be5
 $radio-border = 2px solid #039be5
 
 .radio
+  label
+    width 100%
   [type="radio"]:not(:checked),
   [type="radio"]:checked
     position absolute

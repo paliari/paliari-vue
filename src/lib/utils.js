@@ -1,3 +1,5 @@
+import {util} from 'vue'
+
 function deepKey (obj, key) {
   for (let k of String(key).split('.')) {
     if (!obj) {
@@ -13,8 +15,17 @@ function ucfirst (str) {
   return str.charAt(0).toUpperCase() + str.substr(1)
 }
 
+function deepClone (obj) {
+  obj = Object.assign({}, obj)
+  for (let k in obj) {
+    obj[k] = util.isObject(obj[k]) ? deepClone(obj[k]) : obj[k]
+  }
+  return obj
+}
+
 export default deepKey
 export {
   deepKey,
-  ucfirst
+  ucfirst,
+  deepClone
 }

@@ -25,13 +25,19 @@ function isRegExp (arg)
   return Object.prototype.toString.call(arg) === '[object RegExp]'
 }
 
-function deepClone (obj) {
+function _deepClone (obj) {
   if (isDate(obj)) { return new Date(obj) }
+  if (isRegExp(obj)) { return obj }
   let ret = Array.isArray(obj) ? [] : {}
   for (let k in obj) {
-    ret[k] = util.isObject(obj[k]) ? deepClone(obj[k]) : obj[k]
+    ret[k] = util.isObject(obj[k]) ? _deepClone(obj[k]) : obj[k]
   }
   return ret
+}
+
+function deepClone (obj) {
+  if (!util.isObject(obj)) { return obj }
+  return _deepClone(obj)
 }
 
 export default deepKey

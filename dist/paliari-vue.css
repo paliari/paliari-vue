@@ -46,6 +46,10 @@
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+.modal .modal-body {
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
 .modal .button-left {
   margin-left: 15px;
 }

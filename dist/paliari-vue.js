@@ -296,7 +296,7 @@ function ucfirst(str) {
 }
 
 function isDate(d) {
-  return null != d && !isNaN(d) && "undefined" !== typeof d.getDate;
+  return Object.prototype.toString.call(arg) === '[object Date]';
 }
 
 function deepClone(obj) {

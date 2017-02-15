@@ -8,7 +8,22 @@
 
 <script>
 export default {
-  props: ['value', 'label', 'name', 'disabled', 'checked'],
+  props: {
+    value: {
+      required: true
+    },
+    checked: {
+      type: Boolean,
+      required: true,
+      default: false
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+    label: String,
+    name: String
+  },
   computed: {
     id () {
       return 'radio-' + this.name + this._uid

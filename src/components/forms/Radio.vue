@@ -115,7 +115,7 @@ $radio-border = 2px solid #039be5
     background-color $input-disabled-color
     border-color $input-disabled-solid-color
 
-  .gap
+  &.gap
     [type="radio"]:checked + label:before,
     [type="radio"]:checked + label:after
       border-radius 50%

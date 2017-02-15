@@ -58,6 +58,9 @@ export default {
   .modal-body
     height calc(100vh - 50px)
     overflow-y scroll
+    overflow-x hidden
+    .ios
+      margin-top 20px
 
   .button-left
     margin-left 15px

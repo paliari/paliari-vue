@@ -58,6 +58,9 @@
   transform: translate(0, 100%);
 }
 
+.checkbox label {
+  width: 100%;
+}
 .checkbox [type="checkbox"]:not(:checked),
 .checkbox [type="checkbox"]:checked {
   position: absolute;
@@ -81,7 +84,7 @@
 .checkbox [type="checkbox"] + label:after {
   content: '';
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
   width: 18px;
   height: 18px;
@@ -107,7 +110,7 @@
   background-color: rgba(0,0,0,0.1);
 }
 .checkbox [type="checkbox"]:checked + label:before {
-  top: -4px;
+  top: -2px;
   left: -5px;
   width: 12px;
   height: 22px;
@@ -268,6 +271,9 @@
   transform: translateX(13.9px);
 }
 
+.radio label {
+  width: 100%;
+}
 .radio [type="radio"]:not(:checked),
 .radio [type="radio"]:checked {
   position: absolute;

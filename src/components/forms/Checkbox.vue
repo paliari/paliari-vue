@@ -2,7 +2,8 @@
 .checkbox
   input(:id='id', :checked='value', :name='name', :disabled='disabled'
         @change="$emit('input', $event.target.checked ? $event.target.value : false)" type='checkbox')
-  label(:for='id') {{label}}
+  label(:for='id')
+    slot {{label}}
 </template>
 
 <script>

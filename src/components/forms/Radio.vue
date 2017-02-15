@@ -2,7 +2,8 @@
 .radio
   input(:id='id', :name='name', :value='value', :checked='checked', :disabled='disabled'
         @change="$emit('input', $event.target.value)" type='radio')
-  label(:for='id') {{label}}
+  label(:for='id')
+    slot {{label}}
 </template>
 
 <script>

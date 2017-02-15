@@ -253,6 +253,7 @@ function setLocale(locales) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return deepKey; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return ucfirst; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return isDate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return isRegExp; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return deepClone; });
 
 
@@ -299,18 +300,33 @@ function isDate(arg) {
   return Object.prototype.toString.call(arg) === '[object Date]';
 }
 
-function deepClone(obj) {
+function isRegExp(arg) {
+  return Object.prototype.toString.call(arg) === '[object RegExp]';
+}
+
+function _deepClone(obj) {
   if (isDate(obj)) {
     return new Date(obj);
   }
+  if (isRegExp(obj)) {
+    return obj;
+  }
   var ret = Array.isArray(obj) ? [] : {};
   for (var k in obj) {
-    ret[k] = __WEBPACK_IMPORTED_MODULE_0_vue__["util"].isObject(obj[k]) ? deepClone(obj[k]) : obj[k];
+    ret[k] = __WEBPACK_IMPORTED_MODULE_0_vue__["util"].isObject(obj[k]) ? _deepClone(obj[k]) : obj[k];
   }
   return ret;
 }
 
+function deepClone(obj) {
+  if (!__WEBPACK_IMPORTED_MODULE_0_vue__["util"].isObject(obj)) {
+    return obj;
+  }
+  return _deepClone(obj);
+}
+
 /* unused harmony default export */ var _unused_webpack_default_export = deepKey;
+
 
 
 /***/ }),
@@ -646,6 +662,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i18n", function() { return __WEBPACK_IMPORTED_MODULE_0__i18n__["b"]; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "masks", function() { return __WEBPACK_IMPORTED_MODULE_2__mask__; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "isDate", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "isRegExp", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "deepKey", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "deepClone", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ucfirst", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["d"]; });

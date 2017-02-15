@@ -15,7 +15,7 @@ function ucfirst (str) {
   return str.charAt(0).toUpperCase() + str.substr(1)
 }
 
-function isDate (d)
+function isDate (arg)
 {
   return Object.prototype.toString.call(arg) === '[object Date]'
 }

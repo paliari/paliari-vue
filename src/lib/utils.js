@@ -15,17 +15,24 @@ function ucfirst (str) {
   return str.charAt(0).toUpperCase() + str.substr(1)
 }
 
+function isDate (d)
+{
+  return (null != d) && !isNaN(d) && ("undefined" !== typeof d.getDate);
+}
+
 function deepClone (obj) {
-  obj = Object.assign({}, obj)
+  if (isDate(obj)) { return new Date(obj) }
+  let ret = Array.isArray(obj) ? [] : {}
   for (let k in obj) {
-    obj[k] = util.isObject(obj[k]) ? deepClone(obj[k]) : obj[k]
+    ret[k] = util.isObject(obj[k]) ? deepClone(obj[k]) : obj[k]
   }
-  return obj
+  return ret
 }
 
 export default deepKey
 export {
   deepKey,
   ucfirst,
+  isDate,
   deepClone
 }

@@ -46,7 +46,7 @@ export default {
 
 <style lang="stylus">
 .modal
-  z-index 9999
+  z-index 3000
   position fixed
   background-color white
   top 0

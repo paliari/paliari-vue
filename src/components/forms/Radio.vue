@@ -12,7 +12,7 @@ export default {
     name: String,
     value: null,
     val: null,
-    disabled: false
+    disabled: Boolean
   },
   computed: {
     id () {

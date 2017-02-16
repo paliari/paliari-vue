@@ -10,7 +10,7 @@ export default {
   props: {
     name: String,
     value: null,
-    disabled: false,
+    disabled: Boolean,
     trueValue: {default: true},
     falseValue: {default: false}
   },

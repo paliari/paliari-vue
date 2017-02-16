@@ -53,8 +53,8 @@ export default {
   bottom 0
   left 0
   right 0
-  -webkit-transition all .2s ease
-  transition all .2s ease
+  -webkit-transition all .3s ease
+  transition all .3s ease
   .modal-body
     height calc(100vh - 50px)
     overflow-y scroll

@@ -1,16 +1,28 @@
 <template lang="pug">
 .ios-switch
-  input(:id='id', :checked='value', :name='name', :disabled='disabled'
-        @change="$emit('input', $event.target.checked ? $event.target.value : false)" type='checkbox')
+  input(type='checkbox', :id='id', :value='data', :name='name', v-model='model', :disabled='disabled')
   label.switcher(:for='id')
 </template>
 
 <script>
 export default {
-  props: ['value', 'name', 'disabled'],
+  props: {
+    name: String,
+    value: null,
+    data: null,
+    disabled
+  },
   computed: {
     id () {
-      return 'switch-' + this.name + this._uid
+      return 'switch-' + this._uid
+    },
+    model: {
+      get () {
+        return this.value
+      },
+      set (newModel) {
+        this.$emit('input', newModel)
+      }
     }
   }
 }

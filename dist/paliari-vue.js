@@ -1327,7 +1327,7 @@ exports.default = {
         return this.value;
       },
       set: function set(newModel) {
-        this.$emit('input', newModel && this.data ? this.data : newModel);
+        this.$emit('input', newModel);
       }
     }
   }

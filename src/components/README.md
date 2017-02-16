@@ -12,6 +12,7 @@ Properties
 -	**show**: Boolean to show/hide the modal
 -	**ok-label**: String to label buttom OK
 -	**cancel-label**: String to label buttom CANCEL
+-	**permit-success**: Boolean to allow/disallow click on OK button
 
 Events
 

@@ -1311,7 +1311,7 @@ exports.default = {
     name: String,
     value: null,
     data: null,
-    disabled: disabled, false: false
+    disabled: false
   },
   computed: {
     id: function id() {

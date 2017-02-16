@@ -10,7 +10,7 @@ export default {
     name: String,
     value: null,
     data: null,
-    disabled
+    disabled, false
   },
   computed: {
     id () {

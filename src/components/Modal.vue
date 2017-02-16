@@ -6,7 +6,7 @@ transition(name='modal' v-if="show")
         div(slot='left')
           .button-left.red(@click="reject") {{cancelLabel}}
         div(slot='right')
-          .button-right.blue(@click="resolve") {{okLabel}}
+          .button-right.blue(@click="resolve", :class="{disabled: permitSuccess}") {{okLabel}}
     .modal-body
       slot
 </template>
@@ -29,6 +29,10 @@ export default {
     okLabel: {
       type: String,
       default: 'OK'
+    },
+    permitSuccess: {
+      type: Boolean,
+      default: true
     }
   },
   methods: {
@@ -37,6 +41,10 @@ export default {
       this.$emit('cancel')
     },
     resolve () {
+      if (!this.permitSuccess) {
+        this.$dialogs.alert('Preencha os campos corretamente para continuar')
+        return
+      }
       this.$emit('close')
       this.$emit('success')
     }
@@ -66,6 +74,8 @@ export default {
     margin-left 15px
   .button-right
     margin-right 15px
+    &.disabled
+      opacity 0.5
 
   &.modal-enter,
   &.modal-leave-active

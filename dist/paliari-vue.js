@@ -1264,14 +1264,16 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
 
 exports.default = {
   props: {
     label: String,
     name: String,
     value: null,
-    data: null,
-    disabled: false
+    disabled: false,
+    trueValue: { default: true },
+    falseValue: { default: false }
   },
   computed: {
     id: function id() {
@@ -1283,7 +1285,7 @@ exports.default = {
         return this.value;
       },
       set: function set(newModel) {
-        this.$emit('input', newModel && this.data ? this.data : newModel);
+        this.$emit('input', newModel);
       }
     }
   }
@@ -1305,13 +1307,15 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
 
 exports.default = {
   props: {
     name: String,
     value: null,
-    data: null,
-    disabled: false
+    disabled: false,
+    trueValue: { default: true },
+    falseValue: { default: false }
   },
   computed: {
     id: function id() {
@@ -1352,7 +1356,7 @@ exports.default = {
     label: String,
     name: String,
     value: null,
-    data: null,
+    val: null,
     disabled: false
   },
   computed: {
@@ -1620,19 +1624,20 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "type": "checkbox",
       "id": _vm.id,
       "name": _vm.name,
-      "disabled": _vm.disabled
+      "disabled": _vm.disabled,
+      "true-value": _vm.trueValue,
+      "false-value": _vm.falseValue
     },
     domProps: {
-      "value": _vm.data,
-      "checked": Array.isArray(_vm.model) ? _vm._i(_vm.model, _vm.data) > -1 : (_vm.model)
+      "checked": Array.isArray(_vm.model) ? _vm._i(_vm.model, null) > -1 : _vm._q(_vm.model, _vm.trueValue)
     },
     on: {
       "click": function($event) {
         var $$a = _vm.model,
           $$el = $event.target,
-          $$c = $$el.checked ? (true) : (false);
+          $$c = $$el.checked ? (_vm.trueValue) : (_vm.falseValue);
         if (Array.isArray($$a)) {
-          var $$v = _vm.data,
+          var $$v = null,
             $$i = _vm._i($$a, $$v);
           if ($$c) {
             $$i < 0 && (_vm.model = $$a.concat($$v))
@@ -1694,19 +1699,20 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "type": "checkbox",
       "id": _vm.id,
       "name": _vm.name,
-      "disabled": _vm.disabled
+      "disabled": _vm.disabled,
+      "true-value": _vm.trueValue,
+      "false-value": _vm.falseValue
     },
     domProps: {
-      "value": _vm.data,
-      "checked": Array.isArray(_vm.model) ? _vm._i(_vm.model, _vm.data) > -1 : (_vm.model)
+      "checked": Array.isArray(_vm.model) ? _vm._i(_vm.model, null) > -1 : _vm._q(_vm.model, _vm.trueValue)
     },
     on: {
       "click": function($event) {
         var $$a = _vm.model,
           $$el = $event.target,
-          $$c = $$el.checked ? (true) : (false);
+          $$c = $$el.checked ? (_vm.trueValue) : (_vm.falseValue);
         if (Array.isArray($$a)) {
-          var $$v = _vm.data,
+          var $$v = null,
             $$i = _vm._i($$a, $$v);
           if ($$c) {
             $$i < 0 && (_vm.model = $$a.concat($$v))
@@ -1850,12 +1856,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "type": "radio"
     },
     domProps: {
-      "value": _vm.data,
-      "checked": _vm._q(_vm.model, _vm.data)
+      "value": _vm.val,
+      "checked": _vm._q(_vm.model, _vm.val)
     },
     on: {
       "click": function($event) {
-        _vm.model = _vm.data
+        _vm.model = _vm.val
       }
     }
   }), _c('label', {

@@ -1,6 +1,7 @@
 <template lang="pug">
 .ios-switch
-  input(type='checkbox', :id='id', :value='data', :name='name', v-model='model', :disabled='disabled')
+  input(type='checkbox', :id='id', :name='name', v-model='model', :disabled='disabled',
+        :true-value='trueValue', :false-value='falseValue')
   label.switcher(:for='id')
 </template>
 
@@ -9,8 +10,9 @@ export default {
   props: {
     name: String,
     value: null,
-    data: null,
-    disabled: false
+    disabled: false,
+    trueValue: {default: true},
+    falseValue: {default: false}
   },
   computed: {
     id () {

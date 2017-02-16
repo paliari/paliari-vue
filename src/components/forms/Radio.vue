@@ -1,6 +1,6 @@
 <template lang="pug">
 .radio
-  input(:id='id', :name='name', :value='data', v-model='model', :disabled='disabled' type='radio')
+  input(:id='id', :name='name', :value='val', v-model='model', :disabled='disabled' type='radio')
   label(:for='id')
     slot {{label}}
 </template>
@@ -11,7 +11,7 @@ export default {
     label: String,
     name: String,
     value: null,
-    data: null,
+    val: null,
     disabled: false
   },
   computed: {

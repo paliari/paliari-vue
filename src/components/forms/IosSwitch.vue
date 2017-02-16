@@ -21,7 +21,7 @@ export default {
         return this.value
       },
       set (newModel) {
-        this.$emit('input', newModel)
+        this.$emit('input', newModel && this.data ? this.data : newModel)
       }
     }
   }

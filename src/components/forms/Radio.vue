@@ -1,7 +1,6 @@
 <template lang="pug">
 .radio
-  input(:id='id', :name='name', :value='value', :checked='checked', :disabled='disabled'
-        @change="$emit('input', $event.target.value)" type='radio')
+  input(:id='id', :name='name', :value='data', v-model='model', :disabled='disabled' type='radio')
   label(:for='id')
     slot {{label}}
 </template>
@@ -9,24 +8,23 @@
 <script>
 export default {
   props: {
-    value: {
-      required: true
-    },
-    checked: {
-      type: Boolean,
-      required: true,
-      default: false
-    },
-    disabled: {
-      type: Boolean,
-      default: false
-    },
     label: String,
-    name: String
+    name: String,
+    value: null,
+    data: null,
+    disabled: false
   },
   computed: {
     id () {
       return 'radio-' + this.name + this._uid
+    },
+    model: {
+      get () {
+        return this.value
+      },
+      set (newModel) {
+        this.$emit('input', newModel)
+      }
     }
   }
 }

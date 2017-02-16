@@ -1,7 +1,6 @@
 <template lang="pug">
 .checkbox
-  input(:id='id', :checked='value', :name='name', :disabled='disabled'
-        @change="$emit('input', $event.target.checked ? $event.target.value : false)" type='checkbox')
+  input(type='checkbox', :id='id', :name='name', :value='data', v-model='model', :disabled='disabled')
   label(:for='id')
     slot {{label}}
 </template>
@@ -9,19 +8,23 @@
 <script>
 export default {
   props: {
-    value: {
-      default: true
-    },
-    disabled: {
-      type: Boolean,
-      default: false
-    },
     label: String,
-    name: String
+    name: String,
+    value: null,
+    data: null,
+    disabled: false
   },
   computed: {
     id () {
-      return 'cb-' + this.name + this._uid
+      return 'cb-' + this._uid
+    },
+    model: {
+      get () {
+        return this.value
+      },
+      set (newModel) {
+        this.$emit('input', newModel)
+      }
     }
   }
 }

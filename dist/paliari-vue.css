@@ -60,6 +60,9 @@
 .modal .button-right {
   margin-right: 15px;
 }
+.modal .button-right.disabled {
+  opacity: 0.5;
+}
 .modal.modal-enter,
 .modal.modal-leave-active {
   -webkit-transform: translate(0, 100%);

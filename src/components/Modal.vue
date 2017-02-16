@@ -6,7 +6,7 @@ transition(name='modal' v-if="show")
         div(slot='left')
           .button-left.red(@click="reject") {{cancelLabel}}
         div(slot='right')
-          .button-right.blue(@click="resolve", :class="{disabled: permitSuccess}") {{okLabel}}
+          .button-right.blue(@click="resolve", :class="{disabled: !permitSuccess}") {{okLabel}}
     .modal-body
       slot
 </template>

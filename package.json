@@ -11,6 +11,7 @@
     "release": "rm -rf dist && yarn run build && yarn run dist"
   },
   "dependencies": {
+    "es6-promise": "^4.0.5",
     "fecha": "^2.3.0",
     "string-mask": "^0.3.0",
     "vue": "^2.1.10",

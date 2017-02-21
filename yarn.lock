@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+es6-promise@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.0.5.tgz#7882f30adde5b240ccfa7f7d78c548330951ae42"
+
 fecha@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/fecha/-/fecha-2.3.0.tgz#791efb33d63b89b7aa8eccc28e59593db2ead700"

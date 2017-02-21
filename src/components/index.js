@@ -6,6 +6,8 @@ import IosSwitch from './forms/IosSwitch.vue'
 import Radio from './forms/Radio.vue'
 import SideMenu from './menu/SideMenu.vue'
 import SideMenuItems from './menu/SideMenuItems.vue'
+import LoadManager from './load/LoadManager.vue'
+import ListManager from './load/ListManager.vue'
 
 const components = {
   Back,
@@ -15,7 +17,9 @@ const components = {
   IosSwitch,
   Radio,
   SideMenu,
-  SideMenuItems
+  SideMenuItems,
+  LoadManager,
+  ListManager
 }
 
 export default {
@@ -34,5 +38,7 @@ export {
   IosSwitch,
   Radio,
   SideMenu,
-  SideMenuItems
+  SideMenuItems,
+  LoadManager,
+  ListManager
 }

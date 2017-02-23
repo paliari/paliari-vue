@@ -22,4 +22,6 @@ export default {
 <style lang="stylus">
 .btn-back
   padding 10px 0 10px
+  .fa
+    font-size 1.7em
 </style>

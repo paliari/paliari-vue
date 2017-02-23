@@ -41,6 +41,8 @@ export default {
     text-decoration none
     cursor pointer
     padding 10px 0 10px 0
+    i.fa
+      font-size 1.7em
   .side-menu-bg, .side-menu-content
     position fixed
     top 0

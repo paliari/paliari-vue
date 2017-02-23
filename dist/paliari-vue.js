@@ -2647,7 +2647,7 @@ exports.default = {
     },
     cancelLabel: {
       type: String,
-      default: 'Cancel'
+      default: 'Cancelar'
     },
     okLabel: {
       type: String,

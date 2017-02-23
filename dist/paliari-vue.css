@@ -56,9 +56,16 @@
 }
 .modal .button-left {
   margin-left: 15px;
+  position: absolute;
+  font-size: 1.3em;
+  margin-top: -0.1em;
 }
 .modal .button-right {
   margin-right: 15px;
+  position: absolute;
+  font-size: 1.4em;
+  margin-top: -0.1em;
+  right: 0;
 }
 .modal .button-right.disabled {
   opacity: 0.5;

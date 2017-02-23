@@ -14,6 +14,7 @@ export default {
       ucfirst
     }
     vue.prototype.$dialogs = dialogs
+    vue.dialogs = dialogs
   }
 }
 

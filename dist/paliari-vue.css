@@ -2,6 +2,9 @@
 .btn-back {
   padding: 10px 0 10px;
 }
+.btn-back .fa {
+  font-size: 1.7em;
+}
 
 .header-bar .center {
   text-align: center;
@@ -395,6 +398,9 @@
   text-decoration: none;
   cursor: pointer;
   padding: 10px 0 10px 0;
+}
+.side-menu a.menu-btn i.fa {
+  font-size: 1.7em;
 }
 .side-menu .side-menu-bg,
 .side-menu .side-menu-content {

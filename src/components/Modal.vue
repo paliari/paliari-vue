@@ -24,7 +24,7 @@ export default {
     },
     cancelLabel: {
       type: String,
-      default: 'Cancel'
+      default: 'Cancelar'
     },
     okLabel: {
       type: String,
@@ -72,8 +72,15 @@ export default {
 
   .button-left
     margin-left 15px
+    position absolute
+    font-size 1.3em
+    margin-top -0.1em
   .button-right
     margin-right 15px
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: -0.1em;
+    right: 0;
     &.disabled
       opacity 0.5
 

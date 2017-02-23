@@ -50,6 +50,8 @@ export default {
     .header-bar-content
       padding-top 10px
       padding-bottom 10px
+      .pure-g
+        white-space nowrap
       .title
         display block
         font-size 17px

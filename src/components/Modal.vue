@@ -71,14 +71,14 @@ export default {
       margin-top 20px
 
   .button-left
-    margin-left 15px
+    margin-left 10px
     position absolute
-    font-size 1.3em
+    font-size 1.2em
     margin-top -0.1em
   .button-right
-    margin-right 15px
+    margin-right 10px
     position: absolute;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: -0.1em;
     right: 0;
     &.disabled

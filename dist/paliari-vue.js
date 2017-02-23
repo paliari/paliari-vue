@@ -2100,6 +2100,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       ucfirst: __WEBPACK_IMPORTED_MODULE_1__utils__["d" /* ucfirst */]
     };
     vue.prototype.$dialogs = __WEBPACK_IMPORTED_MODULE_3__dialogs__["a" /* default */];
+    vue.dialogs = __WEBPACK_IMPORTED_MODULE_3__dialogs__["a" /* default */];
   }
 };
 

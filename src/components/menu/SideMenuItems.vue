@@ -38,12 +38,12 @@ export default {
     border-bottom 1px solid #eae8e8
     .side-menu-link
       display block
-      padding-top 15px
-      padding-bottom 10px
+      padding-top 20px
+      padding-bottom 20px
       text-decoration none
       white-space nowrap
       color #777
-      font-size .9em
+      font-size 1.2em
 .ios
   .side-menu-items
     max-height calc(100vh - 20px)

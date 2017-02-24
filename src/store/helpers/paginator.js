@@ -44,7 +44,7 @@ function create(obj, api) {
       commit('setPage', page)
       dispatch('fetchList')
     },
-    nextPage ({commit, state}) {
+    nextPage ({commit, dispatch, state}) {
       if (state.page == state.pages) return
       commit('setPage', state.page + 1)
       dispatch('fetchList')

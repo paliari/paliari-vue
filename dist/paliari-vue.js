@@ -2496,6 +2496,7 @@ function create(obj, api) {
     },
     nextPage: function nextPage(_ref4) {
       var commit = _ref4.commit,
+          dispatch = _ref4.dispatch,
           state = _ref4.state;
 
       if (state.page == state.pages) return;

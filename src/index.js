@@ -10,7 +10,7 @@ import StoreHelpers from './store/index'
 import VuexMapper from './lib/VuexMapper'
 
 export default {
-  install (Vue, options) {
+  install (Vue, options = {}) {
     if (options.locales) {
       setLocale(options.locales)
     }

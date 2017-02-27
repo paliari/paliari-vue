@@ -27,7 +27,18 @@
 
         <ul class="pure-menu-list">
           <li class="pure-menu-item"><a href="#get-started" class="pure-menu-link">Get Started</a></li>
-          <li class="pure-menu-item"><a href="#components" class="pure-menu-link">Components</a></li>
+          <li class="pure-menu-item">
+            <a href="#components" class="pure-menu-link">Components</a>
+            <ul class="sublist">
+              <li><a href="#component-checkbox" class="pure-menu-link">Checkbox</a></li>
+              <li><a href="#component-ios-switch" class="pure-menu-link">Ios Switch</a></li>
+              <li><a href="#component-radio" class="pure-menu-link">Radio</a></li>
+              <li><a href="#component-load-manager" class="pure-menu-link">Load Manager</a></li>
+              <li><a href="#component-list-manager" class="pure-menu-link">List Manager</a></li>
+              <li><a href="#component-spinner" class="pure-menu-link">Spinner</a></li>
+              <li><a href="#component-back" class="pure-menu-link">Back Button</a></li>
+            </ul>
+          </li>
           <li class="pure-menu-item"><a href="#directives" class="pure-menu-link">Directives</a></li>
           <li class="pure-menu-item"><a href="#filters" class="pure-menu-link">Filters</a></li>
           <li class="pure-menu-item"><a href="#utils" class="pure-menu-link">Utils</a></li>
@@ -57,6 +68,91 @@ Vue.use(PaliariVue)</pre>
         </section>
         <section id="components">
           <h1>Components</h1>
+
+
+          <h2 id="component-checkbox">Checkbox</h2>
+          Properties
+          <ul>
+            <li><b>label</b> - You can use a <code>slot</code> or a <code>label</code> property</li>
+            <li><b>name</b> - Custom name for the checkbox</li>
+            <li><b>value</b> - Pass a value to the checkbox</li>
+            <li><b>disabled</b> - To get a disabled checkbox</li>
+            <li><b>trueValue</b> - Default: <code>true</code></li>
+            <li><b>falseValue</b> - Default: <code>false</code></li>
+          </ul>
+          Usage example
+          <pre>&lt;checkbox v-model='model'&gt;Check label&lt;/checkbox&gt;</pre>
+
+
+          <h2 id="component-ios-switch">IOS Switch</h2>
+          Properties
+          <ul>
+            <li><b>name</b> - Custom name for the switch</li>
+            <li><b>value</b> - Pass a value to the switch</li>
+            <li><b>disabled</b> - To get a disabled switch</li>
+            <li><b>trueValue</b> - Default: <code>true</code></li>
+            <li><b>falseValue</b> - Default: <code>false</code></li>
+          </ul>
+          Usage example
+          <pre>&lt;ios-switch :value="bindValue" :disabled="disabledBind" @input="someMethod"&gt;&lt;/ios-switch&gt;</pre>
+
+
+          <h2 id="component-radio">Input Radio</h2>
+          Properties
+          <ul>
+            <li><b>label</b> - Label for the radio</li>
+            <li><b>name</b> - Custom name for the radio</li>
+            <li><b>val</b> - Pass a value to the radio</li>
+            <li><b>disabled</b> - To get a disabled radio</li>
+          </ul>
+          Usage example
+          <pre>
+&lt;radio class="gap" name="radio_name" val="1" v-model="bindModel" label="Um"&gt;&lt;/radio&gt;
+&lt;radio class="gap" name="radio_name" val="2" v-model="bindModel" label="Dois"&gt;&lt;/radio&gt;</pre>
+
+
+          <h2 id="component-load-manager">Load Manager</h2>
+          Used to show an spinner when status is <code>loading</code>, an error message when the status is
+          <code>failure</code> or the content when status is <code>success</code><br>
+          Properties
+          <ul>
+            <li><b>status</b> - Status can be <code>loading | success | failure</code></li>
+          </ul>
+          Usage example
+          <pre>&lt;load-manager :status="statusBind"&gt;Some html content&lt;/load-manager&gt;</pre>
+
+
+          <h2 id="component-list-manager">List Manager</h2>
+          Used to show a list when status is <code>success</code> and got itens, or a <i>No records found</i> message when the status is <code>success</code> and the list size is <i>zero</i>
+          <p>Properties</p>
+          <ul>
+            <li><b>status</b> - Status can be <code>loading | success | failure</code></li>
+            <li><b>count</b> - Number with a list count</li>
+          </ul>
+          Usage example
+          <pre>&lt;list-manager :status="statusBind" :count="myList.length"&gt;Some html content&lt;/list-manager&gt;</pre>
+
+
+          <h2 id="component-spinner">Spinner</h2>
+          Show a pulse spinner
+          <p>Properties</p>
+          <ul>
+            <li><b>loading</b> - <code>true</code> to set visible or <code>false</code> to set hidden</li>
+            <li><b>color</b> - Spinner color, ex: <code>#9d9d9d</code></li>
+            <li><b>size</b></li>
+            <li><b>margin</b></li>
+            <li><b>radius</b></li>
+          </ul>
+          Usage example
+          <pre>&lt;spinner :loading="loadingBind"&gt;&lt;/spinner&gt;</pre>
+
+
+          <h2 id="component-back">Back</h2>
+          An arrow back button using vue router
+          Usage example
+          <pre>&lt;back&gt;&lt;/back&gt;</pre>
+
+
         </section>
         <section id="directives">
           <h1>Directives</h1>

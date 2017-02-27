@@ -38,7 +38,7 @@ The content `<div>` is where all your content goes.
 }
 
 .content h2 {
-  margin: 0.5em 0;
+  margin: 1.2em 0 0.3em 0;
   font-weight: 200;
   color: #888;
 }
@@ -49,4 +49,19 @@ pre {
   border-radius: 5px;
   width: 100%;
   border: 1px solid #EEEEEE;
+  font-family: monospace;
+}
+code {
+  background-color: #FAFAFA;
+  border: 1px solid #EEEEEE;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+.sublist {
+  border: none !important;
+}
+.sublist li {
+  list-style-type: none;
+  margin-left: -20px
 }

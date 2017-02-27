@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+  <title>Paliari Vue</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/side-menu.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div id="app">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <!-- Hamburger icon -->
+      <span></span>
+    </a>
+
+    <div id="menu">
+      <div class="pure-menu">
+        <a class="pure-menu-heading" href="#">Paliari</a>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item"><a href="#get-started" class="pure-menu-link">Get Started</a></li>
+          <li class="pure-menu-item"><a href="#components" class="pure-menu-link">Components</a></li>
+          <li class="pure-menu-item"><a href="#directives" class="pure-menu-link">Directives</a></li>
+          <li class="pure-menu-item"><a href="#filters" class="pure-menu-link">Filters</a></li>
+          <li class="pure-menu-item"><a href="#utils" class="pure-menu-link">Utils</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="header">
+        <h1>Paliari Vue</h1>
+        <h2>A simple lib utilities for Vue.js</h2>
+      </div>
+
+      <div class="content">
+        <section id="get-started">
+          <h1>Get Started</h1>
+          <h2>Install</h2>
+          <pre>$ npm install paliari-vue</pre> or
+          <pre>$ yarn add paliari-vue</pre>
+
+          <h2>Initialize</h2>
+          <pre>
+import Vue from 'vue'
+import PaliariVue from 'paliari-vue'
+Vue.use(PaliariVue)</pre>
+        </section>
+        <section id="components">
+          <h1>Components</h1>
+        </section>
+        <section id="directives">
+          <h1>Directives</h1>
+        </section>
+        <section id="filters">
+          <h1>Filters</h1>
+        </section>
+        <section id="utils">
+          <h1>Utils</h1>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="js/ui.js"></script>
+
+</body>
+
+</html>

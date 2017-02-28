@@ -1851,6 +1851,21 @@ function create(obj) {
     }
   };
 
+  var actions = {
+    fetchRequest: function fetchRequest(_ref, promise) {
+      var commit = _ref.commit;
+
+      commit('setLoading');
+      promise.then(function () {
+        return commit('setSuccess');
+      });
+      promise.catch(function () {
+        return commit('setFailure');
+      });
+      return promise;
+    }
+  };
+
   var mutations = {
     setLoading: function setLoading(state) {
       state.status = LOADING;
@@ -1865,6 +1880,7 @@ function create(obj) {
 
   obj.state = Object.assign(state, obj.state);
   obj.getters = Object.assign(getters, obj.getters);
+  obj.actions = Object.assign(actions, obj.actions);
   obj.mutations = Object.assign(mutations, obj.mutations);
 
   return obj;
@@ -2669,29 +2685,23 @@ function create(obj, api) {
   var actions = {
     fetchList: function fetchList(_ref) {
       var commit = _ref.commit,
+          dispatch = _ref.dispatch,
           getters = _ref.getters;
 
-      commit('setLoading');
       commit('setList', []);
-      api.list(getters.params).then(function (response) {
+      dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
         commit('setList', response.data.rows);
         commit('setPage', response.data.page);
         commit('setPages', response.data.pages);
-        commit('setSuccess');
-      }).catch(function () {
-        return commit('setFailure');
       });
     },
     fetchOne: function fetchOne(_ref2, id) {
-      var commit = _ref2.commit;
+      var commit = _ref2.commit,
+          dispatch = _ref2.dispatch;
 
       commit('setCurrent', null);
-      commit('setLoading');
-      api.one(id).then(function (response) {
+      dispatch('fetchRequest', api.one(id)).then(function (response) {
         commit('setCurrent', response.data);
-        commit('setSuccess');
-      }).catch(function () {
-        return commit('setFailure');
       });
     },
     prevPage: function prevPage(_ref3) {

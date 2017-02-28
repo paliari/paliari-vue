@@ -7,7 +7,7 @@ import _lib, * as util from './lib/index'
 
 import StoreHelpers from './store/index'
 
-import VuexMapper from './lib/VuexMapper'
+import VuexMapper from './mixins/VuexMapper'
 
 import { Auth, TokenManager, CookieManager } from './lib/auth'
 

@@ -2092,46 +2092,12 @@ var filters = _extends({}, __WEBPACK_IMPORTED_MODULE_7__lib_mask__, {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuex__);
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-
-
-function VuexMapper(mapper) {
-  var computed = this.$options.computed || {};
-  this.$options.computed = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapState"])(mapper.namespace, mapper.states || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])(mapper.namespace, mapper.getters || []), computed);
-
-  var methods = this.$options.methods || {};
-  this.$options.methods = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapMutations"])(mapper.namespace, mapper.mutations || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])(mapper.namespace, mapper.actions || []), methods);
-}
-
-/* harmony default export */ __webpack_exports__["a"] = {
-  install: function install(Vue, options) {
-    options = Object.assign({ key: 'vuex' }, options);
-
-    Vue.mixin({
-      beforeCreate: function beforeCreate() {
-        var mapper = this.$options[options.key];
-        if (mapper) {
-          VuexMapper.call(this, mapper);
-        }
-      }
-    });
-  }
-};
-
-/***/ }),
-/* 12 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Auth__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AuthManager__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TokenManager__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CookieManager__ = __webpack_require__(29);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__Auth__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__TokenManager__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__CookieManager__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__AuthManager__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__TokenManager__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__CookieManager__["a"]; });
 
 
 
@@ -2146,7 +2112,7 @@ paths = {
   current: '/current'
 }
 */
-/* unused harmony default export */ var _unused_webpack_default_export = {
+/* harmony default export */ __webpack_exports__["a"] = {
   install: function install(Vue, _ref) {
     var api = _ref.api,
         TokenManager = _ref.TokenManager,
@@ -2154,7 +2120,7 @@ paths = {
         _ref$paths = _ref.paths,
         paths = _ref$paths === undefined ? {} : _ref$paths;
 
-    var auth = new __WEBPACK_IMPORTED_MODULE_0__Auth__["a" /* default */]({ api: api, TokenManager: TokenManager, basePath: basePath, paths: paths });
+    var auth = new __WEBPACK_IMPORTED_MODULE_0__AuthManager__["a" /* default */]({ api: api, TokenManager: TokenManager, basePath: basePath, paths: paths });
     api.interceptors.request.use(function (config) {
       config.headers = TokenManager.getToken();
       return config;
@@ -2169,7 +2135,7 @@ paths = {
 
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2206,6 +2172,40 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 };
 
 
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuex__);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+
+
+function VuexMapper(mapper) {
+  var computed = this.$options.computed || {};
+  this.$options.computed = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapState"])(mapper.namespace, mapper.states || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])(mapper.namespace, mapper.getters || []), computed);
+
+  var methods = this.$options.methods || {};
+  this.$options.methods = _extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapMutations"])(mapper.namespace, mapper.mutations || []), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])(mapper.namespace, mapper.actions || []), methods);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = {
+  install: function install(Vue, options) {
+    options = Object.assign({ key: 'vuex' }, options);
+
+    Vue.mixin({
+      beforeCreate: function beforeCreate() {
+        var mapper = this.$options[options.key];
+        if (mapper) {
+          VuexMapper.call(this, mapper);
+        }
+      }
+    });
+  }
+};
 
 /***/ }),
 /* 14 */
@@ -2420,8 +2420,8 @@ var PATHS = {
   current: '/current'
 };
 
-var Auth = function () {
-  function Auth(_ref) {
+var AuthManager = function () {
+  function AuthManager(_ref) {
     var api = _ref.api,
         TokenManager = _ref.TokenManager,
         _ref$basePath = _ref.basePath,
@@ -2429,7 +2429,7 @@ var Auth = function () {
         _ref$paths = _ref.paths,
         paths = _ref$paths === undefined ? {} : _ref$paths;
 
-    _classCallCheck(this, Auth);
+    _classCallCheck(this, AuthManager);
 
     this.api = api;
     this.TokenManager = TokenManager;
@@ -2439,7 +2439,7 @@ var Auth = function () {
     }
   }
 
-  _createClass(Auth, [{
+  _createClass(AuthManager, [{
     key: 'signIn',
     value: function signIn(params) {
       var _this = this;
@@ -2483,10 +2483,10 @@ var Auth = function () {
     }
   }]);
 
-  return Auth;
+  return AuthManager;
 }();
 
-/* harmony default export */ __webpack_exports__["a"] = Auth;
+/* harmony default export */ __webpack_exports__["a"] = AuthManager;
 
 /***/ }),
 /* 29 */
@@ -3905,18 +3905,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__filters_index__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_index__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_i18n__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_index__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_index__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__store_index__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__lib_VuexMapper__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__lib_auth__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mixins_VuexMapper__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__lib_auth__ = __webpack_require__(11);
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "components", function() { return __WEBPACK_IMPORTED_MODULE_0__components_index__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "filters", function() { return __WEBPACK_IMPORTED_MODULE_1__filters_index__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "directives", function() { return __WEBPACK_IMPORTED_MODULE_2__directives_index__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "util", function() { return __WEBPACK_IMPORTED_MODULE_4__lib_index__; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StoreHelpers", function() { return __WEBPACK_IMPORTED_MODULE_5__store_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Auth", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TokenManager", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CookieManager", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "AuthManager", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TokenManager", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CookieManager", function() { return __WEBPACK_IMPORTED_MODULE_7__lib_auth__["d"]; });
 __webpack_require__(14);
 
 
@@ -3942,7 +3943,7 @@ __webpack_require__(14);
     Vue.use(__WEBPACK_IMPORTED_MODULE_2__directives_index__["default"]);
     Vue.use(__WEBPACK_IMPORTED_MODULE_4__lib_index__["default"]);
     if (options.Vuex) {
-      Vue.use(__WEBPACK_IMPORTED_MODULE_6__lib_VuexMapper__["a" /* default */], options.Vuex);
+      Vue.use(__WEBPACK_IMPORTED_MODULE_6__mixins_VuexMapper__["a" /* default */], options.Vuex);
     }
   }
 };

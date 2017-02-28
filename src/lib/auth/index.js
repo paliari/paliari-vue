@@ -1,4 +1,4 @@
-import Auth from './Auth'
+import AuthManager from './AuthManager'
 import TokenManager from './TokenManager'
 import CookieManager from './CookieManager'
 
@@ -14,7 +14,7 @@ paths = {
 */
 export default {
   install(Vue, { api, TokenManager, basePath, paths = {} }) {
-    let auth = new Auth({api, TokenManager, basePath, paths})
+    let auth = new AuthManager({api, TokenManager, basePath, paths})
     api.interceptors.request.use((config) => {
       config.headers = TokenManager.getToken()
       return config
@@ -28,7 +28,7 @@ export default {
 }
 
 export {
-  Auth,
+  AuthManager,
   TokenManager,
   CookieManager
 }

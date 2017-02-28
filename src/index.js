@@ -9,6 +9,8 @@ import StoreHelpers from './store/index'
 
 import VuexMapper from './lib/VuexMapper'
 
+import { Auth, TokenManager, CookieManager } from './lib/auth'
+
 export default {
   install (Vue, options = {}) {
     if (options.locales) {
@@ -29,5 +31,8 @@ export {
   filters,
   directives,
   util,
-  StoreHelpers
+  StoreHelpers,
+  Auth,
+  TokenManager,
+  CookieManager
 }

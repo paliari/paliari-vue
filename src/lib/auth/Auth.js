@@ -6,7 +6,7 @@ const PATHS = {
   current: '/current'
 }
 
-class Auth {
+class AuthManager {
   constructor({ api, TokenManager, basePath = '/auth', paths = {} }) {
     this.api = api
     this.TokenManager = TokenManager
@@ -48,4 +48,4 @@ class Auth {
 
 }
 
-export default Auth
+export default AuthManager

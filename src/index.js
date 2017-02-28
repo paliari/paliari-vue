@@ -9,7 +9,7 @@ import StoreHelpers from './store/index'
 
 import VuexMapper from './mixins/VuexMapper'
 
-import { Auth, TokenManager, CookieManager } from './lib/auth'
+import Auth, { AuthManager, TokenManager, CookieManager } from './lib/auth'
 
 export default {
   install (Vue, options = {}) {
@@ -33,6 +33,7 @@ export {
   util,
   StoreHelpers,
   Auth,
+  AuthManager,
   TokenManager,
   CookieManager
 }

@@ -20,23 +20,19 @@ function create(obj, api) {
   }
 
   const actions = {
-    fetchList ({commit, getters}) {
-      commit('setLoading')
+    fetchList ({commit, dispatch, getters}) {
       commit('setList', [])
-      api.list(getters.params).then((response) => {
+      dispatch('fetchRequest', api.list(getters.params)).then((response) => {
         commit('setList', response.data.rows)
         commit('setPage', response.data.page)
         commit('setPages', response.data.pages)
-        commit('setSuccess')
-      }).catch( () => commit('setFailure'))
+      })
     },
-    fetchOne ({commit}, id) {
+    fetchOne ({commit, dispatch}, id) {
       commit('setCurrent', null)
-      commit('setLoading')
-      api.one(id).then((response) => {
+      dispatch('fetchRequest', api.one(id)).then((response) => {
         commit('setCurrent', response.data)
-        commit('setSuccess')
-      }).catch( () => commit('setFailure'))
+      })
     },
 
     prevPage ({commit, dispatch, state}) {

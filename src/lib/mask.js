@@ -18,15 +18,15 @@ function formatter(value, format) {
   return str.substr(0, format.length)
 }
 
-function size (format) {
-  if ('cpfCnpj' == format) return 14
-  format = formats[format] || format
-  return format.replace(/[^09#ASUL\$]/g, '').length
-}
-
 function clear(value, pattern) {
   if (!value) {return ''}
   return value.replace(pattern || /\D/g, '')
+}
+
+function size (format, full = false) {
+  if ('cpfCnpj' == format) return full ? 18 : 14
+  format = formats[format] || format
+  return full ? format.length : clear(format, /[^09#ASUL\$]/g).length
 }
 
 export default formatter

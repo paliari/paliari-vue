@@ -1779,7 +1779,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["cep"] = cep;
 /* harmony export (immutable) */ __webpack_exports__["placa"] = placa;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "clear", function() { return clear; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formats", function() { return formats; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "size", function() { return size; });
 
+
+var formats = {
+  cpf: '000.000.000-00',
+  cnpj: '00.000.000/0000-00',
+  phone: '(00) 90000-0000',
+  cep: '00.000-000',
+  placa: 'UUU-0000'
+};
 
 function formatter(value, format) {
   var str = new __WEBPACK_IMPORTED_MODULE_0_string_mask___default.a(format).apply(value);
@@ -1789,6 +1799,12 @@ function formatter(value, format) {
     }
   }
   return str.substr(0, format.length);
+}
+
+function size(format) {
+  if ('cpfCnpj' == format) return 14;
+  format = formats[format] || format;
+  return format.replace(/[^09#ASUL\$]/g, '').length;
 }
 
 function clear(value, pattern) {
@@ -1801,24 +1817,24 @@ function clear(value, pattern) {
 /* harmony default export */ __webpack_exports__["default"] = formatter;
 
 function cpf(value) {
-  return formatter(clear(value), '000.000.000-00');
+  return formatter(clear(value), formats.cpf);
 }
 function cnpj(value) {
-  return formatter(clear(value), '00.000.000/0000-00');
+  return formatter(clear(value), formats.cnpj);
 }
 function cpfCnpj(value) {
   value = clear(value);
-  var format = value.length > 11 ? '00.000.000/0000-00' : '000.000.000-00';
+  var format = value.length > 11 ? formats.cnpj : formats.cpf;
   return formatter(value, format);
 }
 function phone(value) {
-  return formatter(clear(value), '(00) 90000-0000');
+  return formatter(clear(value), formats.phone);
 }
 function cep(value) {
-  return formatter(clear(value), '00.000-000');
+  return formatter(clear(value), formats.cep);
 }
 function placa(value) {
-  return formatter(clear(value, /\W/g), 'UUU-0000');
+  return formatter(clear(value, /\W/g), formats.placa);
 }
 
 

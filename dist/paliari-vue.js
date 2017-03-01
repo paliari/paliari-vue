@@ -1788,7 +1788,7 @@ function formatter(value, format) {
       str = str.substr(0, str.length - 1);
     }
   }
-  return str;
+  return str.substr(0, format.length);
 }
 
 function clear(value, pattern) {

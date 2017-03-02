@@ -4,7 +4,7 @@
   i.icon.fa.fa-lg(:class='icon' v-if='icon')
   slot
   .error-message
-    slot(name='error-message') inválido.
+    slot(name='error-message') inválido!
 </template>
 
 <script>

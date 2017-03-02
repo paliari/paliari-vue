@@ -11,6 +11,7 @@ import SideMenuItems from './menu/SideMenuItems.vue'
 import Spinner from './load/Spinner.vue'
 import LoadManager from './load/LoadManager.vue'
 import ListManager from './load/ListManager.vue'
+import Loading from './load/Loading.vue'
 
 const components = {
   Back,
@@ -25,7 +26,8 @@ const components = {
   SideMenuItems,
   Spinner,
   LoadManager,
-  ListManager
+  ListManager,
+  Loading
 }
 
 export default {
@@ -49,5 +51,6 @@ export {
   SideMenuItems,
   Spinner,
   LoadManager,
-  ListManager
+  ListManager,
+  Loading
 }

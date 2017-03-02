@@ -1,5 +1,5 @@
 <template lang="pug">
-input(v-model='model', :maxlength='$util.masks.size(mask, true)')
+input(v-model='model', :maxlength='maskSize')
 </template>
 
 <script>
@@ -10,17 +10,22 @@ export default {
     disabled: Boolean,
   },
   computed: {
+    maskSize () {
+      return this.$util.masks.size(this.mask, true)
+    },
+    valueSize () {
+      return this.$util.masks.size(this.mask)
+    },
     model: {
       get () {
         if (this.$util.masks[this.mask]) {
           return this.$util.masks[this.mask](this.value)
         }
-        return this.$util.masks.default(this.value)
+        return this.$util.masks.default(this.value, this.mask)
       },
       set (newModel) {
         newModel = this.$util.masks.clear(newModel)
-        newModel = newModel.substr(0, this.$util.masks.size(this.mask))
-        this.$emit('input', newModel)
+        this.$emit('input', newModel.substr(0, this.valueSize))
       }
     }
   }

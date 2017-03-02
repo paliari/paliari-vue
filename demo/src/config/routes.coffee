@@ -75,6 +75,11 @@ module.exports = [
       path: 'text-bind'
       component: V 'directives/TextBind'
       meta: title: 'Text Bind'
+    ,
+      name: 'background-image'
+      path: 'background-image'
+      component: V 'directives/BackgroundImage'
+      meta: title: 'Background Image'
     ]
   ,
     name: 'filters'

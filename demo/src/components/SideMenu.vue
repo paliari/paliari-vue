@@ -39,6 +39,8 @@ div
               router-link.pure-menu-link.ellipsis(to='/directives/t-model') T Model
             li
               router-link.pure-menu-link.ellipsis(to='/directives/text-bind') Text Bind
+            li
+              router-link.pure-menu-link.ellipsis(to='/directives/background-image') Bg Image
         li.pure-menu-item
           router-link.pure-menu-link.ellipsis(to='/filters') Filters
           ul.sublist

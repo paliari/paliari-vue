@@ -33,7 +33,7 @@ class AuthManager {
   }
 
   signOut (params) {
-    promise = this.api.delete(this.paths.signOut, params)
+    let promise = this.api.delete(this.paths.signOut, params)
     promise.then(() => { this.TokenManager.removeToken() })
     return promise
   }

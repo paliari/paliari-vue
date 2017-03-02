@@ -44,9 +44,9 @@ ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
-paliari-vue@^0.0.69:
-  version "0.0.69"
-  resolved "https://registry.yarnpkg.com/paliari-vue/-/paliari-vue-0.0.69.tgz#9033bbfe901613defeb2d0b5c66a23eb05441b59"
+paliari-vue@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/paliari-vue/-/paliari-vue-0.0.71.tgz#1323424bab99251ebdeca59963523045a1a85af5"
   dependencies:
     es6-promise "^4.0.5"
     fecha "^2.3.0"

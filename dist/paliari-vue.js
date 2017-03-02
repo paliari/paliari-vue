@@ -2528,6 +2528,7 @@ var AuthManager = function () {
 
       var promise = this.api.delete(this.paths.signOut, params);
       promise.then(function () {
+        _this2._token = null;
         _this2.TokenManager.removeToken();
       });
       return promise;
@@ -2535,7 +2536,10 @@ var AuthManager = function () {
   }, {
     key: 'getToken',
     value: function getToken() {
-      return this.TokenManager.getToken();
+      if (!this._token) {
+        this._token = this.TokenManager.getToken();
+      }
+      return this._token;
     }
   }, {
     key: 'current',

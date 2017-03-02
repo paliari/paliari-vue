@@ -2,6 +2,7 @@ import translate from './translate'
 import tModel from './tModel'
 import deepKey from './deepKey'
 import blank from './blank'
+import BackgroundImage from './BackgroundImage'
 import TextBind from './TextBind'
 
 const directives = {
@@ -9,6 +10,7 @@ const directives = {
   tModel,
   deepKey,
   blank,
+  BackgroundImage,
   TextBind
 }
 export default {
@@ -24,5 +26,6 @@ export {
   tModel,
   deepKey,
   blank,
+  BackgroundImage,
   TextBind
 }

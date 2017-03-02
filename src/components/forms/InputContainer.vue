@@ -1,5 +1,5 @@
 <template lang="pug">
-.input-container(:class="{'has-icon': icon}")
+.input-container(:class="{'has-icon': icon, 'has-label': label}")
   label(v-if='label') {{ label }}
   i.icon.fa.fa-lg(:class='icon' v-if='icon')
   slot
@@ -12,11 +12,6 @@ export default {
   props: {
     label: String,
     icon: String
-  },
-  computed: {
-    id () {
-      return 'ic-' + this._uid
-    },
   }
 }
 </script>
@@ -25,11 +20,13 @@ export default {
 .input-container
   display block
   position relative
-  padding 10px 0 15px
-  margin  10px 0 10px
+  padding-bottom 15px
+  margin-bottom 10px
   &.has-icon
     padding-left 25px
     padding-right 0
+  &.has-label
+    padding-top 15px
   &.inline
     display inline-block
     margin-right 10px
@@ -60,9 +57,8 @@ export default {
     border-radius 0
     vertical-align middle
     box-sizing border-box
-
     width 100%
-    height 2.5em
+    height 2em
     background-color transparent
     border-bottom 1px solid #ccc
     box-shadow none

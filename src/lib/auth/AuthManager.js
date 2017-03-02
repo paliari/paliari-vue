@@ -42,7 +42,7 @@ class AuthManager {
   }
 
   getToken () {
-    if (this._token) {
+    if (!this._token) {
       this._token = this.TokenManager.getToken()
     }
     return this._token

@@ -714,3 +714,19 @@
   text-align: center;
   vertical-align: middle;
 }
+
+.loading[data-v-53b0bc17] {
+  background-color: rgba(0,0,0,0.4);
+  display: table;
+  position: fixed;
+  z-index: 1000;
+  top: 50px;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+.loading .table-cell[data-v-53b0bc17] {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 1001;
+}

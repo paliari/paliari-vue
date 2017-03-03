@@ -2294,7 +2294,7 @@ var StorePlugins = {
 
 /* unused harmony default export */ var _unused_webpack_default_export = {
   StoreHelpers: StoreHelpers,
-  ResetState: __WEBPACK_IMPORTED_MODULE_2__plugins_ResetState__["a" /* default */]
+  StorePlugins: StorePlugins
 };
 
 /***/ }),

@@ -16,5 +16,5 @@ const StorePlugins = {
 
 export default {
   StoreHelpers,
-  ResetState
+  StorePlugins
 }

@@ -2492,6 +2492,7 @@ var PATHS = {
   signIn: '/sign_in',
   signUp: '',
   signOut: '/sign_out',
+  confirmation: '/confirmation',
   resetPassword: '/password',
   current: '/current'
 };
@@ -2532,9 +2533,14 @@ var AuthManager = function () {
       return this.api.post(this.paths.signUp, params);
     }
   }, {
-    key: 'resetPassword',
-    value: function resetPassword(params) {
+    key: 'resetPasswordRequest',
+    value: function resetPasswordRequest(params) {
       return this.api.post(this.paths.resetPassword, params);
+    }
+  }, {
+    key: 'resetPasswordUpdate',
+    value: function resetPasswordUpdate(params) {
+      return this.api.put(this.paths.resetPassword, params);
     }
   }, {
     key: 'signOut',
@@ -2560,6 +2566,11 @@ var AuthManager = function () {
     key: 'current',
     value: function current() {
       return this.api.get(this.paths.current);
+    }
+  }, {
+    key: 'confirmationToken',
+    value: function confirmationToken(params) {
+      return this.api.post(this.paths.confirmation, params);
     }
   }]);
 

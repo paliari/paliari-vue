@@ -2,6 +2,7 @@ const PATHS = {
   signIn: '/sign_in',
   signUp: '',
   signOut: '/sign_out',
+  confirmation: '/confirmation',
   resetPassword: '/password',
   current: '/current'
 }
@@ -52,6 +53,9 @@ class AuthManager {
     return this.api.get(this.paths.current)
   }
 
+  getByConfirmationToken (params) {
+    return this.api.post(this.paths.confirmation, params)
+  }
 }
 
 export default AuthManager

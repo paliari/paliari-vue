@@ -29,8 +29,12 @@ class AuthManager {
     return this.api.post(this.paths.signUp, params)
   }
 
-  resetPassword (params) {
+  resetPasswordRequest (params) {
     return this.api.post(this.paths.resetPassword, params)
+  }
+
+  resetPasswordUpdate (params) {
+    return this.api.put(this.paths.resetPassword, params)
   }
 
   signOut (params) {
@@ -56,6 +60,7 @@ class AuthManager {
   getByConfirmationToken (params) {
     return this.api.post(this.paths.confirmation, params)
   }
+
 }
 
 export default AuthManager

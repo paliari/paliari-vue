@@ -2569,8 +2569,8 @@ var AuthManager = function () {
     }
   }, {
     key: 'confirmationToken',
-    value: function confirmationToken(params) {
-      return this.api.post(this.paths.confirmation, params);
+    value: function confirmationToken(confirmation_token) {
+      return this.api.get(this.paths.confirmation + '/' + confirmation_token);
     }
   }]);
 

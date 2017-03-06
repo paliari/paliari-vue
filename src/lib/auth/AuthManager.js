@@ -57,7 +57,7 @@ class AuthManager {
     return this.api.get(this.paths.current)
   }
 
-  getByConfirmationToken (params) {
+  confirmationToken (params) {
     return this.api.post(this.paths.confirmation, params)
   }
 

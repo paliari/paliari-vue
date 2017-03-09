@@ -13,6 +13,11 @@ npm install --save paliari-vue
 yarn add paliari-vue
 ```
 
+Demo
+----
+
+[DEMO](http://paliari.github.io/paliari-vue)
+
 Usage
 -----
 

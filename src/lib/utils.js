@@ -1,5 +1,3 @@
-import {util} from 'vue'
-
 function deepKey (obj, key) {
   for (let k of String(key).split('.')) {
     if (!obj) {
@@ -25,18 +23,22 @@ function isRegExp (arg)
   return Object.prototype.toString.call(arg) === '[object RegExp]'
 }
 
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
 function _deepClone (obj) {
   if (isDate(obj)) { return new Date(obj) }
   if (isRegExp(obj)) { return obj }
   let ret = Array.isArray(obj) ? [] : {}
   for (let k in obj) {
-    ret[k] = util.isObject(obj[k]) ? _deepClone(obj[k]) : obj[k]
+    ret[k] = isObject(obj[k]) ? _deepClone(obj[k]) : obj[k]
   }
   return ret
 }
 
 function deepClone (obj) {
-  if (!util.isObject(obj)) { return obj }
+  if (!isObject(obj)) { return obj }
   return _deepClone(obj)
 }
 
@@ -47,5 +49,6 @@ export {
   ucfirst,
   isDate,
   isRegExp,
+  isObject,
   deepClone
 }

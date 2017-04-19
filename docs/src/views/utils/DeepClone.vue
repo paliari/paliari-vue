@@ -4,8 +4,8 @@
   <p>Inside a component</p>
   <pre>this.$util.deepClone(this.obj)</pre>
   <p>Standalone</p>
-  <pre>import Vue from 'vue'
-Vue.util.deepClone(obj)</pre>
+  <pre>import { util } from 'paliari-vue'
+util.deepClone(obj)</pre>
   <form class="pure-form">
     <input v-model="level.level1.level2.level3">
     <button class="pure-button" @click="clone">Clone Object</button>

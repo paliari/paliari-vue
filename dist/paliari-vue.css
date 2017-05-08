@@ -295,9 +295,6 @@
   transform: translateX(13.9px);
 }
 
-.radio label {
-  width: 100%;
-}
 .radio [type="radio"]:not(:checked),
 .radio [type="radio"]:checked {
   position: absolute;

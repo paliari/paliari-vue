@@ -23,15 +23,15 @@ function create(obj, api) {
     fetchList ({commit, dispatch, getters}) {
       commit('setList', [])
       dispatch('fetchRequest', api.list(getters.params)).then((response) => {
-        commit('setList', response.data.rows)
-        commit('setPage', response.data.page)
-        commit('setPages', response.data.pages)
+        commit('setList', response.rows)
+        commit('setPage', response.page)
+        commit('setPages', response.pages)
       })
     },
     fetchOne ({commit, dispatch}, id) {
       commit('setCurrent', null)
       dispatch('fetchRequest', api.one(id)).then((response) => {
-        commit('setCurrent', response.data)
+        commit('setCurrent', response)
       })
     },
 

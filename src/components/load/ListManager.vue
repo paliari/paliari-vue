@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+.paliari-vue-list-manager
   slot(v-if="recordsFound")
   div.gray-lighter.table(v-else)
     .table-cell
@@ -28,15 +28,15 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.table
-  display table
-  position fixed
-  width 100%
-  height calc(100vh - 50px)
-  z-index -1
-  top 50px
-.table-cell
-  display table-cell
-  text-align center
-  vertical-align middle
+.paliari-vue-list-manager
+  .table
+    display table
+    width 100%
+    height calc(100vh - 50px)
+    z-index -1
+    top 50px
+  .table-cell
+    display table-cell
+    text-align center
+    vertical-align middle
 </style>

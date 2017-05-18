@@ -19,7 +19,6 @@ export default {
 .loading
   background-color rgba(0, 0, 0, .4)
   display table
-  position fixed
   z-index 1000
   top 50px
   height calc(100vh - 50px)

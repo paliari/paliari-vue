@@ -15,16 +15,9 @@ paths = {
 export default {
   install(Vue, { api, TokenManager, basePath, paths = {} }) {
     let auth = new AuthManager({api, TokenManager, basePath, paths})
-    api.interceptors.request.use((config) => {
-      config.headers = TokenManager.getToken()
-      return config
-    }, (error) => {
-      return Promise.reject(error)
-    })
     Vue.prototype.$auth = auth
     Vue.auth = auth
 	}
-
 }
 
 export {

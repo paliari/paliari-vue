@@ -3,7 +3,7 @@ const STORAGE_KEY = 'auth_token'
 const extractHeaders = (headers) => {
   let ret = {}
   for (let key of header_keys) {
-    ret[key] = headers[key]
+    ret[key] = headers.get(key)
   }
   return ret
 }

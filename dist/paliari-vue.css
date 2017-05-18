@@ -684,29 +684,27 @@
 }
 }
 
-.table[data-v-313667c2] {
+.paliari-vue-load-manager .table {
   display: table;
-  position: fixed;
   width: 100%;
   height: calc(100vh - 50px);
   z-index: -1;
   top: 50px;
 }
-.table-cell[data-v-313667c2] {
+.paliari-vue-load-manager .table-cell {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.table[data-v-2654790a] {
+.paliari-vue-list-manager .table[data-v-2654790a] {
   display: table;
-  position: fixed;
   width: 100%;
   height: calc(100vh - 50px);
   z-index: -1;
   top: 50px;
 }
-.table-cell[data-v-2654790a] {
+.paliari-vue-list-manager .table-cell[data-v-2654790a] {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -715,7 +713,6 @@
 .loading[data-v-53b0bc17] {
   background-color: rgba(0,0,0,0.4);
   display: table;
-  position: fixed;
   z-index: 1000;
   top: 50px;
   height: calc(100vh - 50px);

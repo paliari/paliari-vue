@@ -378,6 +378,10 @@ process.off = noop;
 process.removeListener = noop;
 process.removeAllListeners = noop;
 process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -1600,9 +1604,9 @@ return webpackJsonpPaliariVue([0],[
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return setLocale; });
 /* unused harmony export locale */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(2);
 
 
 var locale = {};
@@ -1761,7 +1765,7 @@ var extractHeaders = function extractHeaders(headers) {
     for (var _iterator = header_keys[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
       var key = _step.value;
 
-      ret[key] = headers[key];
+      ret[key] = headers.get(key);
     }
   } catch (err) {
     _didIteratorError = true;
@@ -1802,8 +1806,6 @@ var extractHeaders = function extractHeaders(headers) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_string_mask__);
 /* harmony export (immutable) */ __webpack_exports__["cpf"] = cpf;
 /* harmony export (immutable) */ __webpack_exports__["cnpj"] = cnpj;
 /* harmony export (immutable) */ __webpack_exports__["cpfCnpj"] = cpfCnpj;
@@ -1813,6 +1815,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "clear", function() { return clear; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formats", function() { return formats; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "size", function() { return size; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_string_mask__);
 
 
 var formats = {
@@ -2184,12 +2188,6 @@ paths = {
         paths = _ref$paths === undefined ? {} : _ref$paths;
 
     var auth = new __WEBPACK_IMPORTED_MODULE_0__AuthManager__["a" /* default */]({ api: api, TokenManager: TokenManager, basePath: basePath, paths: paths });
-    api.interceptors.request.use(function (config) {
-      config.headers = TokenManager.getToken();
-      return config;
-    }, function (error) {
-      return Promise.reject(error);
-    });
     Vue.prototype.$auth = auth;
     Vue.auth = auth;
   }
@@ -2285,11 +2283,11 @@ __webpack_require__(93).polyfill();
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StoreHelpers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StorePlugins; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_base__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers_paginator__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plugins_ResetState__ = __webpack_require__(37);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StoreHelpers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StorePlugins; });
 
 
 
@@ -2833,9 +2831,9 @@ function create(obj, api) {
 
       commit('setList', []);
       dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
-        commit('setList', response.data.rows);
-        commit('setPage', response.data.page);
-        commit('setPages', response.data.pages);
+        commit('setList', response.rows);
+        commit('setPage', response.page);
+        commit('setPages', response.pages);
       });
     },
     fetchOne: function fetchOne(_ref2, id) {
@@ -2844,7 +2842,7 @@ function create(obj, api) {
 
       commit('setCurrent', null);
       dispatch('fetchRequest', api.one(id)).then(function (response) {
-        commit('setCurrent', response.data);
+        commit('setCurrent', response);
       });
     },
     prevPage: function prevPage(_ref3) {
@@ -3780,7 +3778,7 @@ var Component = __webpack_require__(0)(
   /* template */
   __webpack_require__(83),
   /* scopeId */
-  "data-v-313667c2",
+  null,
   /* cssModules */
   null
 )
@@ -4009,7 +4007,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [(_vm.recordsFound) ? _vm._t("default") : _c('div', {
+  return _c('div', {
+    staticClass: "paliari-vue-list-manager"
+  }, [(_vm.recordsFound) ? _vm._t("default") : _c('div', {
     staticClass: "gray-lighter table"
   }, [_c('div', {
     staticClass: "table-cell"
@@ -4023,7 +4023,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [(_vm.success) ? _vm._t("default") : _c('div', {
+  return _c('div', {
+    staticClass: "paliari-vue-load-manager"
+  }, [(_vm.success) ? _vm._t("default") : _c('div', {
     staticClass: "gray-lighter table"
   }, [_c('div', {
     staticClass: "table-cell"

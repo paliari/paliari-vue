@@ -8,14 +8,18 @@
   "scripts": {
     "build": "bin/build",
     "dist": "bin/dist",
-    "release": "rm -rf dist && yarn run build && yarn run dist"
+    "release": "rm -rf dist && yarn run build && yarn run dist",
+    "dist:demo": "vue build ./demo/index.js --config ./demo/build.config.js --dist ./docs/ --prod",
+    "start": "yarn dev",
+    "dev": "vue build ./demo/index.js --config ./demo/build.config.js",
+    "docs:open": "serve ./docs"
   },
   "dependencies": {
     "es6-promise": "^4.0.5",
-    "fecha": "^2.3.0",
+    "fecha": "^2.3.1",
     "string-mask": "^0.3.0",
-    "vue": "^2.1.10",
-    "vuex": "^2.1.2"
+    "vue": "^2.3.3",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {},
   "peerDependencies": {

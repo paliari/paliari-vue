@@ -16,8 +16,9 @@
   <pre>let a = this.level.level1.level2.level3                //Output: Teste</pre>
   <pre>let a = this.level.level1.level2.level3.level4.level5  //Error: Cannot read property 'level5' of undefined</pre>
   <p>With Deep Key:</p>
-  <pre>let a = this.$util.deepKey(this.level1, 'level2.level3')               //Output: Teste</pre>
-  <pre>let a = this.$util.deepKey(this.level1, 'level2.level3.level4.level5') //Output: undefined</pre>
+  <pre>import { util } from 'paliari-vue'
+let a = util.deepKey(this.level1, 'level2.level3')               //Output: Teste
+let a = util.deepKey(this.level1, 'level2.level3.level4.level5') //Output: undefined</pre>
 </div>
 </template>
 

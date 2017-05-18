@@ -1,9 +1,6 @@
 <template>
 <div>
   Clone a deep object
-  <p>Inside a component</p>
-  <pre>this.$util.deepClone(this.obj)</pre>
-  <p>Standalone</p>
   <pre>import { util } from 'paliari-vue'
 util.deepClone(obj)</pre>
   <form class="pure-form">

@@ -2830,10 +2830,11 @@ function create(obj, api) {
           getters = _ref.getters;
 
       commit('setList', []);
-      dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
+      return dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
         commit('setList', response.rows);
         commit('setPage', response.page);
         commit('setPages', response.pages);
+        return response.rows;
       });
     },
     fetchOne: function fetchOne(_ref2, id) {
@@ -2841,8 +2842,9 @@ function create(obj, api) {
           dispatch = _ref2.dispatch;
 
       commit('setCurrent', null);
-      dispatch('fetchRequest', api.one(id)).then(function (response) {
+      return dispatch('fetchRequest', api.one(id)).then(function (response) {
         commit('setCurrent', response);
+        return response;
       });
     },
     prevPage: function prevPage(_ref3) {

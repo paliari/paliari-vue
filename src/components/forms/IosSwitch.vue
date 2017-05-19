@@ -40,6 +40,7 @@ export default {
     padding 0
     position relative
     display block
+    box-sizing initial
     -moz-border-radius 100px
     -webkit-border-radius 100px
     border-radius 100px

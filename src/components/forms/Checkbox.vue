@@ -36,8 +36,6 @@ export default {
 $radio-border = 2px solid #039be5
 $radio-border-disabled = 2px solid rgba(0,0,0, .26)
 .checkbox
-  label
-    width 100%
   [type="checkbox"]:not(:checked), [type="checkbox"]:checked
     position absolute
     left -9999px
@@ -76,8 +74,8 @@ $radio-border-disabled = 2px solid rgba(0,0,0, .26)
       transform scale(0)
 
     &:not(:checked):disabled + label:before
-      border none
-      background-color rgba(0,0,0, .26)
+      border-color rgba(0,0,0, .15)
+      background-color rgba(0,0,0, .05)
 
     &.tabbed:focus + label:after
       transform scale(1)

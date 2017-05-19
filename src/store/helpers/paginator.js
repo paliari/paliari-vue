@@ -22,16 +22,18 @@ function create(obj, api) {
   const actions = {
     fetchList ({commit, dispatch, getters}) {
       commit('setList', [])
-      dispatch('fetchRequest', api.list(getters.params)).then((response) => {
+      return dispatch('fetchRequest', api.list(getters.params)).then((response) => {
         commit('setList', response.rows)
         commit('setPage', response.page)
         commit('setPages', response.pages)
+        return response.rows
       })
     },
     fetchOne ({commit, dispatch}, id) {
       commit('setCurrent', null)
-      dispatch('fetchRequest', api.one(id)).then((response) => {
+      return dispatch('fetchRequest', api.one(id)).then((response) => {
         commit('setCurrent', response)
+        return response
       })
     },
 

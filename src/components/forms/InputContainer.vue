@@ -1,6 +1,8 @@
 <template lang="pug">
 .input-container(:class="{'has-icon': icon, 'has-label': label}")
-  label(v-if='label') {{ label }}
+  label(v-if='label')
+    span.text {{ label }}
+    span.asterisk(v-if='asterisk') &nbsp;&#10033;
   i.icon.fa.fa-lg(:class='icon' v-if='icon')
   slot
   .error-message
@@ -11,7 +13,8 @@
 export default {
   props: {
     label: String,
-    icon: String
+    icon: String,
+    asterisk: Boolean
   }
 }
 </script>
@@ -31,11 +34,15 @@ export default {
     display inline-block
     margin-right 10px
   label
-    font-size .8em
-    opacity .5
     position absolute
     top 0px
     padding-left 5px
+    font-size .8em
+    span.text
+      opacity .5
+    span.asterisk
+      color #d9534f
+      font-size 0.8em
   input[type="text"],
   input[type="password"],
   input[type="email"],

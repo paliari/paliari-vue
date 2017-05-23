@@ -18,6 +18,7 @@ import ModalComponent from './views/components/Modal.vue'
 import SpinnerComponent from './views/components/Spinner.vue'
 import ListManagerComponent from './views/components/ListManager.vue'
 import LoadManagerComponent from './views/components/LoadManager.vue'
+import InputContainerComponent from './views/components/InputContainer.vue'
 
 // Directives
 import BackgroundImageDirective from './views/directives/BackgroundImage.vue'
@@ -54,6 +55,7 @@ export default {
     SpinnerComponent,
     ListManagerComponent,
     LoadManagerComponent,
+    InputContainerComponent,
 
     BackgroundImageDirective,
     DeepKeyDirective,

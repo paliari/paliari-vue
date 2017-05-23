@@ -57,10 +57,10 @@ function create(obj, api) {
       state.current = current
     },
     setPage (state, page) {
-      state.page = page
+      state.page = parseInt(page)
     },
     setPages (state, pages) {
-      state.pages = pages
+      state.pages = parseInt(pages)
     },
     setQuery (state, q) {
       state.query = q

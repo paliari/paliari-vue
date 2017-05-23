@@ -3118,11 +3118,14 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
 
 exports.default = {
   props: {
     label: String,
-    icon: String
+    icon: String,
+    asterisk: Boolean
   }
 };
 
@@ -4169,7 +4172,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     class: {
       'has-icon': _vm.icon, 'has-label': _vm.label
     }
-  }, [(_vm.label) ? _c('label', [_vm._v(_vm._s(_vm.label))]) : _vm._e(), (_vm.icon) ? _c('i', {
+  }, [(_vm.label) ? _c('label', [_c('span', {
+    staticClass: "text"
+  }, [_vm._v(_vm._s(_vm.label))]), (_vm.asterisk) ? _c('span', {
+    staticClass: "asterisk"
+  }, [_vm._v(" ✱")]) : _vm._e()]) : _vm._e(), (_vm.icon) ? _c('i', {
     staticClass: "icon fa fa-lg",
     class: _vm.icon
   }) : _vm._e(), _vm._t("default"), _c('div', {

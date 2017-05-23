@@ -1,6 +1,6 @@
 {
   "name": "paliari-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Vue.js Plugin",
   "author": "Marcos Paliari <marcos@paliari.com.br>",
   "main": "dist/paliari-vue.js",

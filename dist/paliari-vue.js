@@ -2875,10 +2875,10 @@ function create(obj, api) {
       state.current = current;
     },
     setPage: function setPage(state, page) {
-      state.page = page;
+      state.page = parseInt(page);
     },
     setPages: function setPages(state, pages) {
-      state.pages = pages;
+      state.pages = parseInt(pages);
     },
     setQuery: function setQuery(state, q) {
       state.query = q;

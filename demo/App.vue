@@ -19,6 +19,7 @@ import SpinnerComponent from './views/components/Spinner.vue'
 import ListManagerComponent from './views/components/ListManager.vue'
 import LoadManagerComponent from './views/components/LoadManager.vue'
 import InputContainerComponent from './views/components/InputContainer.vue'
+import HeaderBarComponent from './views/components/HeaderBar.vue'
 
 // Directives
 import BackgroundImageDirective from './views/directives/BackgroundImage.vue'
@@ -56,6 +57,7 @@ export default {
     ListManagerComponent,
     LoadManagerComponent,
     InputContainerComponent,
+    HeaderBarComponent,
 
     BackgroundImageDirective,
     DeepKeyDirective,

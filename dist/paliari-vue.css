@@ -18,14 +18,9 @@
 .header-bar .header-bar-content .header-bar-content-left {
   -webkit-flex: 2;
   flex: 2;
-  max-width: 20%;
 }
 .header-bar .header-bar-content .header-bar-content-left * {
-  margin: 0;
-  padding: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .header-bar .header-bar-content .header-bar-content-center {
   text-align: center;
@@ -38,15 +33,10 @@
 .header-bar .header-bar-content .header-bar-content-right {
   -webkit-flex: 2;
   flex: 2;
-  width: 20%;
   text-align: right;
 }
 .header-bar .header-bar-content .header-bar-content-right * {
-  margin: 0;
-  padding: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .modal {

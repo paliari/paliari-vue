@@ -2996,10 +2996,6 @@ exports.default = {
   computed: {
     title: function title() {
       return this.customTitle || this.$route.meta.title;
-    },
-    isIos: function isIos() {
-      return (/iphone|ipod|ipad/i.test(window.navigator.userAgent)
-      );
     }
   }
 }; //
@@ -4280,9 +4276,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', [_c('div', {
     staticClass: "header-bar",
-    class: {
-      ios: _vm.isIos
-    },
     style: ({
       color: _vm.color,
       backgroundColor: _vm.backgroundColor

@@ -1,19 +1,13 @@
 <template lang="pug">
 div
-  .header-bar
-    nav
-      .header-bar-content
-        .pure-g
-          .pure-u-5-24
-            .left
-              slot(name='left')
-                back
-          .pure-u-14-24.center
-            .title.ellipsis {{title}}
-          .pure-u-5-24
-            .right
-              slot(name='right')
-    .header-block
+  .header-bar(:class='{ios: isIos}', :style="{color: color, backgroundColor: backgroundColor}")
+    .header-bar-content
+      .header-bar-content-left
+        slot(name='left')
+          back
+      .header-bar-content-center {{title}}
+      .header-bar-content-right
+        slot(name='right')
 </template>
 
 <script>
@@ -22,11 +16,16 @@ import Back from './Back.vue'
 export default {
   components: { Back },
   props: {
-    customTitle: {type: String}
+    customTitle: {type: String},
+    backgroundColor: {type: String, default: '#0075EA'},
+    color: {type: String, default: '#FFFFFF'}
   },
   computed: {
     title () {
       return this.customTitle || this.$route.meta.title
+    },
+    isIos() {
+      return /iphone|ipod|ipad/i.test(window.navigator.userAgent)
     }
   }
 }
@@ -34,32 +33,42 @@ export default {
 
 <style lang="stylus">
 .header-bar
-  .center
-    text-align center
-  .header-block
-    height 40px
-    width 100%
-    display block
-  nav
-    background-color #0078e7
-    top 0
-    width 100%
-    position fixed
-    color #fff
-    z-index 3000
-    .header-bar-content
-      padding-top 10px
-      padding-bottom 10px
-      .pure-g
+  padding 10px 5px 10px 5px
+  min-height 40px
+  max-height 60px
+  &.ios
+    padding-top 30px
+  .header-bar-content
+    display -webkit-flex
+    display flex
+    line-height 1.3
+    height 20px
+    .header-bar-content-left
+      -webkit-flex 2
+      flex 2
+      max-width 20%
+      *
+        margin 0
+        padding 0
         white-space nowrap
-      .title
-        display block
-        font-size 17px
-      i
-        margin-left 7px
-        margin-right 7px
-.ios
-  .header-bar
-    nav
-      top 20px
+        overflow hidden
+        text-overflow ellipsis
+    .header-bar-content-center
+      text-align center
+      -webkit-flex 6
+      flex 6
+      white-space nowrap
+      overflow hidden
+      text-overflow ellipsis
+    .header-bar-content-right
+      -webkit-flex 2
+      flex 2
+      width 20%
+      text-align right
+      *
+        margin 0
+        padding 0
+        white-space nowrap
+        overflow hidden
+        text-overflow ellipsis
 </style>

@@ -39,13 +39,8 @@ export default {
     .header-bar-content-left
       -webkit-flex 2
       flex 2
-      max-width 20%
       *
-        margin 0
-        padding 0
         white-space nowrap
-        overflow hidden
-        text-overflow ellipsis
     .header-bar-content-center
       text-align center
       -webkit-flex 6
@@ -56,12 +51,7 @@ export default {
     .header-bar-content-right
       -webkit-flex 2
       flex 2
-      width 20%
       text-align right
       *
-        margin 0
-        padding 0
         white-space nowrap
-        overflow hidden
-        text-overflow ellipsis
 </style>

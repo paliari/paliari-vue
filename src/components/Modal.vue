@@ -1,22 +1,22 @@
 <template lang="pug">
 transition(name='modal' v-if="show")
-  .modal
-    .modal-header.bg-yellow
-      header-bar(:custom-title='title')
-        div(slot='left')
-          .button-left.red(@click="reject") {{cancelLabel}}
-        div(slot='right')
-          .button-right.blue(@click="resolve", :class="{disabled: !permitSuccess}") {{okLabel}}
+  .modal(:class='{ios: isIos}')
+    header-bar.modal-header(:custom-title='title', :color='headerColor', :background-color='headerBackgroundColor')
+      .button-left(@click="reject", slot='left') {{cancelLabel}}
+      .button-right(@click="resolve", :class="{disabled: !permitSuccess}", slot='right') {{okLabel}}
     .modal-body
       slot
 </template>
 
 <script>
+import HeaderBar from './HeaderBar.vue'
+import Dialogs from '../lib/dialogs.js'
 export default {
+  components: { HeaderBar },
   props: {
     title: {
       type: String,
-      default: 'Endereço'
+      default: 'Modal title'
     },
     show: {
       type: Boolean,
@@ -33,6 +33,19 @@ export default {
     permitSuccess: {
       type: Boolean,
       default: true
+    },
+    headerColor: {
+      type: String,
+      default: '#FFFFFF'
+    },
+    headerBackgroundColor: {
+      type: String,
+      default: '#0075EA'
+    }
+  },
+  computed: {
+    isIos() {
+      return /iphone|ipod|ipad/i.test(window.navigator.userAgent)
     }
   },
   methods: {
@@ -42,7 +55,7 @@ export default {
     },
     resolve () {
       if (!this.permitSuccess) {
-        this.$dialogs.alert('Preencha os campos corretamente para continuar')
+        Dialogs.alert('Preencha os campos corretamente para continuar')
         return
       }
       this.$emit('close')
@@ -63,24 +76,20 @@ export default {
   right 0
   -webkit-transition all .3s ease
   transition all .3s ease
+
   .modal-body
-    height calc(100vh - 50px)
+    height calc(100vh - 60px)
     overflow-y scroll
     overflow-x hidden
-    .ios
-      margin-top 20px
-
   .button-left
-    margin-left 10px
-    position absolute
-    font-size 1.2em
-    margin-top -0.1em
+    font-size .8em
+    padding-top 3px !important
+    padding-left 5px !important
   .button-right
-    margin-right 10px
-    position: absolute;
-    font-size: 1.2em;
-    margin-top: -0.1em;
-    right: 0;
+    text-align right
+    font-size .8em
+    padding-top 3px !important
+    padding-right 10px !important
     &.disabled
       opacity 0.5
 

@@ -7,13 +7,13 @@ span.btn-back(@click="goBack" v-show="notHome")
 export default {
   computed: {
     notHome () {
-      return this.$route.name != 'home'
+      return this.$router ? this.$route.name != 'home' : false
     }
   },
 
   methods: {
     goBack () {
-      this.$router.back()
+      if (this.$router) this.$router.back()
     }
   }
 }

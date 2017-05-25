@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  .header-bar(:class='{ios: isIos}', :style="{color: color, backgroundColor: backgroundColor}")
+  .header-bar(:style="{color: color, backgroundColor: backgroundColor}")
     .header-bar-content
       .header-bar-content-left
         slot(name='left')
@@ -23,9 +23,6 @@ export default {
   computed: {
     title () {
       return this.customTitle || this.$route.meta.title
-    },
-    isIos() {
-      return /iphone|ipod|ipad/i.test(window.navigator.userAgent)
     }
   }
 }
@@ -34,10 +31,6 @@ export default {
 <style lang="stylus">
 .header-bar
   padding 10px 5px 10px 5px
-  min-height 40px
-  max-height 60px
-  &.ios
-    padding-top 30px
   .header-bar-content
     display -webkit-flex
     display flex

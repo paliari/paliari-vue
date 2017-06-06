@@ -2975,6 +2975,7 @@ function create(obj, api) {
 
       return dispatch('fetchRequest', api.update(params)).then(function (response) {
         commit('replaceItemToList', response);
+        commit('setCurrent', response);
         return response;
       });
     },

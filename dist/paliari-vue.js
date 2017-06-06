@@ -3007,7 +3007,7 @@ function create(obj, api) {
     }
   };
 
-  obj = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__paginator__["a" /* default */])(obj);
+  obj = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__paginator__["a" /* default */])(obj, api);
 
   obj.actions = Object.assign(actions, obj.actions);
   obj.mutations = Object.assign(mutations, obj.mutations);

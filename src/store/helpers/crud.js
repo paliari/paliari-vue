@@ -15,6 +15,7 @@ function create(obj, api) {
     fetchUpdate ({commit, dispatch}, params) {
       return dispatch('fetchRequest', api.update(params)).then((response) => {
         commit('replaceItemToList', response)
+        commit('setCurrent', response)
         return response
       })
     },

@@ -378,10 +378,6 @@ process.off = noop;
 process.removeListener = noop;
 process.removeAllListeners = noop;
 process.emit = noop;
-process.prependListener = noop;
-process.prependOnceListener = noop;
-
-process.listeners = function (name) { return [] }
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -1604,9 +1600,9 @@ return webpackJsonpPaliariVue([0],[
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return setLocale; });
 /* unused harmony export locale */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(2);
 
 
 var locale = {};
@@ -1859,6 +1855,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_string_mask__);
 /* harmony export (immutable) */ __webpack_exports__["cpf"] = cpf;
 /* harmony export (immutable) */ __webpack_exports__["cnpj"] = cnpj;
 /* harmony export (immutable) */ __webpack_exports__["cpfCnpj"] = cpfCnpj;
@@ -1868,8 +1866,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "clear", function() { return clear; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formats", function() { return formats; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "size", function() { return size; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_string_mask___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_string_mask__);
 
 
 var formats = {
@@ -2358,11 +2354,11 @@ __webpack_require__(93).polyfill();
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StoreHelpers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StorePlugins; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__helpers_base__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers_paginator__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plugins_ResetState__ = __webpack_require__(38);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StoreHelpers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StorePlugins; });
 
 
 
@@ -2870,23 +2866,43 @@ function create(obj, api) {
         return response;
       });
     },
-    prevPage: function prevPage(_ref3) {
+    firstPage: function firstPage(_ref3) {
       var commit = _ref3.commit,
           dispatch = _ref3.dispatch,
           state = _ref3.state;
+
+      if (state.page > 1) {
+        commit('setPage', 1);
+        dispatch('fetchList');
+      }
+    },
+    prevPage: function prevPage(_ref4) {
+      var commit = _ref4.commit,
+          dispatch = _ref4.dispatch,
+          state = _ref4.state;
 
       var page = state.page > 1 ? state.page - 1 : 1;
       commit('setPage', page);
       dispatch('fetchList');
     },
-    nextPage: function nextPage(_ref4) {
-      var commit = _ref4.commit,
-          dispatch = _ref4.dispatch,
-          state = _ref4.state;
+    nextPage: function nextPage(_ref5) {
+      var commit = _ref5.commit,
+          dispatch = _ref5.dispatch,
+          state = _ref5.state;
 
       if (state.page == state.pages) return;
       commit('setPage', state.page + 1);
       dispatch('fetchList');
+    },
+    lastPage: function lastPage(_ref6) {
+      var commit = _ref6.commit,
+          dispatch = _ref6.dispatch,
+          state = _ref6.state;
+
+      if (state.pages > state.page) {
+        commit('setPage', state.pages);
+        dispatch('fetchList');
+      }
     }
   };
 

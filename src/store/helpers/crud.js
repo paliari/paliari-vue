@@ -45,7 +45,7 @@ function create(obj, api) {
     },
   }
 
-  obj = paginator(obj)
+  obj = paginator(obj, api)
 
   obj.actions = Object.assign(actions, obj.actions)
   obj.mutations = Object.assign(mutations, obj.mutations)

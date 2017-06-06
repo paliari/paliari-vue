@@ -37,6 +37,12 @@ function create(obj, api) {
       })
     },
 
+    firstPage ({commit, dispatch, state}) {
+      if (state.page > 1) {
+        commit('setPage', 1)
+        dispatch('fetchList')
+      }
+    },
     prevPage ({commit, dispatch, state}) {
       let page = state.page > 1 ? state.page - 1 : 1
       commit('setPage', page)
@@ -46,7 +52,13 @@ function create(obj, api) {
       if (state.page == state.pages) return
       commit('setPage', state.page + 1)
       dispatch('fetchList')
-    }
+    },
+    lastPage ({commit, dispatch, state}) {
+      if (state.pages > state.page) {
+        commit('setPage', state.pages)
+        dispatch('fetchList')
+      }
+    },
   }
 
   const mutations = {

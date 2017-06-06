@@ -1,5 +1,6 @@
 import base, {SUCCESS, LOADING, FAILURE} from './helpers/base'
 import paginator from './helpers/paginator'
+import crud from './helpers/crud'
 import ResetState from './plugins/ResetState'
 
 const StoreHelpers = {
@@ -7,7 +8,8 @@ const StoreHelpers = {
   LOADING,
   FAILURE,
   base,
-  paginator
+  paginator,
+  crud
 }
 
 const StorePlugins = {

@@ -44,9 +44,10 @@ function create(obj, api) {
       }
     },
     prevPage ({commit, dispatch, state}) {
-      let page = state.page > 1 ? state.page - 1 : 1
-      commit('setPage', page)
-      dispatch('fetchList')
+      if (state.page > 1) {
+        commit('setPage', state.page - 1)
+        dispatch('fetchList')
+      }
     },
     nextPage ({commit, dispatch, state}) {
       if (state.page == state.pages) return

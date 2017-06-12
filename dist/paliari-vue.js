@@ -2062,9 +2062,10 @@ function create(obj, api) {
           dispatch = _ref4.dispatch,
           state = _ref4.state;
 
-      var page = state.page > 1 ? state.page - 1 : 1;
-      commit('setPage', page);
-      dispatch('fetchList');
+      if (state.page > 1) {
+        commit('setPage', state.page - 1);
+        dispatch('fetchList');
+      }
     },
     nextPage: function nextPage(_ref5) {
       var commit = _ref5.commit,

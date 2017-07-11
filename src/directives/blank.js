@@ -1,12 +1,11 @@
 export default (el, binding, vnode) => {
   if (binding.oldValue != binding.value) {
-    if (window.cordova && window.cordova.InAppBrowser) {
-      el.onclick = function () {
+    el.onclick = function () {
+      if (window.cordova && window.cordova.InAppBrowser) {
         window.cordova.InAppBrowser.open(binding.value, '_system', 'location=yes')
+      } else {
+        window.open(binding.value, '_blank', 'location=yes')
       }
-    } else {
-      el.href = binding.value
-      el.target = '_blank'
     }
   }
 }

@@ -1820,10 +1820,11 @@ var components = {
 });
 // CONCATENATED MODULE: ./src/filters/currency.js
 /* harmony default export */ var currency_defaultExport = (function (number) {
-  var prefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'R$';
+  var prefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+  var sufix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
 
   try {
-    return prefix + parseFloat(number).toFixed(2).replace(/\./g, ',').replace(/(\d)(?=(\d{3})+\,)/g, '$1.');
+    return prefix + parseFloat(number).toFixed(2).replace(/\./g, ',').replace(/(\d)(?=(\d{3})+\,)/g, '$1.') + sufix;
   } catch (e) {
     return number;
   }

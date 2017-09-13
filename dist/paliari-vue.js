@@ -4023,9 +4023,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "paliari-vue-load-manager"
   }, [(_vm.success) ? _vm._t("default") : _c('div', {
-    staticClass: "gray-lighter table"
+    staticClass: "gray-lighter layout-table"
   }, [_c('div', {
-    staticClass: "table-cell"
+    staticClass: "layout-table-cell"
   }, [_c('spinner', {
     attrs: {
       "loading": _vm.loading
@@ -4109,9 +4109,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "paliari-vue-list-manager"
   }, [(_vm.recordsFound) ? _vm._t("default") : _c('div', {
-    staticClass: "gray-lighter table"
+    staticClass: "gray-lighter layout-table"
   }, [_c('div', {
-    staticClass: "table-cell"
+    staticClass: "layout-table-cell"
   }, [_c('i', {
     staticClass: "fa fa-4x fa-list-ul"
   }), _c('h3', [_vm._v("Nenhum registro encontrado")])])])], 2)

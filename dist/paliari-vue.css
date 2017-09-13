@@ -684,27 +684,27 @@
 }
 }
 
-.paliari-vue-load-manager .table {
+.paliari-vue-load-manager .layout-table {
   display: table;
   width: 100%;
   height: calc(100vh - 50px);
   z-index: -1;
   top: 50px;
 }
-.paliari-vue-load-manager .table-cell {
+.paliari-vue-load-manager .layout-table-cell {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.paliari-vue-list-manager .table[data-v-2654790a] {
+.paliari-vue-list-manager .layout-table[data-v-2654790a] {
   display: table;
   width: 100%;
   height: calc(100vh - 50px);
   z-index: -1;
   top: 50px;
 }
-.paliari-vue-list-manager .table-cell[data-v-2654790a] {
+.paliari-vue-list-manager .layout-table-cell[data-v-2654790a] {
   display: table-cell;
   text-align: center;
   vertical-align: middle;

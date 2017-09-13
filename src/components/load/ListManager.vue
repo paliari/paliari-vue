@@ -1,8 +1,8 @@
 <template lang="pug">
 .paliari-vue-list-manager
   slot(v-if="recordsFound")
-  div.gray-lighter.table(v-else)
-    .table-cell
+  div.gray-lighter.layout-table(v-else)
+    .layout-table-cell
       i.fa.fa-4x.fa-list-ul
       h3 Nenhum registro encontrado
 </template>
@@ -29,13 +29,13 @@ export default {
 
 <style lang="stylus" scoped>
 .paliari-vue-list-manager
-  .table
+  .layout-table
     display table
     width 100%
     height calc(100vh - 50px)
     z-index -1
     top 50px
-  .table-cell
+  .layout-table-cell
     display table-cell
     text-align center
     vertical-align middle

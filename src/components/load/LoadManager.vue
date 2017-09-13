@@ -1,8 +1,8 @@
 <template lang="pug">
 .paliari-vue-load-manager
   slot(v-if="success")
-  div.gray-lighter.table(v-else)
-    .table-cell
+  div.gray-lighter.layout-table(v-else)
+    .layout-table-cell
       spinner(:loading="loading")
       div(v-if='failure')
         i.fa.fa-4x.fa-exclamation-circle
@@ -35,13 +35,13 @@ export default {
 
 <style lang="stylus">
 .paliari-vue-load-manager
-  .table
+  .layout-table
     display table
     width 100%
     height calc(100vh - 50px)
     z-index -1
     top 50px
-  .table-cell
+  .layout-table-cell
     display table-cell
     text-align center
     vertical-align middle

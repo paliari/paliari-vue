@@ -1,13 +1,7 @@
 const path = require('path')
 
-module.exports = {
+module.exports = (options, req) => ({
   html: {
     template: path.resolve(__dirname, './index.html')
   },
-  webpack: {
-    devtool: false, // disable source-map
-    output: {
-      publicPath: '', // generate client.*.js relative to ./demo/index.html
-    }
-  }
-}
+})

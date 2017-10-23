@@ -75,9 +75,9 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!***************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/component-normalizer.js ***!
+  \**********************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -332,12 +332,12 @@ function deepClone(obj) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Spinner_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Spinner.vue */ 59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_04e8d674_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Spinner_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-04e8d674","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Spinner.vue */ 60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Spinner_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Spinner.vue */ 59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_04e8d674_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Spinner_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-04e8d674","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Spinner.vue */ 60);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-04e8d674","scoped":false,"hasInlineConfig":true}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Spinner.vue */ 58)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-04e8d674","scoped":false,"hasInlineConfig":true}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Spinner.vue */ 58)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -351,8 +351,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Spinner_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_04e8d674_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Spinner_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Spinner_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_04e8d674_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Spinner_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -372,12 +372,12 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Back_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Back.vue */ 22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d19a22b_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Back_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-0d19a22b","hasScoped":false,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Back.vue */ 23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Back_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Back.vue */ 22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d19a22b_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Back_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-0d19a22b","hasScoped":false,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Back.vue */ 23);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-0d19a22b","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Back.vue */ 21)
+  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-0d19a22b","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Back.vue */ 21)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -391,8 +391,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Back_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d19a22b_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Back_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Back_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d19a22b_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Back_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -412,12 +412,12 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_HeaderBar_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./HeaderBar.vue */ 25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_f837419c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_HeaderBar_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-f837419c","hasScoped":false,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./HeaderBar.vue */ 26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_HeaderBar_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./HeaderBar.vue */ 25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_f837419c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_HeaderBar_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-f837419c","hasScoped":false,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./HeaderBar.vue */ 26);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-f837419c","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./HeaderBar.vue */ 24)
+  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-f837419c","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./HeaderBar.vue */ 24)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -431,8 +431,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_HeaderBar_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_f837419c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_HeaderBar_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_HeaderBar_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_f837419c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_HeaderBar_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1002,17 +1002,18 @@ if (!Object.assign) {
  * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
  * @license   Licensed under MIT license
  *            See https://raw.githubusercontent.com/stefanpenner/es6-promise/master/LICENSE
- * @version   4.0.5
+ * @version   4.1.1
  */
 
 (function (global, factory) {
-     true ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global.ES6Promise = factory());
+	 true ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.ES6Promise = factory());
 }(this, (function () { 'use strict';
 
 function objectOrFunction(x) {
-  return typeof x === 'function' || typeof x === 'object' && x !== null;
+  var type = typeof x;
+  return x !== null && (type === 'object' || type === 'function');
 }
 
 function isFunction(x) {
@@ -1020,12 +1021,12 @@ function isFunction(x) {
 }
 
 var _isArray = undefined;
-if (!Array.isArray) {
+if (Array.isArray) {
+  _isArray = Array.isArray;
+} else {
   _isArray = function (x) {
     return Object.prototype.toString.call(x) === '[object Array]';
   };
-} else {
-  _isArray = Array.isArray;
 }
 
 var isArray = _isArray;
@@ -1213,7 +1214,7 @@ function then(onFulfillment, onRejection) {
   @return {Promise} a promise that will become fulfilled with the given
   `value`
 */
-function resolve(object) {
+function resolve$1(object) {
   /*jshint validthis:true */
   var Constructor = this;
 
@@ -1222,7 +1223,7 @@ function resolve(object) {
   }
 
   var promise = new Constructor(noop);
-  _resolve(promise, object);
+  resolve(promise, object);
   return promise;
 }
 
@@ -1253,24 +1254,24 @@ function getThen(promise) {
   }
 }
 
-function tryThen(then, value, fulfillmentHandler, rejectionHandler) {
+function tryThen(then$$1, value, fulfillmentHandler, rejectionHandler) {
   try {
-    then.call(value, fulfillmentHandler, rejectionHandler);
+    then$$1.call(value, fulfillmentHandler, rejectionHandler);
   } catch (e) {
     return e;
   }
 }
 
-function handleForeignThenable(promise, thenable, then) {
+function handleForeignThenable(promise, thenable, then$$1) {
   asap(function (promise) {
     var sealed = false;
-    var error = tryThen(then, thenable, function (value) {
+    var error = tryThen(then$$1, thenable, function (value) {
       if (sealed) {
         return;
       }
       sealed = true;
       if (thenable !== value) {
-        _resolve(promise, value);
+        resolve(promise, value);
       } else {
         fulfill(promise, value);
       }
@@ -1280,12 +1281,12 @@ function handleForeignThenable(promise, thenable, then) {
       }
       sealed = true;
 
-      _reject(promise, reason);
+      reject(promise, reason);
     }, 'Settle: ' + (promise._label || ' unknown promise'));
 
     if (!sealed && error) {
       sealed = true;
-      _reject(promise, error);
+      reject(promise, error);
     }
   }, promise);
 }
@@ -1294,35 +1295,36 @@ function handleOwnThenable(promise, thenable) {
   if (thenable._state === FULFILLED) {
     fulfill(promise, thenable._result);
   } else if (thenable._state === REJECTED) {
-    _reject(promise, thenable._result);
+    reject(promise, thenable._result);
   } else {
     subscribe(thenable, undefined, function (value) {
-      return _resolve(promise, value);
+      return resolve(promise, value);
     }, function (reason) {
-      return _reject(promise, reason);
+      return reject(promise, reason);
     });
   }
 }
 
-function handleMaybeThenable(promise, maybeThenable, then$$) {
-  if (maybeThenable.constructor === promise.constructor && then$$ === then && maybeThenable.constructor.resolve === resolve) {
+function handleMaybeThenable(promise, maybeThenable, then$$1) {
+  if (maybeThenable.constructor === promise.constructor && then$$1 === then && maybeThenable.constructor.resolve === resolve$1) {
     handleOwnThenable(promise, maybeThenable);
   } else {
-    if (then$$ === GET_THEN_ERROR) {
-      _reject(promise, GET_THEN_ERROR.error);
-    } else if (then$$ === undefined) {
+    if (then$$1 === GET_THEN_ERROR) {
+      reject(promise, GET_THEN_ERROR.error);
+      GET_THEN_ERROR.error = null;
+    } else if (then$$1 === undefined) {
       fulfill(promise, maybeThenable);
-    } else if (isFunction(then$$)) {
-      handleForeignThenable(promise, maybeThenable, then$$);
+    } else if (isFunction(then$$1)) {
+      handleForeignThenable(promise, maybeThenable, then$$1);
     } else {
       fulfill(promise, maybeThenable);
     }
   }
 }
 
-function _resolve(promise, value) {
+function resolve(promise, value) {
   if (promise === value) {
-    _reject(promise, selfFulfillment());
+    reject(promise, selfFulfillment());
   } else if (objectOrFunction(value)) {
     handleMaybeThenable(promise, value, getThen(value));
   } else {
@@ -1351,7 +1353,7 @@ function fulfill(promise, value) {
   }
 }
 
-function _reject(promise, reason) {
+function reject(promise, reason) {
   if (promise._state !== PENDING) {
     return;
   }
@@ -1430,13 +1432,13 @@ function invokeCallback(settled, promise, callback, detail) {
     if (value === TRY_CATCH_ERROR) {
       failed = true;
       error = value.error;
-      value = null;
+      value.error = null;
     } else {
       succeeded = true;
     }
 
     if (promise === value) {
-      _reject(promise, cannotReturnOwn());
+      reject(promise, cannotReturnOwn());
       return;
     }
   } else {
@@ -1447,25 +1449,25 @@ function invokeCallback(settled, promise, callback, detail) {
   if (promise._state !== PENDING) {
     // noop
   } else if (hasCallback && succeeded) {
-      _resolve(promise, value);
+      resolve(promise, value);
     } else if (failed) {
-      _reject(promise, error);
+      reject(promise, error);
     } else if (settled === FULFILLED) {
       fulfill(promise, value);
     } else if (settled === REJECTED) {
-      _reject(promise, value);
+      reject(promise, value);
     }
 }
 
 function initializePromise(promise, resolver) {
   try {
     resolver(function resolvePromise(value) {
-      _resolve(promise, value);
+      resolve(promise, value);
     }, function rejectPromise(reason) {
-      _reject(promise, reason);
+      reject(promise, reason);
     });
   } catch (e) {
-    _reject(promise, e);
+    reject(promise, e);
   }
 }
 
@@ -1481,7 +1483,7 @@ function makePromise(promise) {
   promise._subscribers = [];
 }
 
-function Enumerator(Constructor, input) {
+function Enumerator$1(Constructor, input) {
   this._instanceConstructor = Constructor;
   this.promise = new Constructor(noop);
 
@@ -1490,7 +1492,6 @@ function Enumerator(Constructor, input) {
   }
 
   if (isArray(input)) {
-    this._input = input;
     this.length = input.length;
     this._remaining = input.length;
 
@@ -1500,34 +1501,31 @@ function Enumerator(Constructor, input) {
       fulfill(this.promise, this._result);
     } else {
       this.length = this.length || 0;
-      this._enumerate();
+      this._enumerate(input);
       if (this._remaining === 0) {
         fulfill(this.promise, this._result);
       }
     }
   } else {
-    _reject(this.promise, validationError());
+    reject(this.promise, validationError());
   }
 }
 
 function validationError() {
   return new Error('Array Methods must be provided an Array');
-};
+}
 
-Enumerator.prototype._enumerate = function () {
-  var length = this.length;
-  var _input = this._input;
-
-  for (var i = 0; this._state === PENDING && i < length; i++) {
-    this._eachEntry(_input[i], i);
+Enumerator$1.prototype._enumerate = function (input) {
+  for (var i = 0; this._state === PENDING && i < input.length; i++) {
+    this._eachEntry(input[i], i);
   }
 };
 
-Enumerator.prototype._eachEntry = function (entry, i) {
+Enumerator$1.prototype._eachEntry = function (entry, i) {
   var c = this._instanceConstructor;
-  var resolve$$ = c.resolve;
+  var resolve$$1 = c.resolve;
 
-  if (resolve$$ === resolve) {
+  if (resolve$$1 === resolve$1) {
     var _then = getThen(entry);
 
     if (_then === then && entry._state !== PENDING) {
@@ -1535,28 +1533,28 @@ Enumerator.prototype._eachEntry = function (entry, i) {
     } else if (typeof _then !== 'function') {
       this._remaining--;
       this._result[i] = entry;
-    } else if (c === Promise) {
+    } else if (c === Promise$2) {
       var promise = new c(noop);
       handleMaybeThenable(promise, entry, _then);
       this._willSettleAt(promise, i);
     } else {
-      this._willSettleAt(new c(function (resolve$$) {
-        return resolve$$(entry);
+      this._willSettleAt(new c(function (resolve$$1) {
+        return resolve$$1(entry);
       }), i);
     }
   } else {
-    this._willSettleAt(resolve$$(entry), i);
+    this._willSettleAt(resolve$$1(entry), i);
   }
 };
 
-Enumerator.prototype._settledAt = function (state, i, value) {
+Enumerator$1.prototype._settledAt = function (state, i, value) {
   var promise = this.promise;
 
   if (promise._state === PENDING) {
     this._remaining--;
 
     if (state === REJECTED) {
-      _reject(promise, value);
+      reject(promise, value);
     } else {
       this._result[i] = value;
     }
@@ -1567,7 +1565,7 @@ Enumerator.prototype._settledAt = function (state, i, value) {
   }
 };
 
-Enumerator.prototype._willSettleAt = function (promise, i) {
+Enumerator$1.prototype._willSettleAt = function (promise, i) {
   var enumerator = this;
 
   subscribe(promise, undefined, function (value) {
@@ -1624,8 +1622,8 @@ Enumerator.prototype._willSettleAt = function (promise, i) {
   fulfilled, or rejected if any of them become rejected.
   @static
 */
-function all(entries) {
-  return new Enumerator(this, entries).promise;
+function all$1(entries) {
+  return new Enumerator$1(this, entries).promise;
 }
 
 /**
@@ -1693,7 +1691,7 @@ function all(entries) {
   @return {Promise} a promise which settles in the same way as the first passed
   promise to settle.
 */
-function race(entries) {
+function race$1(entries) {
   /*jshint validthis:true */
   var Constructor = this;
 
@@ -1745,11 +1743,11 @@ function race(entries) {
   Useful for tooling.
   @return {Promise} a promise rejected with the given `reason`.
 */
-function reject(reason) {
+function reject$1(reason) {
   /*jshint validthis:true */
   var Constructor = this;
   var promise = new Constructor(noop);
-  _reject(promise, reason);
+  reject(promise, reason);
   return promise;
 }
 
@@ -1864,27 +1862,27 @@ function needsNew() {
   Useful for tooling.
   @constructor
 */
-function Promise(resolver) {
+function Promise$2(resolver) {
   this[PROMISE_ID] = nextId();
   this._result = this._state = undefined;
   this._subscribers = [];
 
   if (noop !== resolver) {
     typeof resolver !== 'function' && needsResolver();
-    this instanceof Promise ? initializePromise(this, resolver) : needsNew();
+    this instanceof Promise$2 ? initializePromise(this, resolver) : needsNew();
   }
 }
 
-Promise.all = all;
-Promise.race = race;
-Promise.resolve = resolve;
-Promise.reject = reject;
-Promise._setScheduler = setScheduler;
-Promise._setAsap = setAsap;
-Promise._asap = asap;
+Promise$2.all = all$1;
+Promise$2.race = race$1;
+Promise$2.resolve = resolve$1;
+Promise$2.reject = reject$1;
+Promise$2._setScheduler = setScheduler;
+Promise$2._setAsap = setAsap;
+Promise$2._asap = asap;
 
-Promise.prototype = {
-  constructor: Promise,
+Promise$2.prototype = {
+  constructor: Promise$2,
 
   /**
     The primary way of interacting with a promise is through its `then` method,
@@ -2113,7 +2111,8 @@ Promise.prototype = {
   }
 };
 
-function polyfill() {
+/*global self*/
+function polyfill$1() {
     var local = undefined;
 
     if (typeof global !== 'undefined') {
@@ -2143,18 +2142,20 @@ function polyfill() {
         }
     }
 
-    local.Promise = Promise;
+    local.Promise = Promise$2;
 }
 
 // Strange compat..
-Promise.polyfill = polyfill;
-Promise.Promise = Promise;
+Promise$2.polyfill = polyfill$1;
+Promise$2.Promise = Promise$2;
 
-return Promise;
+return Promise$2;
 
 })));
+
 //# sourceMappingURL=es6-promise.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../.config/yarn/global/node_modules/process/browser.js */ 17), __webpack_require__(/*! ./../../../../../../.config/yarn/global/node_modules/poi/node_modules/webpack/buildin/global.js */ 18)))
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../../../../.config/yarn/global/node_modules/process/browser.js */ 17), __webpack_require__(/*! ./../../../../../../.config/yarn/global/node_modules/webpack/buildin/global.js */ 18)))
 
 /***/ }),
 /* 17 */
@@ -2477,9 +2478,9 @@ var components = {
 
 /***/ }),
 /* 21 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-0d19a22b","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Back.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-0d19a22b","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Back.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -2488,9 +2489,9 @@ var components = {
 
 /***/ }),
 /* 22 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Back.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Back.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2518,9 +2519,9 @@ var components = {
 
 /***/ }),
 /* 23 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0d19a22b","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Back.vue ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0d19a22b","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Back.vue ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2533,9 +2534,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 24 */
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-f837419c","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/HeaderBar.vue ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-f837419c","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/HeaderBar.vue ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -2544,9 +2545,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 25 */
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/HeaderBar.vue ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/HeaderBar.vue ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2584,9 +2585,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 26 */
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f837419c","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/HeaderBar.vue ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f837419c","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/HeaderBar.vue ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2607,12 +2608,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Modal_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Modal.vue */ 29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6b0ac3ce_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Modal_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-6b0ac3ce","hasScoped":true,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Modal.vue */ 30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Modal_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Modal.vue */ 29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6b0ac3ce_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Modal_vue__ = __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-6b0ac3ce","hasScoped":true,"buble":{"transforms":{}}}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Modal.vue */ 30);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-6b0ac3ce","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Modal.vue */ 28)
+  __webpack_require__(/*! !../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-6b0ac3ce","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Modal.vue */ 28)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -2626,8 +2627,8 @@ var __vue_scopeId__ = "data-v-6b0ac3ce"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Modal_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6b0ac3ce_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Modal_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Modal_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6b0ac3ce_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Modal_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2639,9 +2640,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 28 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-6b0ac3ce","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Modal.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-6b0ac3ce","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/Modal.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -2650,9 +2651,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 29 */
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Modal.vue ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Modal.vue ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2729,9 +2730,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 30 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6b0ac3ce","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Modal.vue ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6b0ac3ce","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Modal.vue ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2752,12 +2753,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Checkbox_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Checkbox.vue */ 33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_15aae5e7_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Checkbox_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-15aae5e7","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Checkbox.vue */ 34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Checkbox_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Checkbox.vue */ 33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_15aae5e7_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Checkbox_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-15aae5e7","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Checkbox.vue */ 34);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-15aae5e7","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Checkbox.vue */ 32)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-15aae5e7","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Checkbox.vue */ 32)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -2771,8 +2772,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Checkbox_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_15aae5e7_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Checkbox_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Checkbox_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_15aae5e7_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Checkbox_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2784,9 +2785,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 32 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-15aae5e7","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/Checkbox.vue ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-15aae5e7","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/Checkbox.vue ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -2795,9 +2796,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 33 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/Checkbox.vue ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/Checkbox.vue ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2839,15 +2840,15 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 34 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-15aae5e7","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/Checkbox.vue ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-15aae5e7","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/Checkbox.vue ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"checkbox"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"type":"checkbox","id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"true-value":_vm.trueValue,"false-value":_vm.falseValue},domProps:{"checked":Array.isArray(_vm.model)?_vm._i(_vm.model,null)>-1:_vm._q(_vm.model,_vm.trueValue)},on:{"__c":function($event){var $$a=_vm.model,$$el=$event.target,$$c=$$el.checked?(_vm.trueValue):(_vm.falseValue);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.model=$$a.concat([$$v]))}else{$$i>-1&&(_vm.model=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.model=$$c}}}}),_c('label',{attrs:{"for":_vm.id}},[_vm._t("default",[_vm._v(_vm._s(_vm.label))])],2)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"checkbox"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"type":"checkbox","id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"true-value":_vm.trueValue,"false-value":_vm.falseValue},domProps:{"checked":Array.isArray(_vm.model)?_vm._i(_vm.model,null)>-1:_vm._q(_vm.model,_vm.trueValue)},on:{"change":function($event){var $$a=_vm.model,$$el=$event.target,$$c=$$el.checked?(_vm.trueValue):(_vm.falseValue);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.model=$$a.concat([$$v]))}else{$$i>-1&&(_vm.model=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.model=$$c}}}}),_c('label',{attrs:{"for":_vm.id}},[_vm._t("default",[_vm._v(_vm._s(_vm.label))])],2)])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -2862,12 +2863,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_IosSwitch_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./IosSwitch.vue */ 37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02bcafa6_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_IosSwitch_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-02bcafa6","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./IosSwitch.vue */ 38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_IosSwitch_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./IosSwitch.vue */ 37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02bcafa6_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_IosSwitch_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-02bcafa6","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./IosSwitch.vue */ 38);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-02bcafa6","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./IosSwitch.vue */ 36)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-02bcafa6","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./IosSwitch.vue */ 36)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -2881,8 +2882,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_IosSwitch_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02bcafa6_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_IosSwitch_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_IosSwitch_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02bcafa6_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_IosSwitch_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2894,9 +2895,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 36 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-02bcafa6","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/IosSwitch.vue ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-02bcafa6","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/IosSwitch.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -2905,9 +2906,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 37 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/IosSwitch.vue ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/IosSwitch.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -2947,15 +2948,15 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 38 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-02bcafa6","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/IosSwitch.vue ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-02bcafa6","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/IosSwitch.vue ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ios-switch"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"type":"checkbox","id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"true-value":_vm.trueValue,"false-value":_vm.falseValue},domProps:{"checked":Array.isArray(_vm.model)?_vm._i(_vm.model,null)>-1:_vm._q(_vm.model,_vm.trueValue)},on:{"__c":function($event){var $$a=_vm.model,$$el=$event.target,$$c=$$el.checked?(_vm.trueValue):(_vm.falseValue);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.model=$$a.concat([$$v]))}else{$$i>-1&&(_vm.model=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.model=$$c}}}}),_c('label',{staticClass:"switcher",attrs:{"for":_vm.id}})])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ios-switch"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"type":"checkbox","id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"true-value":_vm.trueValue,"false-value":_vm.falseValue},domProps:{"checked":Array.isArray(_vm.model)?_vm._i(_vm.model,null)>-1:_vm._q(_vm.model,_vm.trueValue)},on:{"change":function($event){var $$a=_vm.model,$$el=$event.target,$$c=$$el.checked?(_vm.trueValue):(_vm.falseValue);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.model=$$a.concat([$$v]))}else{$$i>-1&&(_vm.model=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.model=$$c}}}}),_c('label',{staticClass:"switcher",attrs:{"for":_vm.id}})])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -2970,12 +2971,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Radio_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Radio.vue */ 41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e87fc8f2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Radio_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-e87fc8f2","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Radio.vue */ 42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Radio_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Radio.vue */ 41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e87fc8f2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Radio_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-e87fc8f2","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Radio.vue */ 42);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-e87fc8f2","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Radio.vue */ 40)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-e87fc8f2","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Radio.vue */ 40)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -2989,8 +2990,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Radio_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e87fc8f2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Radio_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Radio_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e87fc8f2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Radio_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3002,9 +3003,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 40 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-e87fc8f2","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/Radio.vue ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-e87fc8f2","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/Radio.vue ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3013,9 +3014,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 41 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/Radio.vue ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/Radio.vue ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3055,15 +3056,15 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 42 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e87fc8f2","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/Radio.vue ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e87fc8f2","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/Radio.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"radio"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"type":"radio"},domProps:{"value":_vm.val,"checked":_vm._q(_vm.model,_vm.val)},on:{"__c":function($event){_vm.model=_vm.val}}}),_c('label',{attrs:{"for":_vm.id}},[_vm._t("default",[_vm._v(_vm._s(_vm.label))])],2)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"radio"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.model),expression:"model"}],attrs:{"id":_vm.id,"name":_vm.name,"disabled":_vm.disabled,"type":"radio"},domProps:{"value":_vm.val,"checked":_vm._q(_vm.model,_vm.val)},on:{"change":function($event){_vm.model=_vm.val}}}),_c('label',{attrs:{"for":_vm.id}},[_vm._t("default",[_vm._v(_vm._s(_vm.label))])],2)])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -3078,9 +3079,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_MaskInput_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./MaskInput.vue */ 44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_3a8aaf6c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_MaskInput_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-3a8aaf6c","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./MaskInput.vue */ 45);
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_MaskInput_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./MaskInput.vue */ 44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_3a8aaf6c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_MaskInput_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-3a8aaf6c","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./MaskInput.vue */ 45);
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3094,8 +3095,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_MaskInput_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_3a8aaf6c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_MaskInput_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_MaskInput_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_3a8aaf6c_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_MaskInput_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3107,9 +3108,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 44 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/MaskInput.vue ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/MaskInput.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3151,9 +3152,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 45 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-3a8aaf6c","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/MaskInput.vue ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-3a8aaf6c","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/MaskInput.vue ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3174,12 +3175,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_InputContainer_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./InputContainer.vue */ 48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6fbadefb_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_InputContainer_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-6fbadefb","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./InputContainer.vue */ 49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_InputContainer_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./InputContainer.vue */ 48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6fbadefb_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_InputContainer_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-6fbadefb","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./InputContainer.vue */ 49);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-6fbadefb","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./InputContainer.vue */ 47)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-6fbadefb","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./InputContainer.vue */ 47)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3193,8 +3194,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_InputContainer_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6fbadefb_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_InputContainer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_InputContainer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6fbadefb_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_InputContainer_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3206,9 +3207,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 47 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-6fbadefb","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/InputContainer.vue ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-6fbadefb","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/forms/InputContainer.vue ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3217,9 +3218,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 48 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/InputContainer.vue ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/forms/InputContainer.vue ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3247,9 +3248,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 49 */
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6fbadefb","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/InputContainer.vue ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6fbadefb","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/forms/InputContainer.vue ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3270,12 +3271,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenu_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./SideMenu.vue */ 52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_33dd9932_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenu_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-33dd9932","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./SideMenu.vue */ 53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenu_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./SideMenu.vue */ 52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_33dd9932_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenu_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-33dd9932","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./SideMenu.vue */ 53);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-33dd9932","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./SideMenu.vue */ 51)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-33dd9932","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./SideMenu.vue */ 51)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3289,8 +3290,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenu_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_33dd9932_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenu_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenu_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_33dd9932_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenu_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3302,9 +3303,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 51 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-33dd9932","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/menu/SideMenu.vue ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-33dd9932","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/menu/SideMenu.vue ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3313,9 +3314,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 52 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/menu/SideMenu.vue ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/menu/SideMenu.vue ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3359,9 +3360,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 53 */
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-33dd9932","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/menu/SideMenu.vue ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-33dd9932","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/menu/SideMenu.vue ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3382,12 +3383,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenuItems_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./SideMenuItems.vue */ 56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b9ff844_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenuItems_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-9b9ff844","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./SideMenuItems.vue */ 57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenuItems_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./SideMenuItems.vue */ 56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b9ff844_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenuItems_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-9b9ff844","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./SideMenuItems.vue */ 57);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-9b9ff844","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./SideMenuItems.vue */ 55)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-9b9ff844","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./SideMenuItems.vue */ 55)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3401,8 +3402,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenuItems_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b9ff844_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenuItems_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_SideMenuItems_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b9ff844_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_SideMenuItems_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3414,9 +3415,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 55 */
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-9b9ff844","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/menu/SideMenuItems.vue ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-9b9ff844","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/menu/SideMenuItems.vue ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3425,9 +3426,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 56 */
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/menu/SideMenuItems.vue ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/menu/SideMenuItems.vue ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3456,9 +3457,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 57 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-9b9ff844","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/menu/SideMenuItems.vue ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-9b9ff844","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/menu/SideMenuItems.vue ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3471,9 +3472,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 58 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-04e8d674","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/Spinner.vue ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-04e8d674","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/Spinner.vue ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3482,9 +3483,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 59 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/Spinner.vue ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/Spinner.vue ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3551,9 +3552,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 /* 60 */
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-04e8d674","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/Spinner.vue ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-04e8d674","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/Spinner.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3574,12 +3575,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_LoadManager_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./LoadManager.vue */ 63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_313667c2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_LoadManager_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-313667c2","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./LoadManager.vue */ 64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_LoadManager_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./LoadManager.vue */ 63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_313667c2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_LoadManager_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-313667c2","hasScoped":false,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./LoadManager.vue */ 64);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-313667c2","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./LoadManager.vue */ 62)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-313667c2","scoped":false,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./LoadManager.vue */ 62)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3593,8 +3594,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_LoadManager_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_313667c2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_LoadManager_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_LoadManager_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_313667c2_hasScoped_false_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_LoadManager_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3606,9 +3607,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 62 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-313667c2","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/LoadManager.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-313667c2","scoped":false,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/LoadManager.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3617,9 +3618,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 63 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/LoadManager.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/LoadManager.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3662,9 +3663,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 64 */
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-313667c2","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/LoadManager.vue ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-313667c2","hasScoped":false,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/LoadManager.vue ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3685,12 +3686,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_ListManager_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./ListManager.vue */ 67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2654790a_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_ListManager_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-2654790a","hasScoped":true,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./ListManager.vue */ 68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_ListManager_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./ListManager.vue */ 67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2654790a_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_ListManager_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-2654790a","hasScoped":true,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./ListManager.vue */ 68);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-2654790a","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./ListManager.vue */ 66)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-2654790a","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./ListManager.vue */ 66)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3704,8 +3705,8 @@ var __vue_scopeId__ = "data-v-2654790a"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_ListManager_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2654790a_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_ListManager_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_ListManager_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2654790a_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_ListManager_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3717,9 +3718,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 66 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-2654790a","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/ListManager.vue ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-2654790a","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/ListManager.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3728,9 +3729,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 67 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/ListManager.vue ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/ListManager.vue ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3766,9 +3767,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 68 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2654790a","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/ListManager.vue ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2654790a","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/ListManager.vue ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3789,12 +3790,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Loading_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=script&index=0!./Loading.vue */ 71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_53b0bc17_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Loading_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-53b0bc17","hasScoped":true,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=template&index=0!./Loading.vue */ 72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Loading_vue__ = __webpack_require__(/*! !babel-loader?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=script&index=0!./Loading.vue */ 71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_53b0bc17_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Loading_vue__ = __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-53b0bc17","hasScoped":true,"buble":{"transforms":{}}}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor?engine=pug!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=template&index=0!./Loading.vue */ 72);
 function injectStyle (ssrContext) {
-  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-53b0bc17","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector?type=styles&index=0!./Loading.vue */ 70)
+  __webpack_require__(/*! !../../../../../../.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!vue-style-loader!css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/style-compiler/index?{"vue":true,"id":"data-v-53b0bc17","scoped":true,"hasInlineConfig":true}!stylus-loader?{"sourceMap":false}!../../../../../../.config/yarn/global/node_modules/vue-loader/lib/selector?type=styles&index=0!./Loading.vue */ 70)
 }
-var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/component-normalizer */ 0)
+var normalizeComponent = __webpack_require__(/*! ../../../../../../.config/yarn/global/node_modules/vue-loader/lib/component-normalizer */ 0)
 /* script */
 
 /* template */
@@ -3808,8 +3809,8 @@ var __vue_scopeId__ = "data-v-53b0bc17"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_script_index_0_Loading_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_index_id_data_v_53b0bc17_hasScoped_true_buble_transforms_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_poi_node_modules_vue_loader_lib_selector_type_template_index_0_Loading_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_cacheDirectory_true_babelrc_false_presets_Users_paliari_config_yarn_global_node_modules_babel_preset_vue_app_dist_index_common_js_useBuiltIns_true_config_yarn_global_node_modules_vue_loader_lib_selector_type_script_index_0_Loading_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__config_yarn_global_node_modules_vue_loader_lib_template_compiler_index_id_data_v_53b0bc17_hasScoped_true_buble_transforms_config_yarn_global_node_modules_vue_loader_lib_template_compiler_preprocessor_engine_pug_config_yarn_global_node_modules_vue_loader_lib_selector_type_template_index_0_Loading_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -3821,9 +3822,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 70 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-53b0bc17","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/Loading.vue ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/extract-text-webpack-plugin/dist/loader.js?{"omit":1,"remove":true}!/Users/paliari/.config/yarn/global/node_modules/vue-style-loader!/Users/paliari/.config/yarn/global/node_modules/css-loader?{"autoprefixer":false,"sourceMap":false,"minimize":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-53b0bc17","scoped":true,"hasInlineConfig":true}!/Users/paliari/.config/yarn/global/node_modules/stylus-loader?{"sourceMap":false}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/load/Loading.vue ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
@@ -3832,9 +3833,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 71 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/Loading.vue ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/babel-loader/lib?{"cacheDirectory":true,"babelrc":false,"presets":[["/Users/paliari/.config/yarn/global/node_modules/babel-preset-vue-app/dist/index.common.js",{"useBuiltIns":true}]]}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/load/Loading.vue ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -3859,9 +3860,9 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 72 */
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-53b0bc17","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/poi/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/Loading.vue ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler?{"id":"data-v-53b0bc17","hasScoped":true,"buble":{"transforms":{}}}!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!/Users/paliari/.config/yarn/global/node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/load/Loading.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -4220,7 +4221,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function (main) {
         d.isPm = true;
       }
     }],
-    ZZ: [/[\+\-]\d\d:?\d\d/, function (d, v) {
+    ZZ: [/([\+\-]\d\d:?\d\d|Z)/, function (d, v) {
+      if (v === 'Z') v = '+00:00';
       var parts = (v + '').match(/([\+\-]|\d\d)/gi), minutes;
 
       if (parts) {
@@ -4241,7 +4243,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function (main) {
 
   // Some common format strings
   fecha.masks = {
-    'default': 'ddd MMM DD YYYY HH:mm:ss',
+    default: 'ddd MMM DD YYYY HH:mm:ss',
     shortDate: 'M/D/YY',
     mediumDate: 'MMM D, YYYY',
     longDate: 'MMMM D, YYYY',
@@ -5065,15 +5067,14 @@ function create(obj, api) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__(/*! vuex */ 96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuex__);
 
 
 function VuexMapper(mapper) {
   var computed = this.$options.computed || {};
-  this.$options.computed = Object.assign({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapState"])(mapper.namespace, mapper.states || []), Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])(mapper.namespace, mapper.getters || []), computed);
+  this.$options.computed = Object.assign({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["d" /* mapState */])(mapper.namespace, mapper.states || []), Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["b" /* mapGetters */])(mapper.namespace, mapper.getters || []), computed);
 
   var methods = this.$options.methods || {};
-  this.$options.methods = Object.assign({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapMutations"])(mapper.namespace, mapper.mutations || []), Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])(mapper.namespace, mapper.actions || []), methods);
+  this.$options.methods = Object.assign({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["c" /* mapMutations */])(mapper.namespace, mapper.mutations || []), Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["a" /* mapActions */])(mapper.namespace, mapper.actions || []), methods);
 }
 
 /* harmony default export */ __webpack_exports__["a"] = ({
@@ -5093,50 +5094,31 @@ function VuexMapper(mapper) {
 
 /***/ }),
 /* 96 */
-/*!****************************************!*\
-  !*** ./node_modules/vuex/dist/vuex.js ***!
-  \****************************************/
-/*! dynamic exports provided */
+/*!********************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
+  \********************************************/
+/*! exports provided: Store, install, mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers, default */
 /*! exports used: mapActions, mapGetters, mapMutations, mapState */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+/* unused harmony export Store */
+/* unused harmony export install */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return mapState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return mapMutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return mapGetters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return mapActions; });
+/* unused harmony export createNamespacedHelpers */
 /**
- * vuex v2.1.2
+ * vuex v3.0.0
  * (c) 2017 Evan You
  * @license MIT
  */
-(function (global, factory) {
-	 true ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define(factory) :
-	(global.Vuex = factory());
-}(this, (function () { 'use strict';
-
-var devtoolHook =
-  typeof window !== 'undefined' &&
-  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
-
-function devtoolPlugin (store) {
-  if (!devtoolHook) { return }
-
-  store._devtoolHook = devtoolHook;
-
-  devtoolHook.emit('vuex:init', store);
-
-  devtoolHook.on('vuex:travel-to-state', function (targetState) {
-    store.replaceState(targetState);
-  });
-
-  store.subscribe(function (mutation, state) {
-    devtoolHook.emit('vuex:mutation', mutation, state);
-  });
-}
-
 var applyMixin = function (Vue) {
   var version = Number(Vue.version.split('.')[0]);
 
   if (version >= 2) {
-    var usesInit = Vue.config._lifecycleHooks.indexOf('init') > -1;
-    Vue.mixin(usesInit ? { init: vuexInit } : { beforeCreate: vuexInit });
+    Vue.mixin({ beforeCreate: vuexInit });
   } else {
     // override init and inject vuex init procedure
     // for 1.x backwards compatibility.
@@ -5159,123 +5141,33 @@ var applyMixin = function (Vue) {
     var options = this.$options;
     // store injection
     if (options.store) {
-      this.$store = options.store;
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
     } else if (options.parent && options.parent.$store) {
       this.$store = options.parent.$store;
     }
   }
 };
 
-var mapState = normalizeNamespace(function (namespace, states) {
-  var res = {};
-  normalizeMap(states).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
+var devtoolHook =
+  typeof window !== 'undefined' &&
+  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
 
-    res[key] = function mappedState () {
-      var state = this.$store.state;
-      var getters = this.$store.getters;
-      if (namespace) {
-        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
-        if (!module) {
-          return
-        }
-        state = module.context.state;
-        getters = module.context.getters;
-      }
-      return typeof val === 'function'
-        ? val.call(this, state, getters)
-        : state[val]
-    };
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
   });
-  return res
-});
 
-var mapMutations = normalizeNamespace(function (namespace, mutations) {
-  var res = {};
-  normalizeMap(mutations).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    val = namespace + val;
-    res[key] = function mappedMutation () {
-      var args = [], len = arguments.length;
-      while ( len-- ) args[ len ] = arguments[ len ];
-
-      if (namespace && !getModuleByNamespace(this.$store, 'mapMutations', namespace)) {
-        return
-      }
-      return this.$store.commit.apply(this.$store, [val].concat(args))
-    };
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
   });
-  return res
-});
-
-var mapGetters = normalizeNamespace(function (namespace, getters) {
-  var res = {};
-  normalizeMap(getters).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    val = namespace + val;
-    res[key] = function mappedGetter () {
-      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
-        return
-      }
-      if (!(val in this.$store.getters)) {
-        console.error(("[vuex] unknown getter: " + val));
-        return
-      }
-      return this.$store.getters[val]
-    };
-  });
-  return res
-});
-
-var mapActions = normalizeNamespace(function (namespace, actions) {
-  var res = {};
-  normalizeMap(actions).forEach(function (ref) {
-    var key = ref.key;
-    var val = ref.val;
-
-    val = namespace + val;
-    res[key] = function mappedAction () {
-      var args = [], len = arguments.length;
-      while ( len-- ) args[ len ] = arguments[ len ];
-
-      if (namespace && !getModuleByNamespace(this.$store, 'mapActions', namespace)) {
-        return
-      }
-      return this.$store.dispatch.apply(this.$store, [val].concat(args))
-    };
-  });
-  return res
-});
-
-function normalizeMap (map) {
-  return Array.isArray(map)
-    ? map.map(function (key) { return ({ key: key, val: key }); })
-    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
-}
-
-function normalizeNamespace (fn) {
-  return function (namespace, map) {
-    if (typeof namespace !== 'string') {
-      map = namespace;
-      namespace = '';
-    } else if (namespace.charAt(namespace.length - 1) !== '/') {
-      namespace += '/';
-    }
-    return fn(namespace, map)
-  }
-}
-
-function getModuleByNamespace (store, helper, namespace) {
-  var module = store._modulesNamespaceMap[namespace];
-  if (!module) {
-    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
-  }
-  return module
 }
 
 /**
@@ -5320,13 +5212,11 @@ var Module = function Module (rawModule, runtime) {
   this.runtime = runtime;
   this._children = Object.create(null);
   this._rawModule = rawModule;
+  var rawState = rawModule.state;
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
 };
 
-var prototypeAccessors$1 = { state: {},namespaced: {} };
-
-prototypeAccessors$1.state.get = function () {
-  return this._rawModule.state || {}
-};
+var prototypeAccessors$1 = { namespaced: { configurable: true } };
 
 prototypeAccessors$1.namespaced.get = function () {
   return !!this._rawModule.namespaced
@@ -5382,17 +5272,8 @@ Module.prototype.forEachMutation = function forEachMutation (fn) {
 Object.defineProperties( Module.prototype, prototypeAccessors$1 );
 
 var ModuleCollection = function ModuleCollection (rawRootModule) {
-  var this$1 = this;
-
   // register root module (Vuex.Store options)
-  this.root = new Module(rawRootModule, false);
-
-  // register all nested modules
-  if (rawRootModule.modules) {
-    forEachValue(rawRootModule.modules, function (rawModule, key) {
-      this$1.register([key], rawModule, false);
-    });
-  }
+  this.register([], rawRootModule, false);
 };
 
 ModuleCollection.prototype.get = function get (path) {
@@ -5410,16 +5291,24 @@ ModuleCollection.prototype.getNamespace = function getNamespace (path) {
 };
 
 ModuleCollection.prototype.update = function update$1 (rawRootModule) {
-  update(this.root, rawRootModule);
+  update([], this.root, rawRootModule);
 };
 
 ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
     var this$1 = this;
     if ( runtime === void 0 ) runtime = true;
 
-  var parent = this.get(path.slice(0, -1));
+  if (false) {
+    assertRawModule(path, rawModule);
+  }
+
   var newModule = new Module(rawModule, runtime);
-  parent.addChild(path[path.length - 1], newModule);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
 
   // register nested modules
   if (rawModule.modules) {
@@ -5437,7 +5326,11 @@ ModuleCollection.prototype.unregister = function unregister (path) {
   parent.removeChild(key);
 };
 
-function update (targetModule, newModule) {
+function update (path, targetModule, newModule) {
+  if (false) {
+    assertRawModule(path, newModule);
+  }
+
   // update target module
   targetModule.update(newModule);
 
@@ -5445,15 +5338,62 @@ function update (targetModule, newModule) {
   if (newModule.modules) {
     for (var key in newModule.modules) {
       if (!targetModule.getChild(key)) {
-        console.warn(
-          "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
-          'manual reload is needed'
-        );
+        if (false) {
+          console.warn(
+            "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
+            'manual reload is needed'
+          );
+        }
         return
       }
-      update(targetModule.getChild(key), newModule.modules[key]);
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
     }
   }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
 }
 
 var Vue; // bind on install
@@ -5462,16 +5402,31 @@ var Store = function Store (options) {
   var this$1 = this;
   if ( options === void 0 ) options = {};
 
-  assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
-  assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
 
-  var state = options.state; if ( state === void 0 ) state = {};
+  if (false) {
+    assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
+    assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+    assert(this instanceof Store, "Store must be called with the new operator.");
+  }
+
   var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
   var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  var state = options.state; if ( state === void 0 ) state = {};
+  if (typeof state === 'function') {
+    state = state() || {};
+  }
 
   // store internal state
   this._committing = false;
   this._actions = Object.create(null);
+  this._actionSubscribers = [];
   this._mutations = Object.create(null);
   this._wrappedGetters = Object.create(null);
   this._modules = new ModuleCollection(options);
@@ -5504,17 +5459,23 @@ var Store = function Store (options) {
   resetStoreVM(this, state);
 
   // apply plugins
-  plugins.concat(devtoolPlugin).forEach(function (plugin) { return plugin(this$1); });
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  if (Vue.config.devtools) {
+    devtoolPlugin(this);
+  }
 };
 
-var prototypeAccessors = { state: {} };
+var prototypeAccessors = { state: { configurable: true } };
 
 prototypeAccessors.state.get = function () {
-  return this._vm.$data.state
+  return this._vm._data.$$state
 };
 
 prototypeAccessors.state.set = function (v) {
-  assert(false, "Use store.replaceState() to explicit replace store state.");
+  if (false) {
+    assert(false, "Use store.replaceState() to explicit replace store state.");
+  }
 };
 
 Store.prototype.commit = function commit (_type, _payload, _options) {
@@ -5529,7 +5490,9 @@ Store.prototype.commit = function commit (_type, _payload, _options) {
   var mutation = { type: type, payload: payload };
   var entry = this._mutations[type];
   if (!entry) {
-    console.error(("[vuex] unknown mutation type: " + type));
+    if (false) {
+      console.error(("[vuex] unknown mutation type: " + type));
+    }
     return
   }
   this._withCommit(function () {
@@ -5539,7 +5502,9 @@ Store.prototype.commit = function commit (_type, _payload, _options) {
   });
   this._subscribers.forEach(function (sub) { return sub(mutation, this$1.state); });
 
-  if (options && options.silent) {
+  if (
+    false
+  ) {
     console.warn(
       "[vuex] mutation type: " + type + ". Silent option has been removed. " +
       'Use the filter functionality in the vue-devtools'
@@ -5548,38 +5513,43 @@ Store.prototype.commit = function commit (_type, _payload, _options) {
 };
 
 Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
   // check object-style dispatch
   var ref = unifyObjectStyle(_type, _payload);
     var type = ref.type;
     var payload = ref.payload;
 
+  var action = { type: type, payload: payload };
   var entry = this._actions[type];
   if (!entry) {
-    console.error(("[vuex] unknown action type: " + type));
+    if (false) {
+      console.error(("[vuex] unknown action type: " + type));
+    }
     return
   }
+
+  this._actionSubscribers.forEach(function (sub) { return sub(action, this$1.state); });
+
   return entry.length > 1
     ? Promise.all(entry.map(function (handler) { return handler(payload); }))
     : entry[0](payload)
 };
 
 Store.prototype.subscribe = function subscribe (fn) {
-  var subs = this._subscribers;
-  if (subs.indexOf(fn) < 0) {
-    subs.push(fn);
-  }
-  return function () {
-    var i = subs.indexOf(fn);
-    if (i > -1) {
-      subs.splice(i, 1);
-    }
-  }
+  return genericSubscribe(fn, this._subscribers)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn) {
+  return genericSubscribe(fn, this._actionSubscribers)
 };
 
 Store.prototype.watch = function watch (getter, cb, options) {
     var this$1 = this;
 
-  assert(typeof getter === 'function', "store.watch only accepts a function.");
+  if (false) {
+    assert(typeof getter === 'function', "store.watch only accepts a function.");
+  }
   return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
 };
 
@@ -5587,15 +5557,22 @@ Store.prototype.replaceState = function replaceState (state) {
     var this$1 = this;
 
   this._withCommit(function () {
-    this$1._vm.state = state;
+    this$1._vm._data.$$state = state;
   });
 };
 
-Store.prototype.registerModule = function registerModule (path, rawModule) {
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
   if (typeof path === 'string') { path = [path]; }
-  assert(Array.isArray(path), "module path must be a string or an Array.");
+
+  if (false) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+    assert(path.length > 0, 'cannot register the root module by using registerModule.');
+  }
+
   this._modules.register(path, rawModule);
-  installModule(this, this.state, path, this._modules.get(path));
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
   // reset store to update getters...
   resetStoreVM(this, this.state);
 };
@@ -5604,7 +5581,11 @@ Store.prototype.unregisterModule = function unregisterModule (path) {
     var this$1 = this;
 
   if (typeof path === 'string') { path = [path]; }
-  assert(Array.isArray(path), "module path must be a string or an Array.");
+
+  if (false) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
   this._modules.unregister(path);
   this._withCommit(function () {
     var parentState = getNestedState(this$1.state, path.slice(0, -1));
@@ -5626,6 +5607,18 @@ Store.prototype._withCommit = function _withCommit (fn) {
 };
 
 Object.defineProperties( Store.prototype, prototypeAccessors );
+
+function genericSubscribe (fn, subs) {
+  if (subs.indexOf(fn) < 0) {
+    subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
 
 function resetStore (store, hot) {
   store._actions = Object.create(null);
@@ -5661,7 +5654,9 @@ function resetStoreVM (store, state, hot) {
   var silent = Vue.config.silent;
   Vue.config.silent = true;
   store._vm = new Vue({
-    data: { state: state },
+    data: {
+      $$state: state
+    },
     computed: computed
   });
   Vue.config.silent = silent;
@@ -5676,7 +5671,7 @@ function resetStoreVM (store, state, hot) {
       // dispatch changes in all subscribed watchers
       // to force getter re-evaluation for hot reloading.
       store._withCommit(function () {
-        oldVm.state = null;
+        oldVm._data.$$state = null;
       });
     }
     Vue.nextTick(function () { return oldVm.$destroy(); });
@@ -5688,7 +5683,7 @@ function installModule (store, rootState, path, module, hot) {
   var namespace = store._modules.getNamespace(path);
 
   // register in namespace map
-  if (namespace) {
+  if (module.namespaced) {
     store._modulesNamespaceMap[namespace] = module;
   }
 
@@ -5709,8 +5704,9 @@ function installModule (store, rootState, path, module, hot) {
   });
 
   module.forEachAction(function (action, key) {
-    var namespacedType = namespace + key;
-    registerAction(store, namespacedType, action, local);
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
   });
 
   module.forEachGetter(function (getter, key) {
@@ -5739,7 +5735,7 @@ function makeLocalContext (store, namespace, path) {
 
       if (!options || !options.root) {
         type = namespace + type;
-        if (!store._actions[type]) {
+        if (false) {
           console.error(("[vuex] unknown local action type: " + (args.type) + ", global type: " + type));
           return
         }
@@ -5756,7 +5752,7 @@ function makeLocalContext (store, namespace, path) {
 
       if (!options || !options.root) {
         type = namespace + type;
-        if (!store._mutations[type]) {
+        if (false) {
           console.error(("[vuex] unknown local mutation type: " + (args.type) + ", global type: " + type));
           return
         }
@@ -5808,14 +5804,14 @@ function makeLocalGetters (store, namespace) {
 function registerMutation (store, type, handler, local) {
   var entry = store._mutations[type] || (store._mutations[type] = []);
   entry.push(function wrappedMutationHandler (payload) {
-    handler(local.state, payload);
+    handler.call(store, local.state, payload);
   });
 }
 
 function registerAction (store, type, handler, local) {
   var entry = store._actions[type] || (store._actions[type] = []);
   entry.push(function wrappedActionHandler (payload, cb) {
-    var res = handler({
+    var res = handler.call(store, {
       dispatch: local.dispatch,
       commit: local.commit,
       getters: local.getters,
@@ -5839,7 +5835,9 @@ function registerAction (store, type, handler, local) {
 
 function registerGetter (store, type, rawGetter, local) {
   if (store._wrappedGetters[type]) {
-    console.error(("[vuex] duplicate getter key: " + type));
+    if (false) {
+      console.error(("[vuex] duplicate getter key: " + type));
+    }
     return
   }
   store._wrappedGetters[type] = function wrappedGetter (store) {
@@ -5853,8 +5851,10 @@ function registerGetter (store, type, rawGetter, local) {
 }
 
 function enableStrictMode (store) {
-  store._vm.$watch('state', function () {
-    assert(store._committing, "Do not mutate vuex store state outside mutation handlers.");
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if (false) {
+      assert(store._committing, "Do not mutate vuex store state outside mutation handlers.");
+    }
   }, { deep: true, sync: true });
 }
 
@@ -5871,40 +5871,174 @@ function unifyObjectStyle (type, payload, options) {
     type = type.type;
   }
 
-  assert(typeof type === 'string', ("Expects string as the type, but found " + (typeof type) + "."));
+  if (false) {
+    assert(typeof type === 'string', ("Expects string as the type, but found " + (typeof type) + "."));
+  }
 
   return { type: type, payload: payload, options: options }
 }
 
 function install (_Vue) {
-  if (Vue) {
-    console.error(
-      '[vuex] already installed. Vue.use(Vuex) should be called only once.'
-    );
+  if (Vue && _Vue === Vue) {
+    if (false) {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      );
+    }
     return
   }
   Vue = _Vue;
   applyMixin(Vue);
 }
 
-// auto install in dist mode
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if (false) {
+        console.error(("[vuex] unknown getter: " + val));
+        return
+      }
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+function normalizeMap (map) {
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
 }
 
-var index = {
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if (false) {
+    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
+  }
+  return module
+}
+
+var index_esm = {
   Store: Store,
   install: install,
-  version: '2.1.2',
+  version: '3.0.0',
   mapState: mapState,
   mapMutations: mapMutations,
   mapGetters: mapGetters,
-  mapActions: mapActions
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers
 };
 
-return index;
 
-})));
+/* unused harmony default export */ var _unused_webpack_default_export = (index_esm);
 
 
 /***/ }),

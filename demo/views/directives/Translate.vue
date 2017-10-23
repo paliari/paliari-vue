@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Translate from '../../../src/directives/Translate.js'
+import Translate from '../../../src/directives/translate.js'
 export default {
   directives: { Translate },
   data () {

@@ -1,10 +1,10 @@
 <template lang="pug">
 transition(name='modal' v-if="show")
-  .modal(:class='{ios: isIos}')
-    header-bar.modal-header(:custom-title='title', :color='headerColor', :background-color='headerBackgroundColor')
+  .pv-modal(:class='{ios: isIos}')
+    header-bar.pv-modal-header(:custom-title='title', :color='headerColor', :background-color='headerBackgroundColor')
       .button-left(@click="reject", slot='left') {{cancelLabel}}
       .button-right(@click="resolve", :class="{disabled: !permitSuccess}", slot='right') {{okLabel}}
-    .modal-body
+    .pv-modal-body
       slot
 </template>
 
@@ -65,8 +65,8 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-.modal
+<style lang="stylus" scoped>
+.pv-modal
   z-index 3000
   position fixed
   background-color white
@@ -78,7 +78,7 @@ export default {
   transition all .3s ease
   &.ios
     top 20px
-  .modal-body
+  .pv-modal-body
     height calc(100vh - 60px)
     overflow-y scroll
     overflow-x hidden
@@ -94,8 +94,8 @@ export default {
     &.disabled
       opacity 0.5
 
-  &.modal-enter,
-  &.modal-leave-active
+  &.pv-modal-enter,
+  &.pv-modal-leave-active
     -webkit-transform translate(0, 100%)
     transform translate(0, 100%)
 </style>

@@ -4,4 +4,7 @@ module.exports = (options, req) => ({
   html: {
     template: path.resolve(__dirname, './index.html')
   },
+  extendWebpack (config) {
+    config.output.publicPath('')
+  }
 })

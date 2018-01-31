@@ -9,27 +9,26 @@
     "build": "bin/build",
     "dist": "bin/dist",
     "release": "rm -rf dist && yarn run build && yarn run dist",
-    "dist:demo": "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
+    "dist:demo":
+      "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
     "start": "yarn dev",
-    "dev": "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
+    "dev":
+      "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
     "docs:open": "serve ./docs"
   },
-  "files": [
-    "dist/"
-  ],
+  "files": ["dist/"],
   "dependencies": {
-    "es6-promise": "^4.0.5",
-    "fecha": "^2.3.1",
+    "es6-promise": "^4.2.4",
+    "fecha": "^2.3.2",
     "string-mask": "^0.3.0",
-    "vue": "^2.5.2",
-    "vue-template-compiler": "^2.5.2",
-    "vuex": "^3.0.0"
+    "vue": "^2.5.13",
+    "vue-template-compiler": "^2.5.13",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "serve": "^6.3.1"
-  },
-  "peerDependencies": {
-    "vwp": ">=0.0.33"
+    "poi": "^9.6.13",
+    "serve": "^6.4.9",
+    "vwp": "^0.3.2"
   },
   "repository": {
     "type": "git",

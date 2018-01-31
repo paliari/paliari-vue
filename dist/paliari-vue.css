@@ -43,7 +43,7 @@
   white-space: nowrap;
 }
 
-.pv-modal[data-v-6b0ac3ce] {
+.pv-modal[data-v-2e66bc8e] {
   z-index: 3000;
   position: fixed;
   background-color: #fff;
@@ -54,30 +54,30 @@
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.pv-modal.ios[data-v-6b0ac3ce] {
+.pv-modal.ios[data-v-2e66bc8e] {
   top: 20px;
 }
-.pv-modal .pv-modal-body[data-v-6b0ac3ce] {
+.pv-modal .pv-modal-body[data-v-2e66bc8e] {
   height: calc(100vh - 60px);
   overflow-y: scroll;
   overflow-x: hidden;
 }
-.pv-modal .button-left[data-v-6b0ac3ce] {
+.pv-modal .button-left[data-v-2e66bc8e] {
   font-size: 0.8em;
   padding-top: 3px !important;
   padding-left: 5px !important;
 }
-.pv-modal .button-right[data-v-6b0ac3ce] {
+.pv-modal .button-right[data-v-2e66bc8e] {
   text-align: right;
   font-size: 0.8em;
   padding-top: 3px !important;
   padding-right: 10px !important;
 }
-.pv-modal .button-right.disabled[data-v-6b0ac3ce] {
+.pv-modal .button-right.disabled[data-v-2e66bc8e] {
   opacity: 0.5;
 }
-.pv-modal.pv-modal-enter[data-v-6b0ac3ce],
-.pv-modal.pv-modal-leave-active[data-v-6b0ac3ce] {
+.pv-modal.pv-modal-enter[data-v-2e66bc8e],
+.pv-modal.pv-modal-leave-active[data-v-2e66bc8e] {
   -webkit-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
       transform: translate(0, 100%);
@@ -717,20 +717,20 @@
   vertical-align: middle;
 }
 
-.paliari-vue-list-manager .layout-table[data-v-2654790a] {
+.paliari-vue-list-manager .layout-table[data-v-ae5d52a6] {
   display: table;
   width: 100%;
   height: calc(100vh - 50px);
   z-index: -1;
   top: 50px;
 }
-.paliari-vue-list-manager .layout-table-cell[data-v-2654790a] {
+.paliari-vue-list-manager .layout-table-cell[data-v-ae5d52a6] {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.loading[data-v-53b0bc17] {
+.loading[data-v-0f313626] {
   background-color: rgba(0,0,0,0.4);
   display: table;
   z-index: 1000;
@@ -738,7 +738,7 @@
   height: calc(100vh - 50px);
   width: 100%;
 }
-.loading .table-cell[data-v-53b0bc17] {
+.loading .table-cell[data-v-0f313626] {
   display: table-cell;
   text-align: center;
   vertical-align: middle;

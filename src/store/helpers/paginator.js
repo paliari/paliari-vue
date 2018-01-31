@@ -1,16 +1,17 @@
-import base, {SUCCESS, LOADING, FAILURE} from './base'
+import base, { SUCCESS, LOADING, FAILURE } from './base'
 
 function create(obj, api) {
   const state = {
     page: 1,
     pages: 1,
+    count: null,
     query: {},
     list: [],
     current: null
   }
 
   const getters = {
-    params (state) {
+    params(state) {
       return {
         page: state.page,
         pages: state.pages,
@@ -20,62 +21,77 @@ function create(obj, api) {
   }
 
   const actions = {
-    fetchList ({commit, dispatch, getters}) {
+    fetchList({ commit, dispatch, getters }) {
       commit('setList', [])
-      return dispatch('fetchRequest', api.list(getters.params)).then((response) => {
-        commit('setList', response.rows)
-        commit('setPage', response.page)
-        commit('setPages', response.pages)
-        return response.rows
-      })
+      return dispatch('fetchRequest', api.list(getters.params)).then(
+        response => {
+          commit('setList', response.rows)
+          commit('setPage', response.page)
+          commit('setPages', response.pages)
+          commit('setCount', response.count)
+          return response.rows
+        }
+      )
     },
-    fetchOne ({commit, dispatch}, id) {
+
+    fetchOne({ commit, dispatch }, id) {
       commit('setCurrent', null)
-      return dispatch('fetchRequest', api.one(id)).then((response) => {
+      return dispatch('fetchRequest', api.one(id)).then(response => {
         commit('setCurrent', response)
         return response
       })
     },
 
-    firstPage ({commit, dispatch, state}) {
+    firstPage({ commit, dispatch, state }) {
       if (state.page > 1) {
         commit('setPage', 1)
         dispatch('fetchList')
       }
     },
-    prevPage ({commit, dispatch, state}) {
+
+    prevPage({ commit, dispatch, state }) {
       if (state.page > 1) {
         commit('setPage', state.page - 1)
         dispatch('fetchList')
       }
     },
-    nextPage ({commit, dispatch, state}) {
+
+    nextPage({ commit, dispatch, state }) {
       if (state.page == state.pages) return
       commit('setPage', state.page + 1)
       dispatch('fetchList')
     },
-    lastPage ({commit, dispatch, state}) {
+
+    lastPage({ commit, dispatch, state }) {
       if (state.pages > state.page) {
         commit('setPage', state.pages)
         dispatch('fetchList')
       }
-    },
+    }
   }
 
   const mutations = {
-    setList (state, list) {
+    setList(state, list) {
       state.list = list
     },
-    setCurrent (state, current) {
+
+    setCurrent(state, current) {
       state.current = current
     },
-    setPage (state, page) {
+
+    setPage(state, page) {
       state.page = parseInt(page)
     },
-    setPages (state, pages) {
+
+    setPages(state, pages) {
       state.pages = parseInt(pages)
     },
-    setQuery (state, q) {
+
+    setCount(state, count) {
+      state.count = parseInt(count)
+    },
+
+    setQuery(state, q) {
       state.query = q
     }
   }
@@ -92,8 +108,4 @@ function create(obj, api) {
 
 export default create
 
-export {
-  SUCCESS,
-  LOADING,
-  FAILURE
-}
+export { SUCCESS, LOADING, FAILURE }

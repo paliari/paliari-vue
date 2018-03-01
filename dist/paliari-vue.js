@@ -1288,6 +1288,7 @@ function create(obj, api) {
     pages: 1,
     count: null,
     query: {},
+    order: {},
     list: [],
     current: null
   };
@@ -1297,6 +1298,7 @@ function create(obj, api) {
       return {
         page: state.page,
         pages: state.pages,
+        order: state.order,
         q: state.query
       };
     }
@@ -1383,6 +1385,9 @@ function create(obj, api) {
     },
     setCount: function setCount(state, count) {
       state.count = parseInt(count);
+    },
+    setOrder: function setOrder(state, order) {
+      state.order = order;
     },
     setQuery: function setQuery(state, q) {
       state.query = q;

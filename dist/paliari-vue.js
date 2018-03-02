@@ -4034,7 +4034,7 @@ var filters = Object.assign({}, __WEBPACK_IMPORTED_MODULE_7__lib_mask__, {
   var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'shortDateTime';
 
   try {
-    date = __WEBPACK_IMPORTED_MODULE_0__lib_fecha__["a" /* default */].parse(date, 'json') || date;
+    date = __WEBPACK_IMPORTED_MODULE_0__lib_fecha__["a" /* default */].parse(date, 'YYYY-MM-DDTHH:mm:ssZZ') || date;
     return __WEBPACK_IMPORTED_MODULE_0__lib_fecha__["a" /* default */].format(date, format);
   } catch (e) {
     return date;

@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "poi": "^9.6.13",
-    "serve": "^6.4.9",
+    "serve": "^7.0.0",
     "vwp": "^0.3.2"
   },
   "repository": {

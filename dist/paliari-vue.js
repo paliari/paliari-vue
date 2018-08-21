@@ -1284,6 +1284,7 @@ function create(obj) {
 
 function create(obj, api) {
   var state = {
+    per_page: null,
     page: 1,
     pages: 1,
     count: null,
@@ -1298,6 +1299,7 @@ function create(obj, api) {
   var getters = {
     params: function params(state) {
       return {
+        per_page: state.per_page,
         page: state.page,
         pages: state.pages,
         order: state.order,
@@ -1386,6 +1388,9 @@ function create(obj, api) {
     },
     setCurrent: function setCurrent(state, current) {
       state.current = current;
+    },
+    setPerPage: function setPerPage(state, per_page) {
+      state.per_page = per_page;
     },
     setPage: function setPage(state, page) {
       state.page = parseInt(page);

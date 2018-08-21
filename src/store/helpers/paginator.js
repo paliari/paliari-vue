@@ -2,6 +2,7 @@ import base, { SUCCESS, LOADING, FAILURE } from './base'
 
 function create(obj, api) {
   const state = {
+    per_page: null,
     page: 1,
     pages: 1,
     count: null,
@@ -16,6 +17,7 @@ function create(obj, api) {
   const getters = {
     params(state) {
       return {
+        per_page: state.per_page,
         page: state.page,
         pages: state.pages,
         order: state.order,
@@ -91,6 +93,10 @@ function create(obj, api) {
 
     setCurrent(state, current) {
       state.current = current
+    },
+
+    setPerPage(state, per_page) {
+      state.per_page = per_page
     },
 
     setPage(state, page) {

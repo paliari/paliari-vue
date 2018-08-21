@@ -1290,6 +1290,8 @@ function create(obj, api) {
     query: {},
     order: {},
     list: [],
+    totais: {},
+    sub_totais: {},
     current: null
   };
 
@@ -1313,6 +1315,8 @@ function create(obj, api) {
       commit('setList', []);
       return dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
         commit('setList', response.rows);
+        commit('setTotais', response.totais || {});
+        commit('setSubTotais', response.sub_totais || {});
         commit('setPage', response.page);
         commit('setPages', response.pages);
         commit('setCount', response.count);
@@ -1373,6 +1377,12 @@ function create(obj, api) {
   var mutations = {
     setList: function setList(state, list) {
       state.list = list;
+    },
+    setTotais: function setTotais(state, totais) {
+      state.totais = totais;
+    },
+    setSubTotais: function setSubTotais(state, sub_totais) {
+      state.sub_totais = sub_totais;
     },
     setCurrent: function setCurrent(state, current) {
       state.current = current;

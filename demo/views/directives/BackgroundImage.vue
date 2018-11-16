@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import BackgroundImage from '../../../src/directives/BackgroundImage.js'
+import BackgroundImage from '@/directives/BackgroundImage.js'
 export default {
   directives: { BackgroundImage },
-  data () {
+  data() {
     return {
       url: 'https://avatars0.githubusercontent.com/u/2801041',
-      str: "<div class=\"thumb\" v-background-image=\"url\">"
+      str: '<div class="thumb" v-background-image="url">'
     }
   }
 }

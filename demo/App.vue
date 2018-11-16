@@ -82,11 +82,11 @@ export default {
     UcFirstUtil
   },
   methods: {
-    showComponent (name) {
-      return (new RegExp(this.filter.toLowerCase())).test(name.toLowerCase())
+    showComponent(name) {
+      return new RegExp(this.filter.toLowerCase()).test(name.toLowerCase())
     }
   },
-  data () {
+  data() {
     return {
       filter: ''
     }

@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import HeaderBar from '../../../src/components/HeaderBar.vue'
+import HeaderBar from '@/components/HeaderBar.vue'
 export default {
-  components: { HeaderBar },
+  components: { HeaderBar }
 }
 </script>
 

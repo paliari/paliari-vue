@@ -27,10 +27,10 @@
 </template>
 
 <script>
-import Modal from '../../../src/components/Modal.vue'
+import Modal from '@/components/Modal.vue'
 export default {
   components: { Modal },
-  data () {
+  data() {
     return {
       showModal: false
     }

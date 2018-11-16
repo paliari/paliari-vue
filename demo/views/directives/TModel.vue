@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import TModel from '../../../src/directives/tModel.js'
+import TModel from '@/directives/tModel.js'
 export default {
   directives: { TModel },
-  data () {
+  data() {
     return {
       str: '<div v-t-model="\'usuario\'"></div>',
       str2: '<div v-t-model="\'usuario.name\'"></div>'

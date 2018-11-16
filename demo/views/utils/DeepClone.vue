@@ -23,9 +23,9 @@ util.deepClone(obj)</pre>
 </template>
 
 <script>
-import { deepClone } from '../../../src/lib/utils.js'
+import { deepClone } from '@/lib/utils.js'
 export default {
-  data () {
+  data() {
     return {
       levelCloned: {},
       level: {
@@ -38,7 +38,7 @@ export default {
     }
   },
   methods: {
-    clone () {
+    clone() {
       this.levelCloned = deepClone(this.level)
     }
   }

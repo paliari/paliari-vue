@@ -23,10 +23,10 @@
 </template>
 
 <script>
-import Currency from '../../../src/filters/currency.js'
+import Currency from '@/filters/currency.js'
 export default {
   filters: { Currency },
-  data () {
+  data() {
     return {
       amount: 35.6,
       prefix: 'R$',

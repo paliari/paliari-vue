@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import Translate from '../../../src/directives/translate.js'
+import Translate from '@/directives/translate.js'
 export default {
   directives: { Translate },
-  data () {
+  data() {
     return {
       str: '<div v-translate="\'hello\'"></div>',
       str2: '<div v-t-model="\'usuario.name\'"></div>'

@@ -1,34 +1,37 @@
 {
   "name": "paliari-vue",
   "version": "1.0.28",
-  "description": "A Vue.js Plugin",
-  "author": "Marcos Paliari <marcos@paliari.com.br>",
-  "main": "dist/paliari-vue.min.js",
-  "style": "dist/paliari-vue.min.css",
+  "main": "dist/paliari-vue.umd.min.js",
+  "style": "dist/paliari-vue.css",
   "scripts": {
-    "build": "bin/build",
-    "dist": "bin/dist",
-    "release": "rm -rf dist && yarn run build && yarn run dist",
-    "dist:demo": "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
-    "start": "yarn dev",
-    "dev": "poi build ./demo/index.js --config ./demo/build.config.js --filename.css paliari-vue.css --no-sourceMap --dist ./docs",
-    "docs:open": "serve ./docs"
+    "serve": "vue-cli-service serve ./demo/main.js",
+    "build": "vue-cli-service build --target lib ./src/index.js",
+    "build:demo": "vue-cli-service build --dest ./docs ./demo/main.js",
+    "release": "yarn build && yarn build:demo",
+    "test:unit": "vue-cli-service test:unit"
   },
   "files": [
     "dist/"
   ],
   "dependencies": {
-    "es6-promise": "^4.2.4",
-    "fecha": "^2.3.2",
+    "es6-promise": "^4.2.5",
+    "fecha": "^3.0.0",
     "string-mask": "^0.3.0",
-    "vue": "^2.5.13",
-    "vue-template-compiler": "^2.5.13",
+    "vue": "^2.5.17",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "poi": "^9.6.13",
-    "serve": "^7.0.0",
-    "vwp": "^0.3.2"
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-unit-jest": "^3.1.1",
+    "@vue/cli-service": "^3.1.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.17"
   },
   "repository": {
     "type": "git",
@@ -38,8 +41,5 @@
     "url": "https://github.com/paliari/paliari-vue/issues"
   },
   "homepage": "https://github.com/paliari/paliari-vue#readme",
-  "license": {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
-  }
+  "license": "MIT"
 }

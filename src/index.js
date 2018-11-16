@@ -12,7 +12,7 @@ import VuexMapper from './mixins/VuexMapper'
 import Auth, { AuthManager, TokenManager, CookieManager } from './lib/auth'
 
 export default {
-  install (Vue, options = {}) {
+  install(Vue, options = {}) {
     if (options.locales) {
       setLocale(options.locales)
     }

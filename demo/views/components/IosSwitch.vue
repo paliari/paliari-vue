@@ -27,10 +27,10 @@
 </template>
 
 <script>
-import IosSwitch from '../../../src/components/forms/IosSwitch.vue'
+import IosSwitch from '@/components/forms/IosSwitch.vue'
 export default {
   components: { IosSwitch },
-  data () {
+  data() {
     return {
       bindValue: false
     }

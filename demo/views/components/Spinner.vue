@@ -16,8 +16,9 @@
 </template>
 
 <script>
-import Spinner from '../../../src/components/load/Spinner.vue'
-export default {components: { Spinner },
+import Spinner from '@/components/load/Spinner.vue'
+export default {
+  components: { Spinner }
 }
 </script>
 

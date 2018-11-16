@@ -23,10 +23,10 @@ But using DeepKey, we not have problem if a variable is undefined or not.
 </template>
 
 <script>
-import DeepKey from '../../../src/directives/deepKey.js'
+import DeepKey from '@/directives/deepKey.js'
 export default {
   directives: { DeepKey },
-  data () {
+  data() {
     return {
       str: '<div>{{level1.level2.level3}}</div>',
       str2: '<div v-deep-key="level1" key="level2.level3"></div>'

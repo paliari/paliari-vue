@@ -28,11 +28,11 @@
 </template>
 
 <script>
-import LoadManager from '../../../src/components/load/LoadManager.vue'
-import Radio from '../../../src/components/forms/Radio.vue'
+import LoadManager from '@/components/load/LoadManager.vue'
+import Radio from '@/components/forms/Radio.vue'
 export default {
   components: { LoadManager, Radio },
-  data () {
+  data() {
     return {
       statusBind: 'loading'
     }

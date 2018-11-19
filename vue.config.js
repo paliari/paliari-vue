@@ -1,4 +1,5 @@
 module.exports = {
+  baseUrl: './',
   configureWebpack: config => {
     config.externals = {
       ...config.externals,

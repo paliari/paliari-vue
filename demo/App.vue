@@ -33,6 +33,7 @@ import Masks from './views/other/Masks.vue'
 import i18n from './views/other/i18n.vue'
 import Dialog from './views/other/Dialog.vue'
 import Modal from './views/other/Dialog.vue'
+import VuexMapper from './views/other/VuexMapper.vue'
 
 export default {
   components: {
@@ -55,7 +56,8 @@ export default {
     Masks,
     i18n,
     Dialog,
-    Modal
+    Modal,
+    VuexMapper
   },
   methods: {
     showComponent(name) {

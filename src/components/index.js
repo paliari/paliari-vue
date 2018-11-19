@@ -8,6 +8,8 @@ import Spinner from './load/Spinner.vue'
 import LoadManager from './load/LoadManager.vue'
 import ListManager from './load/ListManager.vue'
 import Loading from './load/Loading.vue'
+import Paginator from './Paginator'
+import SvgArrow from './SvgArrow'
 
 const components = {
   Back,
@@ -19,7 +21,9 @@ const components = {
   Spinner,
   LoadManager,
   ListManager,
-  Loading
+  Loading,
+  Paginator,
+  SvgArrow
 }
 
 export default {
@@ -40,5 +44,7 @@ export {
   Spinner,
   LoadManager,
   ListManager,
-  Loading
+  Loading,
+  Paginator,
+  SvgArrow
 }

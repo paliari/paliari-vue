@@ -21,9 +21,9 @@ import Vuex from 'vuex'
 import PaliariVue from 'paliari-vue'
 
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
-import 'paliari-vue/dist/paliari-vue.min.css'
+import 'paliari-vue/dist/paliari-vue.css'
 
-Vue.use(PaliariVue, { Vuex, locales: require('./i18n/pt-br.json') })
+Vue.use(PaliariVue, { Vuex })
 ```
 
 ## Development

@@ -3,8 +3,9 @@ module.exports = {
     config.externals = {
       ...config.externals,
       vuex: 'vuex',
+      fecha: 'fecha',
       'string-mask': 'string-mask',
-      fecha: 'fecha'
+      'paliari-js-utils': 'paliari-js-utils'
     }
   }
 }

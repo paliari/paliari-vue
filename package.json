@@ -16,6 +16,7 @@
   "dependencies": {
     "es6-promise": "^4.2.5",
     "fecha": "^3.0.0",
+    "paliari-js-utils": "^0.2.9",
     "string-mask": "^0.3.0",
     "vue": "^2.5.17",
     "vuex": "^3.0.1"

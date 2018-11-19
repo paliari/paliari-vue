@@ -1,17 +1,21 @@
 function VuexMapper(mapper, vuex) {
   let computed = this.$options.computed || {}
-  this.$options.computed = {
-    ...vuex.mapState(mapper.namespace, mapper.states || []),
-    ...vuex.mapGetters(mapper.namespace, mapper.getters || []),
-    ...computed
-  }
+  this.$options.computed = Object.keys(mapper).reduce((o, namespace) => {
+    return {
+      ...vuex.mapState(namespace, mapper[namespace].state || []),
+      ...vuex.mapGetters(namespace, mapper[namespace].getters || []),
+      ...o
+    }
+  }, computed)
 
   let methods = this.$options.methods || {}
-  this.$options.methods = {
-    ...vuex.mapMutations(mapper.namespace, mapper.mutations || []),
-    ...vuex.mapActions(mapper.namespace, mapper.actions || []),
-    ...methods
-  }
+  this.$options.methods = Object.keys(mapper).reduce((o, namespace) => {
+    return {
+      ...vuex.mapMutations(namespace, mapper[namespace].mutations || []),
+      ...vuex.mapActions(namespace, mapper[namespace].actions || []),
+      ...o
+    }
+  }, methods)
 }
 
 export default {

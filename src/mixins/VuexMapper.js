@@ -1,30 +1,26 @@
-import { mapState, mapMutations, mapGetters, mapActions } from 'vuex'
-
-function VuexMapper(mapper) {
+function VuexMapper(mapper, vuex) {
   let computed = this.$options.computed || {}
   this.$options.computed = {
-    ...mapState(mapper.namespace, mapper.states || []),
-    ...mapGetters(mapper.namespace, mapper.getters || []),
+    ...vuex.mapState(mapper.namespace, mapper.states || []),
+    ...vuex.mapGetters(mapper.namespace, mapper.getters || []),
     ...computed
   }
 
   let methods = this.$options.methods || {}
   this.$options.methods = {
-    ...mapMutations(mapper.namespace, mapper.mutations || []),
-    ...mapActions(mapper.namespace, mapper.actions || []),
+    ...vuex.mapMutations(mapper.namespace, mapper.mutations || []),
+    ...vuex.mapActions(mapper.namespace, mapper.actions || []),
     ...methods
   }
 }
 
 export default {
-  install(Vue, options) {
-    options = Object.assign({ key: 'vuex' }, options)
-
+  install(Vue, vuex) {
     Vue.mixin({
       beforeCreate() {
-        let mapper = this.$options[options.key]
+        let mapper = this.$options['vuex']
         if (mapper) {
-          VuexMapper.call(this, mapper)
+          VuexMapper.call(this, mapper, vuex)
         }
       }
     })

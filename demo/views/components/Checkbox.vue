@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import Checkbox from '../../../src/components/forms/Checkbox.vue'
+import Checkbox from '@/components/forms/Checkbox.vue'
 export default {
   components: { Checkbox },
-  data () {
+  data() {
     return {
       html: "<checkbox v-model='model'>Check label</checkbox>",
       model: true

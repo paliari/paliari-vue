@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import ListManager from '../../../src/components/load/ListManager.vue'
-import Radio from '../../../src/components/forms/Radio.vue'
+import ListManager from '@/components/load/ListManager.vue'
+import Radio from '@/components/forms/Radio.vue'
 export default {
   components: { ListManager, Radio },
-  data () {
+  data() {
     return {
       countBind: 0
     }

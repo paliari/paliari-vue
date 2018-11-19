@@ -1,27 +1,18 @@
-PaliariVue
-==========
+# paliari-vue
 
 [![npm](https://img.shields.io/npm/v/paliari-vue.svg)](https://www.npmjs.com/package/paliari-vue) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-> A Vue.js Plugin
-
-Installation
-------------
+## Installation
 
 ```bash
-npm install --save paliari-vue
 yarn add paliari-vue
 ```
 
-Demo
-----
+## Demo
 
 [DEMO](http://paliari.github.io/paliari-vue)
 
-Usage
------
-
-### Bundler (Webpack, Rollup)
+## Usage (Webpack)
 
 ```js
 import Vue from 'vue'
@@ -32,60 +23,45 @@ import PaliariVue from 'paliari-vue'
 // You need a specific loader for CSS files like https://github.com/webpack/css-loader
 import 'paliari-vue/dist/paliari-vue.css'
 
-Vue.use(PaliariVue)
+Vue.use(PaliariVue, { Vuex })
 ```
 
-### Browser
+## Development
 
-```html
-<!-- Include after Vue, string-mask and fecha -->
-<link rel="stylesheet" href="paliari-vue/dist/paliari-vue.css"></link>
-<script src="paliari-vue/dist/paliari-vue.js"></script>
+```
+yarn install
 ```
 
-Development
------------
+### Compiles and hot-reloads for development
 
-### Build
-
-Bundle the js and css of to the `dist` folder:
-
-```bash
-yarn run build
-# or
-bin/build
+```
+yarn serve
 ```
 
-### Dist
+### Compiles and minifies for production
 
-Bundle the js and css min of to the `dist` folder:
-
-```bash
-yarn run dist
-# or
-bin/dist
+```
+yarn build
 ```
 
-### Release
+### Compiles and minifies DEMO for production
 
-Bundle aliases for build and dist
-
-```bash
-yarn run release
+```
+yarn build:demo
 ```
 
-### Publish
+### Runs build and build:demo
 
-Generate git tag and push to github and npm pusblish
-
-```bash
-bin/publish
+```
+yarn release
 ```
 
-License
--------
+### Run your unit tests
 
-[MIT](http://opensource.org/licenses/MIT)
+```
+yarn test:unit
+```
 
-paliari-vue
-===========
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).

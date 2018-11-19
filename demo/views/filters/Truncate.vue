@@ -20,14 +20,15 @@
 </template>
 
 <script>
-import Truncate from '../../../src/filters/truncate.js'
+import Truncate from '@/filters/truncate.js'
 export default {
   filters: { Truncate },
-  data () {
+  data() {
     return {
       truncateLength: 30,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      str: "<div>{{text | truncate}}</div>"
+      text:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      str: '<div>{{text | truncate}}</div>'
     }
   }
 }

@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import TextBind from '../../../src/directives/TextBind.js'
+import TextBind from '@/directives/TextBind.js'
 export default {
   directives: { TextBind },
-  data () {
+  data() {
     return {
       str: '<div v-text-bind="\'myProp\'"></div>',
       str2: '<div v-t-model="\'usuario.name\'"></div>'

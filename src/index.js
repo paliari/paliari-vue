@@ -1,40 +1,22 @@
-require('./polyfill/index.js')
-import _components, * as components from './components/index'
-import _filters, * as filters from './filters/index'
-import _directives, * as directives from './directives/index'
-import { setLocale } from './lib/i18n'
-import _lib, * as util from './lib/index'
+require('./polyfill')
+import _components, * as components from './components'
+import _filters, * as filters from './filters'
+import _directives, * as directives from './directives'
+import { Fecha } from './lib'
 
 import { StoreHelpers, StorePlugins } from './store/index'
 
 import VuexMapper from './mixins/VuexMapper'
 
-import Auth, { AuthManager, TokenManager, CookieManager } from './lib/auth'
-
 export default {
-  install (Vue, options = {}) {
-    if (options.locales) {
-      setLocale(options.locales)
-    }
+  install(Vue, options = {}) {
     Vue.use(_components)
     Vue.use(_filters)
     Vue.use(_directives)
-    Vue.use(_lib)
     if (options.Vuex) {
       Vue.use(VuexMapper, options.Vuex)
     }
   }
 }
 
-export {
-  components,
-  filters,
-  directives,
-  util,
-  StoreHelpers,
-  StorePlugins,
-  Auth,
-  AuthManager,
-  TokenManager,
-  CookieManager
-}
+export { components, filters, directives, Fecha, StoreHelpers, StorePlugins }

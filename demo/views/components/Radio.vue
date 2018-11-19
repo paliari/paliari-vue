@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import Radio from '../../../src/components/forms/Radio.vue'
+import Radio from '@/components/forms/Radio.vue'
 export default {
   components: { Radio },
-  data () {
+  data() {
     return {
       bindModel: 1
     }

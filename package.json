@@ -1,6 +1,6 @@
 {
   "name": "paliari-vue",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/paliari-vue.umd.min.js",
   "typings": "types/index.d.ts",
   "style": "dist/paliari-vue.css",

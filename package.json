@@ -2,6 +2,7 @@
   "name": "paliari-vue",
   "version": "2.0.1",
   "main": "dist/paliari-vue.umd.min.js",
+  "typings": "types/index.d.ts",
   "style": "dist/paliari-vue.css",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main.js",
@@ -11,7 +12,8 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "files": [
-    "dist/"
+    "dist/",
+    "types/"
   ],
   "dependencies": {
     "es6-promise": "^4.2.5",

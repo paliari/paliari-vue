@@ -1,6 +1,13 @@
 import { Component, DirectiveFunction } from 'vue'
 
-export type Store = {namespaced: boolean, state?: object, getters?: object, actions?: object, mutations?: object }
+export type Store = { namespaced: boolean, state?: object, getters?: object, actions?: object, mutations?: object }
+export type Api = {
+  list(params: object): Promise<object>;
+  one(id: number): Promise<object>;
+  create(data: object): Promise<object>;
+  update(data: object): Promise<object>;
+  remove(id: number): Promise<object>;
+}
 
 export type Components = {
   Back: Component,
@@ -37,9 +44,9 @@ export type storeHelpers = {
 
   base(store: Store): Store
 
-  paginator(store: Store): Store
+  paginator(store: Store, api: Api): Store
 
-  crud(store: Store): Store
+  crud(store: Store, api: Api): Store
 }
 
 export type storePlugins = (store: object) => void

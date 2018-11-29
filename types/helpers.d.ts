@@ -2,11 +2,11 @@ import { Component, DirectiveFunction } from 'vue'
 
 export type Store = { namespaced: boolean, state?: object, getters?: object, actions?: object, mutations?: object }
 export type Api = {
-  list(params: object): Promise<object>;
-  one(id: number): Promise<object>;
-  create(data: object): Promise<object>;
-  update(data: object): Promise<object>;
-  remove(id: number): Promise<object>;
+  list?(params?: object): Promise<object>;
+  one?(id: number): Promise<object>;
+  create?(data: object): Promise<object>;
+  update?(data: object): Promise<object>;
+  remove?(id: number): Promise<object>;
 }
 
 export type Components = {
@@ -27,7 +27,7 @@ export type Components = {
 export type Filters = {
   truncate(text: string, length?: 30): string
 
-  currency(number: number, prefix?: '', sufix?: ''): string
+  currency(number: number, prefix?: '', suffix?: ''): string
 
   date(date: string, format?: 'shortDateTime'): string
 }

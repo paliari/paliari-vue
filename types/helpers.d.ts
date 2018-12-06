@@ -49,6 +49,8 @@ export type storeHelpers = {
   crud(store: Store, api: Api): Store
 }
 
-export type storePlugins = (store: object) => void
+export type storePlugins = {
+  ResetState(): void
+}
 
 export type Fecha = {}

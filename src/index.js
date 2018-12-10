@@ -2,7 +2,6 @@ require('./polyfill')
 import _components, * as components from './components'
 import _filters, * as filters from './filters'
 import _directives, * as directives from './directives'
-import { Fecha } from './lib'
 
 import { StoreHelpers, StorePlugins } from './store/index'
 
@@ -19,4 +18,4 @@ export default {
   }
 }
 
-export { components, filters, directives, Fecha, StoreHelpers, StorePlugins }
+export { components, filters, directives, StoreHelpers, StorePlugins }

@@ -11,7 +11,7 @@ import VuexMapper from './mixins/VuexMapper'
 export default {
   install(Vue, options = {}) {
     Vue.use(_components)
-    Vue.use(_filters)
+    Vue.use(_filters, options)
     Vue.use(_directives)
     if (options.Vuex) {
       Vue.use(VuexMapper, options.Vuex)

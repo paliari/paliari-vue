@@ -17,10 +17,7 @@
   ],
   "dependencies": {
     "es6-promise": "^4.2.5",
-    "fecha": "^3.0.0",
-    "paliari-js-utils": "^0.2.9",
-    "string-mask": "^0.3.0",
-    "vue": "^2.5.17"
+    "paliari-js-utils": "^0.2.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
@@ -33,7 +30,8 @@
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue": "^2.5.19",
+    "vue-template-compiler": "^2.5.19"
   },
   "repository": {
     "type": "git",

@@ -3056,10 +3056,6 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fecha@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fecha/-/fecha-3.0.0.tgz#0adf9e8d290e8893601648a9cce6d5822c69fb6e"
-
 figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -5518,9 +5514,9 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-paliari-js-utils@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/paliari-js-utils/-/paliari-js-utils-0.2.9.tgz#72d7d9c3e41d75e281966bc91f06d2a22154eb31"
+paliari-js-utils@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/paliari-js-utils/-/paliari-js-utils-0.2.10.tgz#80f6da79a4740120bb672c35815bcddeb7b64a38"
 
 parallel-transform@^1.1.0:
   version "1.1.0"
@@ -7010,10 +7006,6 @@ string-length@^2.0.0:
     astral-regex "^1.0.0"
     strip-ansi "^4.0.0"
 
-string-mask@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/string-mask/-/string-mask-0.3.0.tgz#9e7244b87bb2f6f9647e2ac98f96fa1a57c21198"
-
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -7607,9 +7599,9 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.17:
-  version "2.5.17"
-  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.17.tgz#52a4a078c327deb937482a509ae85c06f346c3cb"
+vue-template-compiler@^2.5.19:
+  version "2.5.19"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.19.tgz#c23fcbea22fe6c116814141d2e6680023d6456f2"
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -7618,9 +7610,9 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.17:
-  version "2.5.17"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
+vue@^2.5.19:
+  version "2.5.19"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.19.tgz#c4c9ba01a97a23ea24018d4702e994c15785e025"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"

@@ -1,8 +1,8 @@
-import Fecha from '../lib/fecha'
-
-export default (date, format = 'shortDateTime') => {
+export default Fecha => (date, format = 'shortDateTime') => {
   try {
-    date = Fecha.parse(date, 'YYYY-MM-DDTHH:mm:ssZZ') || date
+    if ('string' === typeof date) {
+      date = Fecha.parse(date, 'YYYY-MM-DDTHH:mm:ssZZ') || new Date(date)
+    }
     return Fecha.format(date, format)
   } catch (e) {
     return date

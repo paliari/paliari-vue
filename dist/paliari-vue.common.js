@@ -1918,6 +1918,29 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "504c":
+/***/ (function(module, exports, __webpack_require__) {
+
+var getKeys = __webpack_require__("0d58");
+var toIObject = __webpack_require__("6821");
+var isEnum = __webpack_require__("52a7").f;
+module.exports = function (isEntries) {
+  return function (it) {
+    var O = toIObject(it);
+    var keys = getKeys(O);
+    var length = keys.length;
+    var i = 0;
+    var result = [];
+    var key;
+    while (length > i) if (isEnum.call(O, key = keys[i++])) {
+      result.push(isEntries ? [key, O[key]] : O[key]);
+    } return result;
+  };
+};
+
+
+/***/ }),
+
 /***/ "52a7":
 /***/ (function(module, exports) {
 
@@ -1942,13 +1965,6 @@ var store = global[SHARED] || (global[SHARED] = {});
   copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
-
-/***/ }),
-
-/***/ "5ac8":
-/***/ (function(module, exports) {
-
-module.exports = require("fecha");
 
 /***/ }),
 
@@ -2319,6 +2335,22 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /***/ (function(module, exports) {
 
 module.exports = {};
+
+
+/***/ }),
+
+/***/ "8615":
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-object-values-entries
+var $export = __webpack_require__("5ca1");
+var $values = __webpack_require__("504c")(false);
+
+$export($export.S, 'Object', {
+  values: function values(it) {
+    return $values(it);
+  }
+});
 
 
 /***/ }),
@@ -4364,28 +4396,6 @@ var directives = {
   }
 });
 
-// EXTERNAL MODULE: external "fecha"
-var external_fecha_ = __webpack_require__("5ac8");
-var external_fecha_default = /*#__PURE__*/__webpack_require__.n(external_fecha_);
-
-// CONCATENATED MODULE: ./src/lib/fecha.js
-
-external_fecha_default.a.i18n.dayNamesShort = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'];
-external_fecha_default.a.i18n.dayNames = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
-external_fecha_default.a.i18n.monthNamesShort = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
-external_fecha_default.a.i18n.monthNames = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
-external_fecha_default.a.masks.default = 'DD/MM/YYYY HH:mm:ss';
-external_fecha_default.a.masks.date = 'DD/MM/YYYY';
-external_fecha_default.a.masks.time = 'HH:mm:ss';
-external_fecha_default.a.masks.dateTime = 'DD/MM/YYYY HH:mm:ss';
-external_fecha_default.a.masks.shortDate = 'DD/MM/YY';
-external_fecha_default.a.masks.shortTime = 'HH:mm';
-external_fecha_default.a.masks.shortDateTime = 'DD/MM/YY HH:mm';
-external_fecha_default.a.masks.json = 'YYYY-MM-DDTHH:mm:ss';
-/* harmony default export */ var fecha = (external_fecha_default.a);
-// CONCATENATED MODULE: ./src/lib/index.js
-
-
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
 var es6_object_assign = __webpack_require__("f751");
 
@@ -4443,7 +4453,19 @@ function create(obj) {
 
 /* harmony default export */ var base = (create);
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
+var web_dom_iterable = __webpack_require__("ac6a");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.array.iterator.js
+var es6_array_iterator = __webpack_require__("cadf");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es7.object.values.js
+var es7_object_values = __webpack_require__("8615");
+
 // CONCATENATED MODULE: ./src/store/helpers/paginator.js
+
+
+
 
 
 
@@ -4469,6 +4491,11 @@ function paginator_create(obj, api) {
         order: state.order,
         q: state.query
       };
+    },
+    filtered: function filtered(state) {
+      return Object.values(state.query).filter(function (v) {
+        return !!v;
+      }).length > 0;
     }
   };
   var actions = {
@@ -4712,12 +4739,6 @@ function _objectSpread(target) {
 
   return target;
 }
-// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
-var web_dom_iterable = __webpack_require__("ac6a");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.array.iterator.js
-var es6_array_iterator = __webpack_require__("cadf");
-
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.keys.js
 var es6_object_keys = __webpack_require__("456d");
 
@@ -4759,7 +4780,6 @@ __webpack_require__("5b22");
 
 
 
-
 /* harmony default export */ var src = ({
   install: function install(Vue) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -4777,7 +4797,6 @@ __webpack_require__("5b22");
 /* concated harmony reexport components */__webpack_require__.d(__webpack_exports__, "components", function() { return components_namespaceObject; });
 /* concated harmony reexport filters */__webpack_require__.d(__webpack_exports__, "filters", function() { return filters_namespaceObject; });
 /* concated harmony reexport directives */__webpack_require__.d(__webpack_exports__, "directives", function() { return directives_namespaceObject; });
-/* concated harmony reexport Fecha */__webpack_require__.d(__webpack_exports__, "Fecha", function() { return fecha; });
 /* concated harmony reexport StoreHelpers */__webpack_require__.d(__webpack_exports__, "StoreHelpers", function() { return StoreHelpers; });
 /* concated harmony reexport StorePlugins */__webpack_require__.d(__webpack_exports__, "StorePlugins", function() { return StorePlugins; });
 

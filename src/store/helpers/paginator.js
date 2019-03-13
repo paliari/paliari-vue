@@ -23,6 +23,10 @@ function create(obj, api) {
         order: state.order,
         q: state.query
       }
+    },
+
+    filtered(state) {
+      return Object.values(state.query).filter(v => !!v).length > 0
     }
   }
 

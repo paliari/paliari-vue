@@ -33,6 +33,9 @@ function create(obj, api) {
   const actions = {
     fetchList({ commit, dispatch, getters }) {
       commit('setList', [])
+      commit('setTotais', {})
+      commit('setSubTotais', {})
+
       return dispatch('fetchRequest', api.list(getters.params)).then(
         response => {
           commit('setList', response.rows)

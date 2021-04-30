@@ -4504,6 +4504,8 @@ function paginator_create(obj, api) {
           dispatch = _ref.dispatch,
           getters = _ref.getters;
       commit('setList', []);
+      commit('setTotais', {});
+      commit('setSubTotais', {});
       return dispatch('fetchRequest', api.list(getters.params)).then(function (response) {
         commit('setList', response.rows);
         commit('setTotais', response.totais || {});

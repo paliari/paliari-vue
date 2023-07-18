@@ -4562,6 +4562,14 @@ function paginator_create(obj, api) {
         commit('setPage', state.pages);
         dispatch('fetchList');
       }
+    },
+    goPage: function goPage(_ref7, page) {
+      var commit = _ref7.commit,
+          dispatch = _ref7.dispatch,
+          state = _ref7.state;
+      if (!page || state.page == page) return;
+      commit('setPage', page);
+      dispatch('fetchList');
     }
   };
   var mutations = {

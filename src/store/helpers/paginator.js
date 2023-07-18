@@ -82,7 +82,13 @@ function create(obj, api) {
         commit('setPage', state.pages)
         dispatch('fetchList')
       }
-    }
+    },
+
+    goPage({ commit, dispatch, state }, page) {
+      if (!page || state.page == page) return
+      commit('setPage', page)
+      dispatch('fetchList')
+    },
   }
 
   const mutations = {
